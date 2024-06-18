@@ -1,3 +1,11 @@
+@import "./src/fonts/stylesheet.css";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .kanitlight {
+    font-family: "kanitlight";
+  }
+}
