@@ -1,4 +1,4 @@
-@import "./src/fonts/stylesheet.css";
+@import "./public/fonts/stylesheet.css";
 
 @tailwind base;
 @tailwind components;

@@ -1,9 +1,29 @@
 /** @type {import('tailwindcss').Config} */
+
+const fontFamily = require("tailwindcss/defaultTheme").fontFamily;
+
+// console.log(fontFamily.sans);
+
 module.exports = {
-  content: ['./public/*.html' , './views/*.pug'],
+  content: ["./public/*.html", "./views/*.pug"],
   theme: {
+    colors: {
+      pri: "#39A7F7",
+      sec: "#F7AA39",
+      ter: "#A2865B",
+      black: {
+        5: "rgba(23, 27, 30, 0.05)",
+        10: "rgba(23, 27, 30, 0.1)",
+        25: "rgba(23, 27, 30, 0.25)",
+        50: "rgba(23, 27, 30, 0.5)",
+        75: "rgba(23, 27, 30, 0.75)",
+        DEFAULT: "#171B1E",
+      },
+      white: "#fff",
+      error: "#F73C39",
+    },
+
     extend: {},
   },
   plugins: [],
-}
-
+};

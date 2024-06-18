@@ -1,0 +1,7 @@
+{
+  "arrowParens": "avoid",
+  "bracketSameLine": true,
+  "trailingComma": "es5",
+  "printWidth": 100,
+  "plugins": ["@prettier/plugin-pug", "prettier-plugin-tailwindcss"]
+}
