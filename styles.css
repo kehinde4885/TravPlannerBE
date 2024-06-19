@@ -5,7 +5,60 @@
 @tailwind utilities;
 
 @layer utilities {
+  .kanitextl {
+    font-family: "kanitextralight";
+  }
   .kanitlight {
     font-family: "kanitlight";
+  }
+
+  .kanitmed {
+    font-family: "kanitmedium";
+  }
+
+  .rockreg {
+    font-family: "rockwell_novaregular";
+  }
+
+  .hero {
+    background-image: url("images/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .card {
+    @apply relative z-0 flex aspect-square flex-grow basis-full flex-col justify-end px-6 pb-3;
+  }
+
+  .label {
+    @apply w-min rounded-3xl bg-ter px-6 py-3 text-sm text-white;
+  }
+
+  .card-img {
+    @apply absolute left-0 top-0 z-[-1] h-full w-full object-cover;
+  }
+
+  .gradBg {
+    background: -webkit-linear-gradient(
+      105deg,
+      hsla(205, 92%, 60%, 1) 10%,
+      hsla(36, 92%, 60%, 1) 100%
+    );
+
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#39A7F7", endColorstr="#F7AA39", GradientType=1 );
+    /* Fallbacks for if the above Properties Fail */
+    background: -moz-linear-gradient(
+      105deg,
+      hsla(205, 92%, 60%, 1) 10%,
+      hsla(36, 92%, 60%, 1) 100%
+    );
+
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#39A7F7", endColorstr="#F7AA39", GradientType=1 );
+    background: hsla(205, 92%, 60%, 1);
+    background: linear-gradient(
+      105deg,
+      hsla(205, 92%, 60%, 1) 10%,
+      hsla(36, 92%, 60%, 1) 100%
+    );
   }
 }

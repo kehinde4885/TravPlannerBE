@@ -22,6 +22,16 @@ module.exports = {
       white: "#fff",
       error: "#F73C39",
     },
+    fontSize: {
+      sm: ["1rem", { lineHeight: "1.5" }],
+      base: ["1.3125rem", { lineHeight: "1.5" }],
+      lg: ["1.75rem", { lineHeight: "1.3" }],
+      xl: ["2.315rem", { lineHeight: "1.3" }],
+      '2xl': ["3.125rem", { lineHeight: "1.3" }],
+      "3xl": ["4.125rem", { lineHeight: "1.3" }],
+      '4xl': ["5.5rem", { lineHeight: "1.3" }],
+      '5xl': ["7.5rem", { lineHeight: "1.3" }],
+    },
 
     extend: {},
   },
