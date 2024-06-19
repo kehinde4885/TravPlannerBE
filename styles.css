@@ -61,4 +61,18 @@
       hsla(36, 92%, 60%, 1) 100%
     );
   }
+
+  .searchBar {
+    @apply w-4/5 max-w-screen-lg rounded-3xl border border-white bg-[transparent] px-8 py-7 text-base text-white placeholder:font-[kanitextralight] placeholder:text-base placeholder:text-white;
+  }
+
+  
+  .popover:popover-open {
+    @apply flex h-screen w-screen items-center justify-center bg-ter;
+  }
+
+  .layout > :is(section){
+    margin-top: 10.5rem;
+
+  }
 }

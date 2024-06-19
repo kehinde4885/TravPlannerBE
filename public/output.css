@@ -620,12 +620,24 @@ video {
   --tw-contain-style:  ;
 }
 
+.absolute {
+  position: absolute;
+}
+
 .relative {
   position: relative;
 }
 
 .left-6 {
   left: 1.5rem;
+}
+
+.right-24 {
+  right: 6rem;
+}
+
+.top-14 {
+  top: 3.5rem;
 }
 
 .top-6 {
@@ -640,20 +652,20 @@ video {
   height: 3rem;
 }
 
-.h-\[930px\] {
-  height: 930px;
+.h-60 {
+  height: 15rem;
 }
 
-.h-screen {
-  height: 100vh;
+.h-\[930px\] {
+  height: 930px;
 }
 
 .h-full {
   height: 100%;
 }
 
-.h-60 {
-  height: 15rem;
+.h-screen {
+  height: 100vh;
 }
 
 .w-12 {
@@ -662,6 +674,79 @@ video {
 
 .w-\[860px\] {
   width: 860px;
+}
+
+.max-w-prose {
+  max-width: 65ch;
+}
+
+.max-w-fit {
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+}
+
+.max-w-\[\] {
+  max-width: ;
+}
+
+.max-w-\[40xh\] {
+  max-width: 40xh;
+}
+
+.max-w-\[40\] {
+  max-width: 40;
+}
+
+.max-w-\[40ch\] {
+  max-width: 40ch;
+}
+
+.max-w-\[ch\] {
+  max-width: ch;
+}
+
+.max-w-\[35ch\] {
+  max-width: 35ch;
+}
+
+.max-w-\[2ch\] {
+  max-width: 2ch;
+}
+
+.max-w-\[20ch\] {
+  max-width: 20ch;
+}
+
+.max-w-\[30ch\] {
+  max-width: 30ch;
+}
+
+.max-w-\[3ch\] {
+  max-width: 3ch;
+}
+
+.max-w-\[28ch\] {
+  max-width: 28ch;
+}
+
+.max-w-\[19ch\] {
+  max-width: 19ch;
+}
+
+.max-w-\[18ch\] {
+  max-width: 18ch;
+}
+
+.max-w-\[16ch\] {
+  max-width: 16ch;
+}
+
+.max-w-\[1\] {
+  max-width: 1;
+}
+
+.max-w-\[32ch\] {
+  max-width: 32ch;
 }
 
 .flex-row {
@@ -680,6 +765,10 @@ video {
   align-items: center;
 }
 
+.justify-center {
+  justify-content: center;
+}
+
 .justify-between {
   justify-content: space-between;
 }
@@ -688,18 +777,32 @@ video {
   gap: 2rem;
 }
 
-.gap-y-6 {
-  row-gap: 1.5rem;
+.gap-y-60 {
+  row-gap: 15rem;
 }
 
-.gap-y-40 {
-  row-gap: 10rem;
+.space-x-1 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(0.25rem * var(--tw-space-x-reverse));
+  margin-left: calc(0.25rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
-.space-y-6 > :not([hidden]) ~ :not([hidden]) {
+.space-y-32 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
-  margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
+  margin-top: calc(8rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(8rem * var(--tw-space-y-reverse));
+}
+
+.space-y-12 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(3rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(3rem * var(--tw-space-y-reverse));
+}
+
+.space-x-32 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(8rem * var(--tw-space-x-reverse));
+  margin-left: calc(8rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .rounded-lg {
@@ -717,11 +820,6 @@ video {
 
 .bg-black-75 {
   background-color: rgba(23, 27, 30, 0.75);
-}
-
-.object-contain {
-  -o-object-fit: contain;
-     object-fit: contain;
 }
 
 .object-cover {
@@ -855,4 +953,52 @@ video {
       hsla(205, 92%, 60%, 1) 10%,
       hsla(36, 92%, 60%, 1) 100%
     );
+}
+
+.searchBar {
+  width: 80%;
+  max-width: 1024px;
+  border-radius: 1.5rem;
+  border-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
+  background-color: transparent;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem;
+  font-size: 1.3125rem;
+  line-height: 1.5;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.searchBar::-moz-placeholder {
+  font-family: kanitextralight;
+  font-size: 1.3125rem;
+  line-height: 1.5;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.searchBar::placeholder {
+  font-family: kanitextralight;
+  font-size: 1.3125rem;
+  line-height: 1.5;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.popover:popover-open {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  --tw-bg-opacity: 1;
+  background-color: rgb(162 134 91 / var(--tw-bg-opacity));
+}
+
+.layout > :is(section){
+  margin-top: 10.5rem;
 }

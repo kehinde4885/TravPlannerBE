@@ -6,7 +6,22 @@
     <title>Document</title>
     <link rel="stylesheet" href="output.css" />
   </head>
-  <body>
+  <body class="layout">
+    <div id="mypopover" popover class="popover">
+      <input
+        class="searchBar"
+        type="search"
+        placeholder="Search by Country..." />
+
+      <button
+        id="button"
+        popovertargetaction="hide"
+        popovertarget="mypopover"
+        class="absolute right-24 top-14 w-12 text-white">
+        <img src="images/close.svg" alt="" />
+      </button>
+    </div>
+
     <header class="flex flex-row items-center justify-between">
       <picture>
         <img src="images/Logo.png" alt="" />
@@ -16,19 +31,28 @@
       </div>
     </header>
 
-    <main class="hero h-screen text-white">
-      <h1 class="rockreg text-5xl">Your Window to the World</h1>
-      <p class="kanitextl text-base">
-        Use Travelplanner to get information important for visiting other
-        places.
-      </p>
-      <button
-        class="kanitextl rounded-lg border-2 border-pri px-12 py-6 text-xl">
-        Start Planning
-      </button>
+    <main class="hero flex h-screen items-center text-white">
+      <div class="space-y-32">
+        <div class="space-y-12">
+          <h1 class="rockreg max-w-[16ch] text-5xl">
+            Your Window to the World
+          </h1>
+          <p class="kanitextl max-w-[32ch] text-base">
+            Use Travelplanner to get information important for visiting other
+            places.
+          </p>
+        </div>
+
+        <button
+          popovertargetaction="show"
+          popovertarget="mypopover"
+          class="kanitextl rounded-lg border-2 border-pri px-12 py-6 text-xl">
+          Start Planning
+        </button>
+      </div>
     </main>
 
-    <section>
+    <section class="space-y-32">
       <div>
         <h4 class="rockreg text-2xl text-black">Popular Locations</h4>
 
@@ -70,7 +94,7 @@
     <section>
       <p class="kanitlight text-3xl text-black">The World is Your Oyster</p>
 
-      <div class="flex flex-col gap-y-40">
+      <div class="flex flex-col gap-y-60">
         <div class="gradBg h-[930px] w-[860px]">
           <img
             class="relative left-6 top-6 h-full object-cover"
@@ -95,9 +119,11 @@
     </section>
 
     <section>
-      <h1>Start Exploring Today</h1>
+      <h1 class="rockreg max-w-prose text-5xl">Start Exploring Today</h1>
       <button
-        class="gradBg kanitextl rounded-lg border-2 border-pri px-12 py-6 text-xl">
+        popovertargetaction="show"
+        popovertarget="mypopover"
+        class="gradBg kanitextl rounded-lg border-2 border-pri px-12 py-6 text-xl text-white">
         Search by Country
       </button>
     </section>
@@ -111,4 +137,5 @@
       </p>
     </footer>
   </body>
+  <script src="index.js"></script>
 </html>
