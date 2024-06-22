@@ -5,7 +5,7 @@ const app = require("../app");
 const http = require("http");
 
 //set Debugger
-var debug = require("debug")("travplannerbe:server");
+const debug = require("debug")("travplannerbe:server");
 
 // Get Port from Environment Variables
 // or set it as 3000

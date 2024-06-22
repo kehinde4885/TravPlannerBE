@@ -1,12 +1,15 @@
+
+// CommonJS Module Loading
 const express = require("express");
 const path = require("path");
-
 const logger = require("morgan");
 
 const app = express();
 
+
 // Route
-const indexRouter = require("./routes/indexRouter");
+const indexRouter = require("./routes/indexRouter.js");
+
 
 // Logger MiddleWare
 // Logs out Request Details to Console
@@ -14,7 +17,7 @@ app.use(logger("dev"));
 
 //Statci files using absolute Path
 // Application Level Middleware
-//app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'public')));
 
 //Runs everytime a request is Recieved
 // app.use("/", (req, res) => {
@@ -30,7 +33,7 @@ app.set("view engine", "pug");
 // Serve Static Homepage on the Get
 // Request to "/"
 // request that begins with /
-app.use("/", express.static(path.join(__dirname, "public")));
+//app.use("/", express.static(path.join(__dirname, "public")));
 
 app.use("/home", indexRouter);
 
@@ -40,6 +43,9 @@ app.use("/home", indexRouter);
 // });
 
 module.exports = app;
+
+
+
 
 // Since i Export this File (mainly App)
 // as a Module
