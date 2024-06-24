@@ -5,7 +5,7 @@ const fontFamily = require("tailwindcss/defaultTheme").fontFamily;
 // console.log(fontFamily.sans);
 
 module.exports = {
-  content: ["./public/*.html", "./views/*.pug"],
+  content: ["./public/*.html", "./views/*.pug", "./*.html"],
   theme: {
     colors: {
       pri: "#39A7F7",

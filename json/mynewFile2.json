@@ -1,0 +1,2534 @@
+[
+  {
+    "name": "Afghanistan",
+    "capital": "Kabul",
+    "currency": "AFN",
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "nationality": "Afghan",
+    "majorCities": ["Kabul", "Mīr Bachah Kōṯ", "Paghmān"]
+  },
+  {
+    "name": "Aland Islands",
+    "capital": "Mariehamn",
+    "currency": "EUR",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "nationality": "Aland Island",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Albania",
+    "capital": "Tirana",
+    "currency": "ALL",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "nationality": "Albanian ",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Algeria",
+    "capital": "Algiers",
+    "currency": "DZD",
+    "region": "Africa",
+    "subregion": "Northern Africa",
+    "nationality": "Algerian",
+    "majorCities": [
+      "Aïn Taya",
+      "Algiers",
+      "Bab Ezzouar",
+      "Birkhadem",
+      "Bordj el Kiffan"
+    ]
+  },
+  {
+    "name": "American Samoa",
+    "capital": "Pago Pago",
+    "currency": "USD",
+    "region": "Oceania",
+    "subregion": "Polynesia",
+    "nationality": "American Samoan",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Andorra",
+    "capital": "Andorra la Vella",
+    "currency": "EUR",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "nationality": "Andorran",
+    "majorCities": ["Andorra la Vella"]
+  },
+  {
+    "name": "Angola",
+    "capital": "Luanda",
+    "currency": "AOA",
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "nationality": "Angolan",
+    "majorCities": ["Belas", "Cacuaco", "Cazenga", "Icolo e Bengo", "Luanda"]
+  },
+  {
+    "name": "Anguilla",
+    "capital": "The Valley",
+    "currency": "XCD",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "nationality": "Anguillan",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Antarctica",
+    "capital": "",
+    "currency": "AAD",
+    "region": "Polar",
+    "subregion": "",
+    "nationality": "Antarctic",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Antigua and Barbuda",
+    "capital": "St. John's",
+    "currency": "XCD",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "nationality": "Antiguan or Barbudan",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Argentina",
+    "capital": "Buenos Aires",
+    "currency": "ARS",
+    "region": "Americas",
+    "subregion": "South America",
+    "nationality": "Argentine",
+    "majorCities": [
+      "Balvanera",
+      "Barracas",
+      "Belgrano",
+      "Boedo",
+      "Buenos Aires"
+    ]
+  },
+  {
+    "name": "Armenia",
+    "capital": "Yerevan",
+    "currency": "AMD",
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "nationality": "Armenian",
+    "majorCities": [
+      "Arabkir",
+      "Argavand",
+      "Jrashen",
+      "K’anak’erravan",
+      "Vardadzor"
+    ]
+  },
+  {
+    "name": "Aruba",
+    "capital": "Oranjestad",
+    "currency": "AWG",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "nationality": "Aruban",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Australia",
+    "capital": "Canberra",
+    "currency": "AUD",
+    "region": "Oceania",
+    "subregion": "Australia and New Zealand",
+    "nationality": "Australian",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Austria",
+    "capital": "Vienna",
+    "currency": "EUR",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "nationality": "Austrian",
+    "majorCities": [
+      "Donaustadt",
+      "Favoriten",
+      "Floridsdorf",
+      "Hernals",
+      "Hietzing"
+    ]
+  },
+  {
+    "name": "Azerbaijan",
+    "capital": "Baku",
+    "currency": "AZN",
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "nationality": "Azerbaijani, Azeri",
+    "majorCities": ["Amirdzhan", "Badamdar", "Bakıxanov", "Baku", "Balakhani"]
+  },
+  {
+    "name": "Bahrain",
+    "capital": "Manama",
+    "currency": "BHD",
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "nationality": "Bahraini",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Bangladesh",
+    "capital": "Dhaka",
+    "currency": "BDT",
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "nationality": "Bangladeshi",
+    "majorCities": [
+      "Azimpur",
+      "Bājitpur",
+      "Bhairab Bāzār",
+      "Char Bhadrāsan",
+      "Char Golora"
+    ]
+  },
+  {
+    "name": "Barbados",
+    "capital": "Bridgetown",
+    "currency": "BBD",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "nationality": "Barbadian",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Belarus",
+    "capital": "Minsk",
+    "currency": "BYN",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "nationality": "Belarusian",
+    "majorCities": [
+      "Frunzyenski Rayon",
+      "Kastrychnitski Rayon",
+      "Lyeninski Rayon",
+      "Maskowski Rayon",
+      "Minsk"
+    ]
+  },
+  {
+    "name": "Belgium",
+    "capital": "Brussels",
+    "currency": "EUR",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "nationality": "Belgian",
+    "majorCities": ["Brussels"]
+  },
+  {
+    "name": "Belize",
+    "capital": "Belmopan",
+    "currency": "BZD",
+    "region": "Americas",
+    "subregion": "Central America",
+    "nationality": "Belizean",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Benin",
+    "capital": "Porto-Novo",
+    "currency": "XOF",
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "nationality": "Beninese, Beninois",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Bermuda",
+    "capital": "Hamilton",
+    "currency": "BMD",
+    "region": "Americas",
+    "subregion": "Northern America",
+    "nationality": "Bermudian, Bermudan",
+    "majorCities": ["Hamilton"]
+  },
+  {
+    "name": "Bhutan",
+    "capital": "Thimphu",
+    "currency": "BTN",
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "nationality": "Bhutanese",
+    "majorCities": ["Thimphu"]
+  },
+  {
+    "name": "Bolivia",
+    "capital": "Sucre",
+    "currency": "BOB",
+    "region": "Americas",
+    "subregion": "South America",
+    "nationality": "Bolivian",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Bonaire, Sint Eustatius and Saba",
+    "capital": "Kralendijk",
+    "currency": "USD",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "nationality": "Bonaire",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Bosnia and Herzegovina",
+    "capital": "Sarajevo",
+    "currency": "BAM",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "nationality": "Bosnian or Herzegovinian",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Botswana",
+    "capital": "Gaborone",
+    "currency": "BWP",
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "nationality": "Motswana, Botswanan",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Bouvet Island",
+    "capital": "",
+    "currency": "NOK",
+    "region": "",
+    "subregion": "",
+    "nationality": "Bouvet Island",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Brazil",
+    "capital": "Brasilia",
+    "currency": "BRL",
+    "region": "Americas",
+    "subregion": "South America",
+    "nationality": "Brazilian",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "British Indian Ocean Territory",
+    "capital": "Diego Garcia",
+    "currency": "USD",
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "nationality": "BIOT",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Brunei",
+    "capital": "Bandar Seri Begawan",
+    "currency": "BND",
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "nationality": "Bruneian",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Bulgaria",
+    "capital": "Sofia",
+    "currency": "BGN",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "nationality": "Bulgarian",
+    "majorCities": ["Buhovo", "Sofia", "Stolichna Obshtina"]
+  },
+  {
+    "name": "Burkina Faso",
+    "capital": "Ouagadougou",
+    "currency": "XOF",
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "nationality": "Burkinabe",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Burundi",
+    "capital": "Bujumbura",
+    "currency": "BIF",
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "nationality": "Burundian",
+    "majorCities": ["Bujumbura"]
+  },
+  {
+    "name": "Cambodia",
+    "capital": "Phnom Penh",
+    "currency": "KHR",
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "nationality": "Cambodian",
+    "majorCities": [
+      "Khan 7 Makara",
+      "Khan Châmkar Mon",
+      "Khan Dângkaô",
+      "Khan Duŏn Pénh",
+      "Khan Méan Chey"
+    ]
+  },
+  {
+    "name": "Cameroon",
+    "capital": "Yaounde",
+    "currency": "XAF",
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "nationality": "Cameroonian",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Canada",
+    "capital": "Ottawa",
+    "currency": "CAD",
+    "region": "Americas",
+    "subregion": "Northern America",
+    "nationality": "Canadian",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Cape Verde",
+    "capital": "Praia",
+    "currency": "CVE",
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "nationality": "Verdean",
+    "majorCities": ["Praia"]
+  },
+  {
+    "name": "Cayman Islands",
+    "capital": "George Town",
+    "currency": "KYD",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "nationality": "Caymanian",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Central African Republic",
+    "capital": "Bangui",
+    "currency": "XAF",
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "nationality": "Central African",
+    "majorCities": ["Bangui"]
+  },
+  {
+    "name": "Chad",
+    "capital": "N'Djamena",
+    "currency": "XAF",
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "nationality": "Chadian",
+    "majorCities": ["N'Djamena"]
+  },
+  {
+    "name": "Chile",
+    "capital": "Santiago",
+    "currency": "CLP",
+    "region": "Americas",
+    "subregion": "South America",
+    "nationality": "Chilean",
+    "majorCities": [
+      "Alhué",
+      "Buin",
+      "Calera de Tango",
+      "Cerrillos",
+      "Cerro Navia"
+    ]
+  },
+  {
+    "name": "China",
+    "capital": "Beijing",
+    "currency": "CNY",
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "nationality": "Chinese",
+    "majorCities": ["Beijing", "Changping", "Daxing", "Fangshan", "Liangxiang"]
+  },
+  {
+    "name": "Christmas Island",
+    "capital": "Flying Fish Cove",
+    "currency": "AUD",
+    "region": "Oceania",
+    "subregion": "Australia and New Zealand",
+    "nationality": "Christmas Island",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Cocos (Keeling) Islands",
+    "capital": "West Island",
+    "currency": "AUD",
+    "region": "Oceania",
+    "subregion": "Australia and New Zealand",
+    "nationality": "Cocos Island",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Colombia",
+    "capital": "Bogotá",
+    "currency": "COP",
+    "region": "Americas",
+    "subregion": "South America",
+    "nationality": "Colombian",
+    "majorCities": ["Bogotá D.C."]
+  },
+  {
+    "name": "Comoros",
+    "capital": "Moroni",
+    "currency": "KMF",
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "nationality": "Comoran, Comorian",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Congo",
+    "capital": "Brazzaville",
+    "currency": "XAF",
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "nationality": "Congolese",
+    "majorCities": ["Brazzaville"]
+  },
+  {
+    "name": "Cook Islands",
+    "capital": "Avarua",
+    "currency": "NZD",
+    "region": "Oceania",
+    "subregion": "Polynesia",
+    "nationality": "Cook Island",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Costa Rica",
+    "capital": "San Jose",
+    "currency": "CRC",
+    "region": "Americas",
+    "subregion": "Central America",
+    "nationality": "Costa Rican",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Cote D'Ivoire (Ivory Coast)",
+    "capital": "Yamoussoukro",
+    "currency": "XOF",
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "nationality": "Ivorian",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Croatia",
+    "capital": "Zagreb",
+    "currency": "HRK",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "nationality": "Croatian",
+    "majorCities": ["Bestovje", "Bistra", "Brckovljani", "Brdovec", "Bregana"]
+  },
+  {
+    "name": "Cuba",
+    "capital": "Havana",
+    "currency": "CUP",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "nationality": "Cuban",
+    "majorCities": [
+      "Alamar",
+      "Arroyo Naranjo",
+      "Boyeros",
+      "Centro Habana",
+      "Cerro"
+    ]
+  },
+  {
+    "name": "Curaçao",
+    "capital": "Willemstad",
+    "currency": "ANG",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "nationality": "Curacaoan",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Cyprus",
+    "capital": "Nicosia",
+    "currency": "EUR",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "nationality": "Cypriot",
+    "majorCities": ["Akáki", "Alámpra", "Aredioú", "Astromerítis", "Dáli"]
+  },
+  {
+    "name": "Czech Republic",
+    "capital": "Prague",
+    "currency": "CZK",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "nationality": "Czech",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Democratic Republic of the Congo",
+    "capital": "Kinshasa",
+    "currency": "CDF",
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "nationality": "Congolese",
+    "majorCities": ["Kinshasa", "Masina"]
+  },
+  {
+    "name": "Denmark",
+    "capital": "Copenhagen",
+    "currency": "DKK",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "nationality": "Danish",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Djibouti",
+    "capital": "Djibouti",
+    "currency": "DJF",
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "nationality": "Djiboutian",
+    "majorCities": ["Djibouti", "Loyada"]
+  },
+  {
+    "name": "Dominica",
+    "capital": "Roseau",
+    "currency": "XCD",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "nationality": "Dominican",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Dominican Republic",
+    "capital": "Santo Domingo",
+    "currency": "DOP",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "nationality": "Dominican",
+    "majorCities": ["Boca Chica", "Santo Domingo Este", "Santo Domingo Oeste"]
+  },
+  {
+    "name": "Ecuador",
+    "capital": "Quito",
+    "currency": "USD",
+    "region": "Americas",
+    "subregion": "South America",
+    "nationality": "Ecuadorian",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Egypt",
+    "capital": "Cairo",
+    "currency": "EGP",
+    "region": "Africa",
+    "subregion": "Northern Africa",
+    "nationality": "Egyptian",
+    "majorCities": ["Badr", "Bulaq", "Cairo", "El Mataria", "Fustat"]
+  },
+  {
+    "name": "El Salvador",
+    "capital": "San Salvador",
+    "currency": "USD",
+    "region": "Americas",
+    "subregion": "Central America",
+    "nationality": "Salvadoran",
+    "majorCities": [
+      "Aguilares",
+      "Apopa",
+      "Ayutuxtepeque",
+      "Cuscatancingo",
+      "Delgado"
+    ]
+  },
+  {
+    "name": "Equatorial Guinea",
+    "capital": "Malabo",
+    "currency": "XAF",
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "nationality": "Equatorial Guinean, Equatoguinean",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Eritrea",
+    "capital": "Asmara",
+    "currency": "ERN",
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "nationality": "Eritrean",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Estonia",
+    "capital": "Tallinn",
+    "currency": "EUR",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "nationality": "Estonian",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Eswatini",
+    "capital": "Mbabane",
+    "currency": "SZL",
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "nationality": "Swazi",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Ethiopia",
+    "capital": "Addis Ababa",
+    "currency": "ETB",
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "nationality": "Ethiopian",
+    "majorCities": ["Addis Ababa"]
+  },
+  {
+    "name": "Falkland Islands",
+    "capital": "Stanley",
+    "currency": "FKP",
+    "region": "Americas",
+    "subregion": "South America",
+    "nationality": "Falkland Island",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Faroe Islands",
+    "capital": "Torshavn",
+    "currency": "DKK",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "nationality": "Faroese",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Fiji Islands",
+    "capital": "Suva",
+    "currency": "FJD",
+    "region": "Oceania",
+    "subregion": "Melanesia",
+    "nationality": "Fijian",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Finland",
+    "capital": "Helsinki",
+    "currency": "EUR",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "nationality": "Finnish",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "France",
+    "capital": "Paris",
+    "currency": "EUR",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "nationality": "French",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "French Guiana",
+    "capital": "Cayenne",
+    "currency": "EUR",
+    "region": "Americas",
+    "subregion": "South America",
+    "nationality": "French Guianese",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "French Polynesia",
+    "capital": "Papeete",
+    "currency": "XPF",
+    "region": "Oceania",
+    "subregion": "Polynesia",
+    "nationality": "French Polynesia",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "French Southern Territories",
+    "capital": "Port-aux-Francais",
+    "currency": "EUR",
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "nationality": "French Southern Territories",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Gabon",
+    "capital": "Libreville",
+    "currency": "XAF",
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "nationality": "Gabonese",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Gambia The",
+    "capital": "Banjul",
+    "currency": "GMD",
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "nationality": "Gambian",
+    "majorCities": ["Bakau", "Banjul", "Kombo Saint Mary District", "Serekunda"]
+  },
+  {
+    "name": "Georgia",
+    "capital": "Tbilisi",
+    "currency": "GEL",
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "nationality": "Georgian",
+    "majorCities": ["Tbilisi"]
+  },
+  {
+    "name": "Germany",
+    "capital": "Berlin",
+    "currency": "EUR",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "nationality": "German",
+    "majorCities": [
+      "Adlershof",
+      "Alt-Hohenschönhausen",
+      "Alt-Treptow",
+      "Altglienicke",
+      "Baumschulenweg"
+    ]
+  },
+  {
+    "name": "Ghana",
+    "capital": "Accra",
+    "currency": "GHS",
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "nationality": "Ghanaian",
+    "majorCities": ["Accra", "Atsiaman", "Dome", "Gbawe", "Medina Estates"]
+  },
+  {
+    "name": "Gibraltar",
+    "capital": "Gibraltar",
+    "currency": "GIP",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "nationality": "Gibraltar",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Greece",
+    "capital": "Athens",
+    "currency": "EUR",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "nationality": "Greek, Hellenic",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Greenland",
+    "capital": "Nuuk",
+    "currency": "DKK",
+    "region": "Americas",
+    "subregion": "Northern America",
+    "nationality": "Greenlandic",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Grenada",
+    "capital": "St. George's",
+    "currency": "XCD",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "nationality": "Grenadian",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Guadeloupe",
+    "capital": "Basse-Terre",
+    "currency": "EUR",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "nationality": "Guadeloupe",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Guam",
+    "capital": "Hagatna",
+    "currency": "USD",
+    "region": "Oceania",
+    "subregion": "Micronesia",
+    "nationality": "Guamanian, Guambat",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Guatemala",
+    "capital": "Guatemala City",
+    "currency": "GTQ",
+    "region": "Americas",
+    "subregion": "Central America",
+    "nationality": "Guatemalan",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Guernsey and Alderney",
+    "capital": "St Peter Port",
+    "currency": "GBP",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "nationality": "Channel Island",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Guinea",
+    "capital": "Conakry",
+    "currency": "GNF",
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "nationality": "Guinean",
+    "majorCities": ["Camayenne", "Conakry"]
+  },
+  {
+    "name": "Guinea-Bissau",
+    "capital": "Bissau",
+    "currency": "XOF",
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "nationality": "Bissau-Guinean",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Guyana",
+    "capital": "Georgetown",
+    "currency": "GYD",
+    "region": "Americas",
+    "subregion": "South America",
+    "nationality": "Guyanese",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Haiti",
+    "capital": "Port-au-Prince",
+    "currency": "HTG",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "nationality": "Haitian",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Heard Island and McDonald Islands",
+    "capital": "",
+    "currency": "AUD",
+    "region": "",
+    "subregion": "",
+    "nationality": "Heard Island or McDonald Islands",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Honduras",
+    "capital": "Tegucigalpa",
+    "currency": "HNL",
+    "region": "Americas",
+    "subregion": "Central America",
+    "nationality": "Honduran",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Hong Kong S.A.R.",
+    "capital": "Hong Kong",
+    "currency": "HKD",
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "nationality": "Hong Kong, Hong Kongese",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Hungary",
+    "capital": "Budapest",
+    "currency": "HUF",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "nationality": "Hungarian, Magyar",
+    "majorCities": [
+      "Budapest",
+      "Budapest I. kerület",
+      "Budapest II. kerület",
+      "Budapest III. kerület",
+      "Budapest IV. kerület"
+    ]
+  },
+  {
+    "name": "Iceland",
+    "capital": "Reykjavik",
+    "currency": "ISK",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "nationality": "Icelandic",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "India",
+    "capital": "New Delhi",
+    "currency": "INR",
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "nationality": "Indian",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Indonesia",
+    "capital": "Jakarta",
+    "currency": "IDR",
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "nationality": "Indonesian",
+    "majorCities": [
+      "Kota Administrasi Jakarta Barat",
+      "Kota Administrasi Jakarta Pusat",
+      "Kota Administrasi Jakarta Selatan",
+      "Kota Administrasi Jakarta Timur",
+      "Kota Administrasi Jakarta Utara"
+    ]
+  },
+  {
+    "name": "Iran",
+    "capital": "Tehran",
+    "currency": "IRR",
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "nationality": "Iranian, Persian",
+    "majorCities": [
+      "Abali",
+      "Absard",
+      "Ahmadabad-E Mostowfi",
+      "Andisheh",
+      "Arjmand"
+    ]
+  },
+  {
+    "name": "Iraq",
+    "capital": "Baghdad",
+    "currency": "IQD",
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "nationality": "Iraqi",
+    "majorCities": [
+      "Abu Ghraib District",
+      "Abū Ghurayb",
+      "Adamiyah",
+      "Al Adel",
+      "Al Baladiyat"
+    ]
+  },
+  {
+    "name": "Ireland",
+    "capital": "Dublin",
+    "currency": "EUR",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "nationality": "Irish",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Israel",
+    "capital": "Jerusalem",
+    "currency": "ILS",
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "nationality": "Israeli",
+    "majorCities": [
+      "Abū Ghaush",
+      "Bet Shemesh",
+      "Har Adar",
+      "Jerusalem",
+      "Mevasseret Ẕiyyon"
+    ]
+  },
+  {
+    "name": "Italy",
+    "capital": "Rome",
+    "currency": "EUR",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "nationality": "Italian",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Jamaica",
+    "capital": "Kingston",
+    "currency": "JMD",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "nationality": "Jamaican",
+    "majorCities": [
+      "Allman Town",
+      "Bournemouth Gardens",
+      "Campbell Town",
+      "Central Down Town",
+      "D'Aguilar Town/ Rennock Lodge"
+    ]
+  },
+  {
+    "name": "Japan",
+    "capital": "Tokyo",
+    "currency": "JPY",
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "nationality": "Japanese",
+    "majorCities": [
+      "Adachi Ku",
+      "Akiruno-shi",
+      "Akishima-shi",
+      "Arakawa Ku",
+      "Bunkyō-ku"
+    ]
+  },
+  {
+    "name": "Jersey",
+    "capital": "Saint Helier",
+    "currency": "GBP",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "nationality": "Channel Island",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Jordan",
+    "capital": "Amman",
+    "currency": "JOD",
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "nationality": "Jordanian",
+    "majorCities": [
+      "Al Jīzah",
+      "Al Jubayhah",
+      "Amman",
+      "Ḩayy al Bunayyāt",
+      "Ḩayy al Quwaysimah"
+    ]
+  },
+  {
+    "name": "Kazakhstan",
+    "capital": "Astana",
+    "currency": "KZT",
+    "region": "Asia",
+    "subregion": "Central Asia",
+    "nationality": "Kazakhstani, Kazakh",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Kenya",
+    "capital": "Nairobi",
+    "currency": "KES",
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "nationality": "Kenyan",
+    "majorCities": ["Nairobi", "Pumwani"]
+  },
+  {
+    "name": "Kiribati",
+    "capital": "Tarawa",
+    "currency": "AUD",
+    "region": "Oceania",
+    "subregion": "Micronesia",
+    "nationality": "I-Kiribati",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Kosovo",
+    "capital": "Pristina",
+    "currency": "EUR",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "nationality": "Kosovar, Kosovan",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Kuwait",
+    "capital": "Kuwait City",
+    "currency": "KWD",
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "nationality": "Kuwaiti",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Kyrgyzstan",
+    "capital": "Bishkek",
+    "currency": "KGS",
+    "region": "Asia",
+    "subregion": "Central Asia",
+    "nationality": "Kyrgyzstani, Kyrgyz, Kirgiz, Kirghiz",
+    "majorCities": ["Bishkek"]
+  },
+  {
+    "name": "Laos",
+    "capital": "Vientiane",
+    "currency": "LAK",
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "nationality": "Lao, Laotian",
+    "majorCities": ["Vientiane"]
+  },
+  {
+    "name": "Latvia",
+    "capital": "Riga",
+    "currency": "EUR",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "nationality": "Latvian",
+    "majorCities": [
+      "Bolderaja",
+      "Daugavgrīva",
+      "Jaunciems",
+      "Mežaparks",
+      "Riga"
+    ]
+  },
+  {
+    "name": "Lebanon",
+    "capital": "Beirut",
+    "currency": "LBP",
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "nationality": "Lebanese",
+    "majorCities": ["Beirut", "Ra’s Bayrūt"]
+  },
+  {
+    "name": "Lesotho",
+    "capital": "Maseru",
+    "currency": "LSL",
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "nationality": "Basotho",
+    "majorCities": ["Maseru", "Nako"]
+  },
+  {
+    "name": "Liberia",
+    "capital": "Monrovia",
+    "currency": "LRD",
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "nationality": "Liberian",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Libya",
+    "capital": "Tripolis",
+    "currency": "LYD",
+    "region": "Africa",
+    "subregion": "Northern Africa",
+    "nationality": "Libyan",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Liechtenstein",
+    "capital": "Vaduz",
+    "currency": "CHF",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "nationality": "Liechtenstein",
+    "majorCities": ["Vaduz"]
+  },
+  {
+    "name": "Lithuania",
+    "capital": "Vilnius",
+    "currency": "EUR",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "nationality": "Lithuanian",
+    "majorCities": [
+      "Aukstadvaris",
+      "Baltoji Vokė",
+      "Eišiškės",
+      "Elektrėnai",
+      "Fabijoniškės"
+    ]
+  },
+  {
+    "name": "Luxembourg",
+    "capital": "Luxembourg",
+    "currency": "EUR",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "nationality": "Luxembourg, Luxembourgish",
+    "majorCities": [
+      "Alzingen",
+      "Béreldange",
+      "Bertrange",
+      "Contern",
+      "Fentange"
+    ]
+  },
+  {
+    "name": "Macau S.A.R.",
+    "capital": "Macao",
+    "currency": "MOP",
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "nationality": "Macanese, Chinese",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Madagascar",
+    "capital": "Antananarivo",
+    "currency": "MGA",
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "nationality": "Malagasy",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Malawi",
+    "capital": "Lilongwe",
+    "currency": "MWK",
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "nationality": "Malawian",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Malaysia",
+    "capital": "Kuala Lumpur",
+    "currency": "MYR",
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "nationality": "Malaysian",
+    "majorCities": ["Kuala Lumpur"]
+  },
+  {
+    "name": "Maldives",
+    "capital": "Male",
+    "currency": "MVR",
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "nationality": "Maldivian",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Mali",
+    "capital": "Bamako",
+    "currency": "XOF",
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "nationality": "Malian, Malinese",
+    "majorCities": ["Bamako"]
+  },
+  {
+    "name": "Malta",
+    "capital": "Valletta",
+    "currency": "EUR",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "nationality": "Maltese",
+    "majorCities": ["Valletta"]
+  },
+  {
+    "name": "Man (Isle of)",
+    "capital": "Douglas, Isle of Man",
+    "currency": "GBP",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "nationality": "Manx",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Marshall Islands",
+    "capital": "Majuro",
+    "currency": "USD",
+    "region": "Oceania",
+    "subregion": "Micronesia",
+    "nationality": "Marshallese",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Martinique",
+    "capital": "Fort-de-France",
+    "currency": "EUR",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "nationality": "Martiniquais, Martinican",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Mauritania",
+    "capital": "Nouakchott",
+    "currency": "MRO",
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "nationality": "Mauritanian",
+    "majorCities": ["Dar-Naim", "Teyarett", "Toujouonine"]
+  },
+  {
+    "name": "Mauritius",
+    "capital": "Port Louis",
+    "currency": "MUR",
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "nationality": "Mauritian",
+    "majorCities": [
+      "Bell Village",
+      "Caudan Waterfront",
+      "China Town",
+      "Les Pailles",
+      "Les Salines"
+    ]
+  },
+  {
+    "name": "Mayotte",
+    "capital": "Mamoudzou",
+    "currency": "EUR",
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "nationality": "Mahoran",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Mexico",
+    "capital": "Ciudad de México",
+    "currency": "MXN",
+    "region": "Americas",
+    "subregion": "Central America",
+    "nationality": "Mexican",
+    "majorCities": [
+      "Álvaro Obregón",
+      "Azcapotzalco",
+      "Benito Juarez",
+      "Ciudad de México",
+      "Col. Bosques de las Lomas"
+    ]
+  },
+  {
+    "name": "Micronesia",
+    "capital": "Palikir",
+    "currency": "USD",
+    "region": "Oceania",
+    "subregion": "Micronesia",
+    "nationality": "Micronesian",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Moldova",
+    "capital": "Chisinau",
+    "currency": "MDL",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "nationality": "Moldovan",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Monaco",
+    "capital": "Monaco",
+    "currency": "EUR",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "nationality": "Monegasque, Monacan",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Mongolia",
+    "capital": "Ulan Bator",
+    "currency": "MNT",
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "nationality": "Mongolian",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Montenegro",
+    "capital": "Podgorica",
+    "currency": "EUR",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "nationality": "Montenegrin",
+    "majorCities": [
+      "Golubovci",
+      "Goričani",
+      "Mataguži",
+      "Mojanovići",
+      "Podgorica"
+    ]
+  },
+  {
+    "name": "Montserrat",
+    "capital": "Plymouth",
+    "currency": "XCD",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "nationality": "Montserratian",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Morocco",
+    "capital": "Rabat",
+    "currency": "MAD",
+    "region": "Africa",
+    "subregion": "Northern Africa",
+    "nationality": "Moroccan",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Mozambique",
+    "capital": "Maputo",
+    "currency": "MZN",
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "nationality": "Mozambican",
+    "majorCities": ["KaTembe", "Maputo"]
+  },
+  {
+    "name": "Myanmar",
+    "capital": "Nay Pyi Taw",
+    "currency": "MMK",
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "nationality": "Burmese",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Namibia",
+    "capital": "Windhoek",
+    "currency": "NAD",
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "nationality": "Namibian",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Nauru",
+    "capital": "Yaren",
+    "currency": "AUD",
+    "region": "Oceania",
+    "subregion": "Micronesia",
+    "nationality": "Nauruan",
+    "majorCities": ["Yaren"]
+  },
+  {
+    "name": "Nepal",
+    "capital": "Kathmandu",
+    "currency": "NPR",
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "nationality": "Nepali, Nepalese",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Netherlands",
+    "capital": "Amsterdam",
+    "currency": "EUR",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "nationality": "Dutch, Netherlandic",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "New Caledonia",
+    "capital": "Noumea",
+    "currency": "XPF",
+    "region": "Oceania",
+    "subregion": "Melanesia",
+    "nationality": "New Caledonian",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "New Zealand",
+    "capital": "Wellington",
+    "currency": "NZD",
+    "region": "Oceania",
+    "subregion": "Australia and New Zealand",
+    "nationality": "New Zealand, NZ",
+    "majorCities": [
+      "Brooklyn",
+      "Castlepoint",
+      "Kapiti Coast District",
+      "Kelburn",
+      "Khandallah"
+    ]
+  },
+  {
+    "name": "Nicaragua",
+    "capital": "Managua",
+    "currency": "NIO",
+    "region": "Americas",
+    "subregion": "Central America",
+    "nationality": "Nicaraguan",
+    "majorCities": [
+      "Ciudad Sandino",
+      "El Crucero",
+      "Managua",
+      "Masachapa",
+      "San Rafael del Sur"
+    ]
+  },
+  {
+    "name": "Niger",
+    "capital": "Niamey",
+    "currency": "XOF",
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "nationality": "Nigerien",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Nigeria",
+    "capital": "Abuja",
+    "currency": "NGN",
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "nationality": "Nigerian",
+    "majorCities": ["Abuja", "Asokoro", "Bamburu", "Garki", "Gwagwalada"]
+  },
+  {
+    "name": "Niue",
+    "capital": "Alofi",
+    "currency": "NZD",
+    "region": "Oceania",
+    "subregion": "Polynesia",
+    "nationality": "Niuean",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Norfolk Island",
+    "capital": "Kingston",
+    "currency": "AUD",
+    "region": "Oceania",
+    "subregion": "Australia and New Zealand",
+    "nationality": "Norfolk Island",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "North Korea",
+    "capital": "Pyongyang",
+    "currency": "KPW",
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "nationality": "North Korean",
+    "majorCities": [
+      "Chunghwa",
+      "Kangdong-ŭp",
+      "Pyongyang",
+      "Sunan",
+      "Sŭngho 1-tong"
+    ]
+  },
+  {
+    "name": "North Macedonia",
+    "capital": "Skopje",
+    "currency": "MKD",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "nationality": "Macedonian",
+    "majorCities": ["Bojane", "Dračevo", "Ljubin", "Saraj", "Usje"]
+  },
+  {
+    "name": "Northern Mariana Islands",
+    "capital": "Saipan",
+    "currency": "USD",
+    "region": "Oceania",
+    "subregion": "Micronesia",
+    "nationality": "Northern Marianan",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Norway",
+    "capital": "Oslo",
+    "currency": "NOK",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "nationality": "Norwegian",
+    "majorCities": ["Oslo", "Sjølyststranda"]
+  },
+  {
+    "name": "Oman",
+    "capital": "Muscat",
+    "currency": "OMR",
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "nationality": "Omani",
+    "majorCities": ["Bawshar", "Muscat", "Seeb"]
+  },
+  {
+    "name": "Pakistan",
+    "capital": "Islamabad",
+    "currency": "PKR",
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "nationality": "Pakistani",
+    "majorCities": ["Islamabad"]
+  },
+  {
+    "name": "Palau",
+    "capital": "Melekeok",
+    "currency": "USD",
+    "region": "Oceania",
+    "subregion": "Micronesia",
+    "nationality": "Palauan",
+    "majorCities": ["Melekeok Village"]
+  },
+  {
+    "name": "Palestinian Territory Occupied",
+    "capital": "East Jerusalem",
+    "currency": "ILS",
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "nationality": "Palestinian",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Panama",
+    "capital": "Panama City",
+    "currency": "PAB",
+    "region": "Americas",
+    "subregion": "Central America",
+    "nationality": "Panamanian",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Papua New Guinea",
+    "capital": "Port Moresby",
+    "currency": "PGK",
+    "region": "Oceania",
+    "subregion": "Melanesia",
+    "nationality": "Papua New Guinean, Papuan",
+    "majorCities": ["National Capital District", "Port Moresby"]
+  },
+  {
+    "name": "Paraguay",
+    "capital": "Asuncion",
+    "currency": "PYG",
+    "region": "Americas",
+    "subregion": "South America",
+    "nationality": "Paraguayan",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Peru",
+    "capital": "Lima",
+    "currency": "PEN",
+    "region": "Americas",
+    "subregion": "South America",
+    "nationality": "Peruvian",
+    "majorCities": [
+      "Asentamiento Humano Nicolas de Pierola",
+      "Barranca",
+      "Caleta de Carquín",
+      "Chancay",
+      "Chilca"
+    ]
+  },
+  {
+    "name": "Philippines",
+    "capital": "Manila",
+    "currency": "PHP",
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "nationality": "Philippine, Filipino",
+    "majorCities": [
+      "Caloocan",
+      "Calumpang",
+      "Dasmariñas Village",
+      "Ermita",
+      "Intramuros"
+    ]
+  },
+  {
+    "name": "Pitcairn Island",
+    "capital": "Adamstown",
+    "currency": "NZD",
+    "region": "Oceania",
+    "subregion": "Polynesia",
+    "nationality": "Pitcairn Island",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Poland",
+    "capital": "Warsaw",
+    "currency": "PLN",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "nationality": "Polish",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Portugal",
+    "capital": "Lisbon",
+    "currency": "EUR",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "nationality": "Portuguese",
+    "majorCities": [
+      "A dos Cunhados",
+      "Abrigada",
+      "Alcabideche",
+      "Alcoentre",
+      "Alenquer"
+    ]
+  },
+  {
+    "name": "Puerto Rico",
+    "capital": "San Juan",
+    "currency": "USD",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "nationality": "Puerto Rican",
+    "majorCities": ["San Juan"]
+  },
+  {
+    "name": "Qatar",
+    "capital": "Doha",
+    "currency": "QAR",
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "nationality": "Qatari",
+    "majorCities": ["Doha"]
+  },
+  {
+    "name": "Reunion",
+    "capital": "Saint-Denis",
+    "currency": "EUR",
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "nationality": "Reunionese, Reunionnais",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Romania",
+    "capital": "Bucharest",
+    "currency": "RON",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "nationality": "Romanian",
+    "majorCities": ["Bucharest", "Sector 1", "Sector 2", "Sector 3", "Sector 4"]
+  },
+  {
+    "name": "Russia",
+    "capital": "Moscow",
+    "currency": "RUB",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "nationality": "Russian",
+    "majorCities": [
+      "Altuf’yevskiy",
+      "Amin’yevo",
+      "Annino",
+      "Babushkin",
+      "Bibirevo"
+    ]
+  },
+  {
+    "name": "Rwanda",
+    "capital": "Kigali",
+    "currency": "RWF",
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "nationality": "Rwandan",
+    "majorCities": ["Kigali"]
+  },
+  {
+    "name": "Saint Helena",
+    "capital": "Jamestown",
+    "currency": "SHP",
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "nationality": "Saint Helenian",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Saint Kitts and Nevis",
+    "capital": "Basseterre",
+    "currency": "XCD",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "nationality": "Kittitian or Nevisian",
+    "majorCities": ["Monkey Hill"]
+  },
+  {
+    "name": "Saint Lucia",
+    "capital": "Castries",
+    "currency": "XCD",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "nationality": "Saint Lucian",
+    "majorCities": [
+      "Active Hill",
+      "Agard Lands/Morne Dudon",
+      "Almondale",
+      "Aurendel Hill",
+      "Babonneau Proper"
+    ]
+  },
+  {
+    "name": "Saint Pierre and Miquelon",
+    "capital": "Saint-Pierre",
+    "currency": "EUR",
+    "region": "Americas",
+    "subregion": "Northern America",
+    "nationality": "Saint-Pierrais or Miquelonnais",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Saint Vincent and the Grenadines",
+    "capital": "Kingstown",
+    "currency": "XCD",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "nationality": "Saint Vincentian, Vincentian",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Saint-Barthelemy",
+    "capital": "Gustavia",
+    "currency": "EUR",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "nationality": "Barthelemois",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Saint-Martin (French part)",
+    "capital": "Marigot",
+    "currency": "EUR",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "nationality": "Saint-Martinoise",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Samoa",
+    "capital": "Apia",
+    "currency": "WST",
+    "region": "Oceania",
+    "subregion": "Polynesia",
+    "nationality": "Samoan",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "San Marino",
+    "capital": "San Marino",
+    "currency": "EUR",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "nationality": "Sammarinese",
+    "majorCities": ["San Marino"]
+  },
+  {
+    "name": "Sao Tome and Principe",
+    "capital": "Sao Tome",
+    "currency": "STD",
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "nationality": "Sao Tomean",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Saudi Arabia",
+    "capital": "Riyadh",
+    "currency": "SAR",
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "nationality": "Saudi, Saudi Arabian",
+    "majorCities": [
+      "Ad Dawādimī",
+      "Ad Dilam",
+      "Afif",
+      "Ain AlBaraha",
+      "Al Arţāwīyah"
+    ]
+  },
+  {
+    "name": "Senegal",
+    "capital": "Dakar",
+    "currency": "XOF",
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "nationality": "Senegalese",
+    "majorCities": [
+      "Dakar",
+      "Dakar Department",
+      "Guédiawaye Department",
+      "Mermoz Boabab",
+      "N’diareme limamoulaye"
+    ]
+  },
+  {
+    "name": "Serbia",
+    "capital": "Belgrade",
+    "currency": "RSD",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "nationality": "Serbian",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Seychelles",
+    "capital": "Victoria",
+    "currency": "SCR",
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "nationality": "Seychellois",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Sierra Leone",
+    "capital": "Freetown",
+    "currency": "SLL",
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "nationality": "Sierra Leonean",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Singapore",
+    "capital": "Singapur",
+    "currency": "SGD",
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "nationality": "Singaporean",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Sint Maarten (Dutch part)",
+    "capital": "Philipsburg",
+    "currency": "ANG",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "nationality": "Sint Maarten",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Slovakia",
+    "capital": "Bratislava",
+    "currency": "EUR",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "nationality": "Slovak",
+    "majorCities": [
+      "Bratislava",
+      "Bratislava - Vajnory",
+      "Dunajská Lužná",
+      "Ivanka pri Dunaji",
+      "Malacky"
+    ]
+  },
+  {
+    "name": "Slovenia",
+    "capital": "Ljubljana",
+    "currency": "EUR",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "nationality": "Slovenian, Slovene",
+    "majorCities": [
+      "Dravlje District",
+      "Jarše District",
+      "Ljubljana",
+      "Opčina Ljubljana-Bežigrad",
+      "Opština Ljubljana-Center"
+    ]
+  },
+  {
+    "name": "Solomon Islands",
+    "capital": "Honiara",
+    "currency": "SBD",
+    "region": "Oceania",
+    "subregion": "Melanesia",
+    "nationality": "Solomon Island",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Somalia",
+    "capital": "Mogadishu",
+    "currency": "SOS",
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "nationality": "Somali, Somalian",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "South Africa",
+    "capital": "Pretoria",
+    "currency": "ZAR",
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "nationality": "South African",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "South Georgia",
+    "capital": "Grytviken",
+    "currency": "GBP",
+    "region": "Americas",
+    "subregion": "South America",
+    "nationality": "South Georgia or South Sandwich Islands",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "South Korea",
+    "capital": "Seoul",
+    "currency": "KRW",
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "nationality": "South Korean",
+    "majorCities": [
+      "Dobong-gu",
+      "Dongdaemun-gu",
+      "Dongjak-gu",
+      "Eunpyeong-gu",
+      "Gangbuk-gu"
+    ]
+  },
+  {
+    "name": "South Sudan",
+    "capital": "Juba",
+    "currency": "SSP",
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "nationality": "South Sudanese",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Spain",
+    "capital": "Madrid",
+    "currency": "EUR",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "nationality": "Spanish",
+    "majorCities": [
+      "Acebeda La",
+      "Ajalvir",
+      "Alameda del Valle",
+      "Álamo El",
+      "Alcalá de Henares"
+    ]
+  },
+  {
+    "name": "Sri Lanka",
+    "capital": "Colombo",
+    "currency": "LKR",
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "nationality": "Sri Lankan",
+    "majorCities": [
+      "Dehiwala-Mount Lavinia",
+      "Homagama",
+      "Kaduwela",
+      "Kesbewa",
+      "Kolonnawa"
+    ]
+  },
+  {
+    "name": "Sudan",
+    "capital": "Khartoum",
+    "currency": "SDG",
+    "region": "Africa",
+    "subregion": "Northern Africa",
+    "nationality": "Sudanese",
+    "majorCities": ["Khartoum", "Omdurman"]
+  },
+  {
+    "name": "Suriname",
+    "capital": "Paramaribo",
+    "currency": "SRD",
+    "region": "Americas",
+    "subregion": "South America",
+    "nationality": "Surinamese",
+    "majorCities": ["Paramaribo"]
+  },
+  {
+    "name": "Svalbard and Jan Mayen Islands",
+    "capital": "Longyearbyen",
+    "currency": "NOK",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "nationality": "Svalbard",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Sweden",
+    "capital": "Stockholm",
+    "currency": "SEK",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "nationality": "Swedish",
+    "majorCities": ["Akalla", "Åkersberga", "Alby", "Älmsta", "Älta"]
+  },
+  {
+    "name": "Switzerland",
+    "capital": "Bern",
+    "currency": "CHF",
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "nationality": "Swiss",
+    "majorCities": [
+      "Aarberg",
+      "Aarwangen",
+      "Adelboden",
+      "Aeschi b. Spiez",
+      "Arch"
+    ]
+  },
+  {
+    "name": "Syria",
+    "capital": "Damascus",
+    "currency": "SYP",
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "nationality": "Syrian",
+    "majorCities": ["Damascus"]
+  },
+  {
+    "name": "Taiwan",
+    "capital": "Taipei",
+    "currency": "TWD",
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "nationality": "Chinese, Taiwanese",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Tajikistan",
+    "capital": "Dushanbe",
+    "currency": "TJS",
+    "region": "Asia",
+    "subregion": "Central Asia",
+    "nationality": "Tajikistani",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Tanzania",
+    "capital": "Dodoma",
+    "currency": "TZS",
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "nationality": "Tanzanian",
+    "majorCities": ["Dodoma", "Kibakwe", "Kisasa", "Kondoa", "Kongwa"]
+  },
+  {
+    "name": "Thailand",
+    "capital": "Bangkok",
+    "currency": "THB",
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "nationality": "Thai",
+    "majorCities": [
+      "Bang Bon",
+      "Bang Kapi",
+      "Bang Khae",
+      "Bang Khen",
+      "Bang Kho laen"
+    ]
+  },
+  {
+    "name": "The Bahamas",
+    "capital": "Nassau",
+    "currency": "BSD",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "nationality": "Bahamian",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Timor-Leste",
+    "capital": "Dili",
+    "currency": "USD",
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "nationality": "Timorese",
+    "majorCities": ["Atauro Island", "Cristo Rei", "Dili", "Metinaro"]
+  },
+  {
+    "name": "Togo",
+    "capital": "Lome",
+    "currency": "XOF",
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "nationality": "Togolese",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Tokelau",
+    "capital": "",
+    "currency": "NZD",
+    "region": "Oceania",
+    "subregion": "Polynesia",
+    "nationality": "Tokelauan",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Tonga",
+    "capital": "Nuku'alofa",
+    "currency": "TOP",
+    "region": "Oceania",
+    "subregion": "Polynesia",
+    "nationality": "Tongan",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Trinidad and Tobago",
+    "capital": "Port of Spain",
+    "currency": "TTD",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "nationality": "Trinidadian or Tobagonian",
+    "majorCities": ["Mucurapo", "Port of Spain"]
+  },
+  {
+    "name": "Tunisia",
+    "capital": "Tunis",
+    "currency": "TND",
+    "region": "Africa",
+    "subregion": "Northern Africa",
+    "nationality": "Tunisian",
+    "majorCities": [
+      "Al Marsá",
+      "Carthage",
+      "La Goulette",
+      "La Mohammedia",
+      "Sidi Bou Saïd"
+    ]
+  },
+  {
+    "name": "Turkey",
+    "capital": "Ankara",
+    "currency": "TRY",
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "nationality": "Turkish",
+    "majorCities": ["Akyurt", "Altındağ", "Ayaş", "Bala", "Beypazarı"]
+  },
+  {
+    "name": "Turkmenistan",
+    "capital": "Ashgabat",
+    "currency": "TMT",
+    "region": "Asia",
+    "subregion": "Central Asia",
+    "nationality": "Turkmen",
+    "majorCities": ["Ashgabat"]
+  },
+  {
+    "name": "Turks and Caicos Islands",
+    "capital": "Cockburn Town",
+    "currency": "USD",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "nationality": "Turks and Caicos Island",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Tuvalu",
+    "capital": "Funafuti",
+    "currency": "AUD",
+    "region": "Oceania",
+    "subregion": "Polynesia",
+    "nationality": "Tuvaluan",
+    "majorCities": ["Alapi Village", "Fakaifou Village", "Funafuti"]
+  },
+  {
+    "name": "Uganda",
+    "capital": "Kampala",
+    "currency": "UGX",
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "nationality": "Ugandan",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Ukraine",
+    "capital": "Kyiv",
+    "currency": "UAH",
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "nationality": "Ukrainian",
+    "majorCities": [
+      "Darnytsia Raion",
+      "Desnyans’kyy Rayon",
+      "Dnipro Raion",
+      "Holosiiv Raion",
+      "Kotsyubyns’ke"
+    ]
+  },
+  {
+    "name": "United Arab Emirates",
+    "capital": "Abu Dhabi",
+    "currency": "AED",
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "nationality": "Emirati, Emirian, Emiri",
+    "majorCities": [
+      "Abu Dhabi Island and Internal Islands City",
+      "Abu Dhabi Municipality",
+      "Al Ain City",
+      "Al Ain Municipality",
+      "Al Dhafra"
+    ]
+  },
+  {
+    "name": "United Kingdom",
+    "capital": "London",
+    "currency": "GBP",
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "nationality": "British, UK",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "United States",
+    "capital": "Washington",
+    "currency": "USD",
+    "region": "Americas",
+    "subregion": "Northern America",
+    "nationality": "American",
+    "majorCities": [
+      "Aberdeen",
+      "Adams County",
+      "Ahtanum",
+      "Airway Heights",
+      "Alderton"
+    ]
+  },
+  {
+    "name": "United States Minor Outlying Islands",
+    "capital": "",
+    "currency": "USD",
+    "region": "Americas",
+    "subregion": "Northern America",
+    "nationality": "American",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Uruguay",
+    "capital": "Montevideo",
+    "currency": "UYU",
+    "region": "Americas",
+    "subregion": "South America",
+    "nationality": "Uruguayan",
+    "majorCities": [
+      "Aires Puros",
+      "Arroyo Seco",
+      "Atahualpa",
+      "Bañados de Carrasco",
+      "Barra de Carrasco"
+    ]
+  },
+  {
+    "name": "Uzbekistan",
+    "capital": "Tashkent",
+    "currency": "UZS",
+    "region": "Asia",
+    "subregion": "Central Asia",
+    "nationality": "Uzbekistani, Uzbek",
+    "majorCities": ["Bektemir", "Tashkent"]
+  },
+  {
+    "name": "Vanuatu",
+    "capital": "Port Vila",
+    "currency": "VUV",
+    "region": "Oceania",
+    "subregion": "Melanesia",
+    "nationality": "Ni-Vanuatu, Vanuatuan",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Vatican City State (Holy See)",
+    "capital": "Vatican City",
+    "currency": "EUR",
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "nationality": "Vatican",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Venezuela",
+    "capital": "Caracas",
+    "currency": "VES",
+    "region": "Americas",
+    "subregion": "South America",
+    "nationality": "Venezuelan",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Vietnam",
+    "capital": "Hanoi",
+    "currency": "VND",
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "nationality": "Vietnamese",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Virgin Islands (British)",
+    "capital": "Road Town",
+    "currency": "USD",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "nationality": "British Virgin Island",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Virgin Islands (US)",
+    "capital": "Charlotte Amalie",
+    "currency": "USD",
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "nationality": "U.S. Virgin Island",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Wallis and Futuna Islands",
+    "capital": "Mata Utu",
+    "currency": "XPF",
+    "region": "Oceania",
+    "subregion": "Polynesia",
+    "nationality": "Wallis and Futuna, Wallisian or Futunan",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Western Sahara",
+    "capital": "El-Aaiun",
+    "currency": "MAD",
+    "region": "Africa",
+    "subregion": "Northern Africa",
+    "nationality": "Sahrawi, Sahrawian, Sahraouian",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Yemen",
+    "capital": "Sanaa",
+    "currency": "YER",
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "nationality": "Yemeni",
+    "majorCities": "No Cities Found"
+  },
+  {
+    "name": "Zambia",
+    "capital": "Lusaka",
+    "currency": "ZMW",
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "nationality": "Zambian",
+    "majorCities": ["Chongwe", "Kafue", "Luangwa", "Lusaka"]
+  },
+  {
+    "name": "Zimbabwe",
+    "capital": "Harare",
+    "currency": "ZWL",
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "nationality": "Zimbabwean",
+    "majorCities": ["Chitungwiza", "Epworth", "Harare"]
+  }
+]

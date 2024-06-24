@@ -42,6 +42,8 @@ app.use("/home", indexRouter);
 //   res.send("Welcome to Travel Planner");
 // });
 
+
+//SET ERROR HANDLER HERE
 module.exports = app;
 
 

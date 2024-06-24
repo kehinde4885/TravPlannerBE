@@ -20,6 +20,10 @@
     font-family: "rockwell_novaregular";
   }
 
+  .rocklight {
+    font-family: "rockwell_novalight";
+  }
+
   .hero {
     background-image: url("images/hero.jpg");
     background-repeat: no-repeat;
@@ -31,7 +35,7 @@
   }
 
   .label {
-    @apply w-min rounded-3xl bg-ter px-6 py-3 text-sm text-white;
+    @apply w-max rounded-3xl bg-ter px-6 py-3 text-sm text-white;
   }
 
   .card-img {
@@ -66,13 +70,11 @@
     @apply w-4/5 max-w-screen-lg rounded-3xl border border-white bg-[transparent] px-8 py-7 text-base text-white placeholder:font-[kanitextralight] placeholder:text-base placeholder:text-white;
   }
 
-  
   .popover:popover-open {
     @apply flex h-screen w-screen items-center justify-center bg-ter;
   }
 
-  .layout > :is(section){
+  .layout > :is(section) {
     margin-top: 10.5rem;
-
   }
 }

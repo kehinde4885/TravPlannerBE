@@ -7,10 +7,11 @@
     <link rel="stylesheet" href="output.css" />
   </head>
   <body class="layout">
-    <div id="mypopover" popover class="popover">
+    <form action="/home" id="mypopover" popover class="popover">
       <input
         class="searchBar"
         type="search"
+        name="country"
         placeholder="Search by Country..." />
 
       <button
@@ -20,7 +21,9 @@
         class="absolute right-24 top-14 w-12 text-white">
         <img src="images/close.svg" alt="" />
       </button>
-    </div>
+
+      <button>Search</button>
+    </form>
 
     <header class="flex flex-row items-center justify-between">
       <picture>
