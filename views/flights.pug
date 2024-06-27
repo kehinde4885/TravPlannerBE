@@ -1,0 +1,15 @@
+extends layout.pug 
+
+block content
+
+  each flight in flights
+    .customShadow.flex.items-center
+      p.rocklight.text-xl.basis-0 #{flight.carrier}
+      .text-center.grow.flex.flex-col.gap-4
+        p.rockbold Lagos, Nigeria - Tokyo, Japan
+        p.kanitextl.text-base 180 Minutes
+        p.kanitextl.text-base Stops: 1
+        p.rocklight.text-xl
+          span 17:30-
+          span 4:30
+        p.rockbold.text-xl $750

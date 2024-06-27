@@ -3,16 +3,15 @@ extends layout.pug
 block content
   main.flex.items-center.gap-16
     .space-y-20
-      h1.rocklight.text-3xl Welcome to #{country}
-      p(class=["kanitextl", "max-w-prose", "text-base", "leading-[1.73]"]) #{info}
+      h1.rocklight.text-3xl Welcome to #{ country }
+      p(class=["kanitextl", "max-w-prose", "text-base", "leading-[1.73]"]) #{ info }
 
     .aspect-video.shrink.grow
       img.h-full.w-full.object-cover(src="./images/country.jpg", alt) 
-  
-  section.flex.flex-wrap.gap-24
 
+  section.flex.flex-wrap.gap-24
     each val in categories
-      var url = './images'
-      div.card(class=['max-w-[475px]'])
-        img.card-img(src='./images/' + val + '.jpg')
-        p.kanitmed.label #{val}
+      -var url = "home/" + country + "/" + val
+      .card(class=["max-w-[475px]"])
+        img.card-img(src="./images/" + val + ".jpg")
+        a.kanitmed.label(href=url) #{ val }

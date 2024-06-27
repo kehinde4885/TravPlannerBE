@@ -20,6 +20,10 @@
     font-family: "rockwell_novaregular";
   }
 
+  .rockbold {
+    font-family: "rockwell_novabold";
+  }
+
   .rocklight {
     font-family: "rockwell_novalight";
   }
@@ -30,8 +34,12 @@
     background-size: cover;
   }
 
+  .customShadow {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 4px 8px;
+  }
+
   .card {
-    @apply relative z-0 flex aspect-square flex-grow basis-full flex-col justify-end px-6 pb-3;
+    @apply relative z-0 flex aspect-square flex-grow basis-full flex-col justify-end overflow-hidden rounded-md px-6 pb-3;
   }
 
   .label {

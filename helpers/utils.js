@@ -3,7 +3,7 @@ function getCountryInfo() {
 
   return `Welcome to ${this.name}, a land of profound history and rugged beauty
     located in ${this.subregion}. This country is ${this.landlocked ? "landlocked" : "not landlocked"}, officially
-    known as the ${this.official}, is a captivating blend
+    known as ${this.official}, is a captivating blend
     of ancient traditions and modern resilience. Its capital,${this.capital} 
     ${gottenCities ? gottenCities : ""},
       offers a glimpse into the heart of ${this.nationality} culture and life. ${this.name} spans

@@ -24,6 +24,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 //   res.send("Welcome to Travel Planner");
 // });
 
+app.set('trust proxy', true)
+
 //Set directory of Template Files
 app.set("views", "./views");
 
