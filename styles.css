@@ -46,6 +46,10 @@
     @apply w-max rounded-3xl bg-ter px-6 py-3 text-sm text-white;
   }
 
+  .label2 {
+    @apply w-max rounded-3xl bg-ter px-3 py-2 text-xs text-white;
+  }
+
   .card-img {
     @apply absolute left-0 top-0 z-[-1] h-full w-full object-cover;
   }

@@ -41,31 +41,12 @@ function getCities() {
   });
 
   return filtered.length
-    ? `along with major cities like ${filtered.join(",     ")}`
+    ? `along with major cities like ${filtered.join(", ")}`
     : null;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // Search for One Wayt Flights
-async function getFlights(originID,destinationID,departDate) {
+async function getFlights(originID, destinationID, departDate) {
   // const url ="https://sky-scanner3.p.rapidapi.com/flights/search-roundtrip?fromEntityId=DXB&toEntityId=NG";
   // const options = {
   //   method: "GET",
@@ -86,31 +67,9 @@ async function getFlights(originID,destinationID,departDate) {
 
   const response = await fetch(url, options);
   const result = await response.json();
-  //console.log(result);
-  return result
-
+  // console.log(result);
+  return result;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 async function getOriginWithIP(ip) {
   // get Location name from Abstract API
@@ -122,6 +81,7 @@ async function getOriginWithIP(ip) {
   // Convert Ip to String
   //const url = `${baseUrl}?api_key=${apiKey}&ip_address=${ip.toString()}`
 
+  //102.89.23.78
   // for Development
   const url = `${baseUrl}?api_key=${apiKey}&ip_address=${"102.89.23.78"}`;
 
@@ -130,7 +90,7 @@ async function getOriginWithIP(ip) {
 
   const origin = { city: location.city, country: location.country };
 
-  console.log(`getOrignWithIP,${origin}`);
+  //console.log(`getOrignWithIP,${origin}`);
   return origin;
 }
 
@@ -138,6 +98,7 @@ async function getOriginWithIP(ip) {
 // This helps me get the ID of the  City i want to search in Flights
 async function getEntityID(location) {
   //const url = `https://sky-scanner3.p.rapidapi.com/flights/auto-complete?query=${location}&placeTypes=COUNTRY`;
+  //const url = `https://skyscanner80.p.rapidapi.com/api/v1/flights/auto-complete?query=${location.city}`;
   const url = `https://skyscanner80.p.rapidapi.com/api/v1/flights/auto-complete?query=${location.city}`;
   const options = {
     method: "GET",
@@ -150,6 +111,8 @@ async function getEntityID(location) {
 
   let dataPromise = await fetch(url, options);
   let data = await dataPromise.json();
+
+  //return data.data[0].id
 
   // console.log(location)
 
@@ -167,7 +130,7 @@ async function getEntityID(location) {
   //return data.data[0].presentation.skyId;
 }
 
-// Get Capital
+// Get CountryJSON
 function getCountry(country) {
   return countryData.find((e) => {
     return country.toUpperCase() === e.name.toUpperCase();
@@ -185,6 +148,133 @@ function getTime(strings) {
   return strings.slice(index + 1, index + 6);
 }
 
+function detailedHotelsSearch(hotels) {
+  // creates an array of Promises
+  const promiseToGetHotels = hotels.map((hotel, index) => {
+    //Create a new Promise for each hotel in the hotels array
+    // The promise Resolves to an object with more
+    // detailed informatiion about each hotel
+    const id = hotel.location_id;
+    const promise = new Promise((resolve, reject) => {
+      const url = `https://api.content.tripadvisor.com/api/v1/location/${id}/details?language=en&currency=USD&key=${process.env.TRIPADVISOR}`;
+      const options = {
+        method: "GET",
+        headers: { accept: "application/json" },
+      };
+
+      fetch(url, options)
+        .then((res) => res.json())
+        .then((json) => {
+          console.log("got hotel", index);
+          //console.log(json)
+          resolve(json);
+        })
+        .catch((err) => {
+          console.error("Get Detailed Hotel error:" + err);
+          reject(err);
+        });
+    });
+
+    return promise;
+  });
+
+  //Promise.allSettled check each promise in the
+  //Earlier created array and returns a promise for them
+  const iSwear = Promise.allSettled(promiseToGetHotels).then((results) => {
+    const promiseToGetPictures = results.map((result) => {
+      const hotel = result.value;
+      const id = hotel.location_id;
+      //create an array of promises
+      const promise = new Promise((resolve, reject) => {
+        const url = `https://api.content.tripadvisor.com/api/v1/location/${id}/photos?language=en&limit=1&key=${process.env.TRIPADVISOR}`;
+        const options = {
+          method: "GET",
+          headers: { accept: "application/json" },
+        };
+
+        fetch(url, options)
+          .then((res) => res.json())
+          .then((images) => {
+            //Combine both Fetch Requests Here
+            console.log("combining Images");
+            //console.log(images)
+            //console.log({ ...json, images });
+            //return ;
+            resolve({ ...hotel, images });
+          })
+          .catch((err) => console.error("Get Images error:" + err));
+      });
+
+      return promise;
+    });
+
+    //this return another Promuse to the iswear Promuse Statement
+    return Promise.allSettled(promiseToGetPictures);
+  });
+
+  const iSwear2 = iSwear.then((final) => {
+    return final;
+  });
+
+  //console.log(iSwear2)
+  return iSwear2;
+}
+
+function hotelSearch(country) {
+  //Figure out what reject does
+  const promise = new Promise((resolve, reject) => {
+    const url = `https://api.content.tripadvisor.com/api/v1/location/search?searchQuery=${country}&category=hotels&language=en&key=${process.env.TRIPADVISOR}`;
+    const options = { method: "GET", headers: { accept: "application/json" } };
+
+    fetch(url, options)
+      .then((res) => res.json())
+      .then((json) => {
+        //console.log(json.data);
+        resolve(json.data);
+      })
+      .catch((err) => {
+        console.error("error:" + err);
+        reject();
+      });
+  });
+
+  return promise;
+}
+
+function convertPriceRange(str) {
+  const map = {
+    1: "Cheapest",
+    2: "Affordable",
+    3: "Moderate",
+    4: "Pricey",
+    5: "Expensive",
+  };
+
+  const strLen = str.length;
+
+  return map[String(strLen)];
+}
+
+const detailHotelFetch = async (id) => {
+  const url = `https://api.content.tripadvisor.com/api/v1/location/${id}/details?language=en&currency=USD&key=${process.env.TRIPADVISOR}`;
+  const options = {
+    method: "GET",
+    headers: { accept: "application/json" },
+  };
+  const result = await fetch(url, options);
+  const data = await result.json();
+  return data;
+};
+
+const detailImageFetch = async (id) => {
+  const url = `https://api.content.tripadvisor.com/api/v1/location/${id}/photos?limit=1&key=${process.env.TRIPADVISOR}`;
+  const options = { method: "GET", headers: { accept: "application/json" } };
+
+  const result = await fetch(url, options);
+  const data = await result.json();
+  return data;
+};
+
 module.exports = {
   getCities,
   getCountryAbout,
@@ -194,4 +284,7 @@ module.exports = {
   getCountry,
   getHours,
   getTime,
+  detailedHotelsSearch,
+  hotelSearch,
+  convertPriceRange,
 };

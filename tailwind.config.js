@@ -23,6 +23,7 @@ module.exports = {
       error: "#F73C39",
     },
     fontSize: {
+      xs: [".75rem", { lineHeight: "1" }],
       sm: ["1rem", { lineHeight: "1.5" }],
       base: ["1.3125rem", { lineHeight: "1.5" }],
       lg: ["1.75rem", { lineHeight: "1.3" }],
