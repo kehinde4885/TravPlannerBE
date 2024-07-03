@@ -657,6 +657,10 @@ video {
   display: flex;
 }
 
+.aspect-square {
+  aspect-ratio: 1 / 1;
+}
+
 .aspect-video {
   aspect-ratio: 16 / 9;
 }
@@ -693,6 +697,10 @@ video {
   width: 3rem;
 }
 
+.w-3\/4 {
+  width: 75%;
+}
+
 .w-8 {
   width: 2rem;
 }
@@ -703,14 +711,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-3\/4 {
-  width: 75%;
-}
-
-.w-3 {
-  width: 0.75rem;
 }
 
 .max-w-\[16ch\] {
@@ -773,10 +773,6 @@ video {
   align-items: center;
 }
 
-.items-baseline {
-  align-items: baseline;
-}
-
 .justify-between {
   justify-content: space-between;
 }
@@ -793,6 +789,10 @@ video {
   gap: 6rem;
 }
 
+.gap-3 {
+  gap: 0.75rem;
+}
+
 .gap-32 {
   gap: 8rem;
 }
@@ -807,14 +807,6 @@ video {
 
 .gap-\[6px\] {
   gap: 6px;
-}
-
-.gap-1 {
-  gap: 0.25rem;
-}
-
-.gap-3 {
-  gap: 0.75rem;
 }
 
 .gap-y-60 {
@@ -849,8 +841,8 @@ video {
   align-self: flex-end;
 }
 
-.self-center {
-  align-self: center;
+.rounded {
+  border-radius: 0.25rem;
 }
 
 .rounded-full {
@@ -859,10 +851,6 @@ video {
 
 .rounded-lg {
   border-radius: 0.5rem;
-}
-
-.rounded {
-  border-radius: 0.25rem;
 }
 
 .border-2 {
@@ -891,6 +879,11 @@ video {
   background-color: rgba(23, 27, 30, 0.75);
 }
 
+.bg-pri {
+  --tw-bg-opacity: 1;
+  background-color: rgb(57 167 247 / var(--tw-bg-opacity));
+}
+
 .bg-sec {
   --tw-bg-opacity: 1;
   background-color: rgb(247 170 57 / var(--tw-bg-opacity));
@@ -901,19 +894,9 @@ video {
   background-color: rgb(162 134 91 / var(--tw-bg-opacity));
 }
 
-.bg-pri {
-  --tw-bg-opacity: 1;
-  background-color: rgb(57 167 247 / var(--tw-bg-opacity));
-}
-
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
-}
-
-.object-fill {
-  -o-object-fit: fill;
-     object-fit: fill;
 }
 
 .px-12 {
@@ -931,6 +914,11 @@ video {
   padding-right: 2rem;
 }
 
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
 .py-20 {
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -946,11 +934,6 @@ video {
   padding-bottom: 2rem;
 }
 
-.py-1 {
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
-}
-
 .pb-8 {
   padding-bottom: 2rem;
 }
@@ -961,10 +944,6 @@ video {
 
 .text-center {
   text-align: center;
-}
-
-.align-baseline {
-  vertical-align: baseline;
 }
 
 .text-2xl {

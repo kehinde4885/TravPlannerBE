@@ -1,6 +1,7 @@
 //JSON
 const countryData = require("../MynewFile4.json");
 const flights = require("../mockFlights.json");
+const Bottleneck = require("bottleneck");
 
 function getCountryAbout() {
   const gottenCities = this.getCities();
@@ -148,8 +149,84 @@ function getTime(strings) {
   return strings.slice(index + 1, index + 6);
 }
 
-function detailedHotelsSearch(hotels) {
-  // creates an array of Promises
+async function detailedHotelsSearch(hotels) {
+  const limiter = new Bottleneck({ minTime: 8000, maxConcurrent: 1 });
+  //OR this is returned to external await
+  // return limiter
+  //   .schedule(() => {
+  //     // creates an array of Promises
+
+  //     const promiseToGetHotels = hotels.map((hotel, index) => {
+  //       //Create a new Promise for each hotel in the hotels array
+  //       // The promise Resolves to an object with more
+  //       // detailed informatiion about each hotel
+  //       const id = hotel.location_id;
+  //       const promise = new Promise((resolve, reject) => {
+  //         const url = `https://api.content.tripadvisor.com/api/v1/location/${id}/details?language=en&currency=USD&key=${process.env.TRIPADVISOR}`;
+  //         const options = {
+  //           method: "GET",
+  //           headers: { accept: "application/json" },
+  //         };
+
+  //         fetch(url, options)
+  //           .then((res) => res.json())
+  //           .then((json) => {
+  //             console.log("got hotel", index);
+  //             //console.log(json)
+  //             resolve(json);
+  //           })
+  //           .catch((err) => {
+  //             console.error("Get Detailed Hotel error:" + err);
+  //             reject(err);
+  //           });
+  //       });
+
+  //       return promise;
+  //     });
+
+  //     return Promise.allSettled(promiseToGetHotels);
+  //   })
+  //   .then((results) => {
+  //     const promiseToGetPictures = results.map((result) => {
+  //       const hotel = result.value;
+  //       const id = hotel.location_id;
+  //       //create an array of promises
+  //       const promise = new Promise((resolve, reject) => {
+  //         const url = `https://api.content.tripadvisor.com/api/v1/location/${id}/photos?language=en&limit=1&key=${process.env.TRIPADVISOR}`;
+  //         const options = {
+  //           method: "GET",
+  //           headers: { accept: "application/json" },
+  //         };
+
+  //         fetch(url, options)
+  //           .then((res) => res.json())
+  //           .then((images) => {
+  //             //Combine both Fetch Requests Here
+  //             console.log("combining Images");
+  //             //console.log(images)
+  //             //console.log({ ...json, images });
+  //             //return ;
+  //             resolve({ ...hotel, images });
+  //           })
+  //           .catch((err) => console.error("Get Images error:" + err));
+  //       });
+
+  //       return promise;
+  //     });
+
+  //     //this return another Promuse to the iswear Promuse Statement
+  //     return Promise.allSettled(promiseToGetPictures);
+  //   })
+  //   .then((final) => {
+  //     return final;
+  //   });
+  //Limiter Function ends Here
+  //++++++++++++++++++++++++++++++++++++++//
+
+  
+  //++++++++++++++++++++++++++++++++++++/
+  //Alternative implemented with setTimeout and Promises
+  //creates an array of Promises
   const promiseToGetHotels = hotels.map((hotel, index) => {
     //Create a new Promise for each hotel in the hotels array
     // The promise Resolves to an object with more
@@ -178,46 +255,53 @@ function detailedHotelsSearch(hotels) {
     return promise;
   });
 
-  //Promise.allSettled check each promise in the
-  //Earlier created array and returns a promise for them
-  const iSwear = Promise.allSettled(promiseToGetHotels).then((results) => {
-    const promiseToGetPictures = results.map((result) => {
-      const hotel = result.value;
-      const id = hotel.location_id;
-      //create an array of promises
-      const promise = new Promise((resolve, reject) => {
-        const url = `https://api.content.tripadvisor.com/api/v1/location/${id}/photos?language=en&limit=1&key=${process.env.TRIPADVISOR}`;
-        const options = {
-          method: "GET",
-          headers: { accept: "application/json" },
-        };
+  // Promise.allSettled check each promise in the
+  // Earlier created array and returns a promise for them
+  // The delay function here implements a wait time before asking
+  // if the hotels have been gotten
+  const delay = (ms) => {
+    return new Promise((resolve, reject) => {
+      setTimeout(() => {
+        Promise.allSettled(promiseToGetHotels).then((results) =>
+          resolve(results)
+        );
+      }, ms);
+    });
+  };
 
-        fetch(url, options)
-          .then((res) => res.json())
-          .then((images) => {
-            //Combine both Fetch Requests Here
-            console.log("combining Images");
-            //console.log(images)
-            //console.log({ ...json, images });
-            //return ;
-            resolve({ ...hotel, images });
-          })
-          .catch((err) => console.error("Get Images error:" + err));
-      });
+  //Waits for the results of the delay function
+  const iSwear = await delay(1000);
 
-      return promise;
+  const promiseToGetPictures = iSwear.map((result) => {
+    const hotel = result.value;
+    const id = hotel.location_id;
+    //create an array of promises
+    const promise = new Promise((resolve, reject) => {
+      const url = `https://api.content.tripadvisor.com/api/v1/location/${id}/photos?language=en&limit=1&key=${process.env.TRIPADVISOR}`;
+      const options = {
+        method: "GET",
+        headers: { accept: "application/json" },
+      };
+
+      fetch(url, options)
+        .then((res) => res.json())
+        .then((images) => {
+          //Combine both Fetch Requests Here
+          console.log("combining Images");
+          //console.log(images)
+          //console.log({ ...json, images });
+          //return ;
+          resolve({ ...hotel, images });
+        })
+        .catch((err) => console.error("Get Images error:" + err));
     });
 
-    //this return another Promuse to the iswear Promuse Statement
-    return Promise.allSettled(promiseToGetPictures);
+    return promise;
   });
 
-  const iSwear2 = iSwear.then((final) => {
-    return final;
-  });
 
-  //console.log(iSwear2)
-  return iSwear2;
+  //OR this is returned to external await
+  return Promise.allSettled(promiseToGetPictures);
 }
 
 function hotelSearch(country) {

@@ -19,7 +19,7 @@ const {
   getOriginWithIP,
   detailedHotelsSearch,
   convertPriceRange,
-  hotelSearch
+  hotelSearch,
 } = require("../helpers/utils");
 
 exports.countryInfo_get = (req, res) => {
@@ -123,6 +123,7 @@ exports.travelInfo_getHotels = async (req, res) => {
     const hotelsToDisplay = detailedHotels.map((hotel, index) => {
       const value = hotel.value;
       //console.log("From hotelsTD",index, value)
+      console.log("Processing INdex:", index);
 
       const {
         name,
@@ -140,7 +141,7 @@ exports.travelInfo_getHotels = async (req, res) => {
 
       return {
         name,
-        description: description.slice(0,70).trim().concat("..."),
+        description: description.slice(0, 70).trim().concat("..."),
         web_url,
         // address: address_obj["address_string"],
         // ranking_data: ranking_data.ranking_string,
@@ -159,5 +160,3 @@ exports.travelInfo_getHotels = async (req, res) => {
     console.log("Async Error", error);
   }
 };
-
-

@@ -17,3 +17,19 @@ IMPORTANT..
 Sometimes API gives Error of Too Many Requests, and messes uo the data to be rendered, I dont know how to fix
 - Perhaps  a way to batch the request, or delay the Request using setTimeout
 
+Error
+{
+    "status": "fulfilled",
+    "value": {
+      "message": "Too Many Requests",
+      "images": {
+        "error": {
+          "message": "Required parameter locationId should be a valid number to fetch location photos",
+          "type": "BadRequestException",
+          "code": 400
+        }
+      }
+    }
+  },
+
+  ***Batch the Detailed Search into Groups of 5

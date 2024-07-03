@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "bottleneck": "^2.19.5",
     "express": "^4.19.2",
     "luxon": "^3.4.4",
     "morgan": "^1.10.0",

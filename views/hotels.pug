@@ -4,13 +4,13 @@ block content
   each hotel in hotels
     a(href=hotel.web_url) 
       article.customShadow.flex.gap-32.pr-8
-        div(class=["basis-[35%]"]) 
-          img.h-full.object-cover(src=hotel.image, alt="image of an Hotel")
+        div(class=["aspect-video","basis-[35%]"]) 
+          img.h-full.w-full.object-cover(src=hotel.image, alt="image of an Hotel")
 
         .my-10.space-y-6
           .flex.gap-3
             h3.rockbold.text-xl.leading-none #{ hotel.name }
-            span.label2.kanitmed.self-end #{ hotel.priceLevel }
+            span.label2.kanitmed.self-end #{ hotel.price_level }
           .flex.gap-2
             img(src=hotel.rating_image_url, alt="")
           p.kanitextl.text-base(class=["max-w-[28ch]"]) #{hotel.description}
