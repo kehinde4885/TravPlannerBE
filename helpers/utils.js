@@ -4,6 +4,8 @@ const flights = require("../mockFlights.json");
 const Bottleneck = require("bottleneck");
 
 function getCountryAbout() {
+   //Used inside a Class/Object
+  //Used as a Method
   const gottenCities = this.getCities();
 
   return `Welcome to ${this.name}, a land of profound history and rugged beauty
@@ -30,6 +32,8 @@ function getCountryAbout() {
 }
 
 function getCities() {
+  //Used inside a Class/Object
+  //Used as a Method
   const isArray = Array.isArray(this.majorCities);
 
   if (!isArray) {
@@ -72,6 +76,9 @@ async function getFlights(originID, destinationID, departDate) {
   return result;
 }
 
+
+
+
 async function getOriginWithIP(ip) {
   // get Location name from Abstract API
   // Use Environment Variables for API Keys
@@ -89,10 +96,12 @@ async function getOriginWithIP(ip) {
   let response = await fetch(url);
   let location = await response.json();
 
-  const origin = { city: location.city, country: location.country };
+  return location
+
+  //const origin = { city: location.city, country: location.country };
 
   //console.log(`getOrignWithIP,${origin}`);
-  return origin;
+  //return origin;
 }
 
 //  Get Entity ID
@@ -131,7 +140,7 @@ async function getEntityID(location) {
   //return data.data[0].presentation.skyId;
 }
 
-// Get CountryJSON
+// Get Country from Local JSON
 function getCountry(country) {
   return countryData.find((e) => {
     return country.toUpperCase() === e.name.toUpperCase();
@@ -223,7 +232,6 @@ async function detailedHotelsSearch(hotels) {
   //Limiter Function ends Here
   //++++++++++++++++++++++++++++++++++++++//
 
-  
   //++++++++++++++++++++++++++++++++++++/
   //Alternative implemented with setTimeout and Promises
   //creates an array of Promises
@@ -270,7 +278,7 @@ async function detailedHotelsSearch(hotels) {
   };
 
   //Waits for the results of the delay function
-  const iSwear = await delay(1000);
+  const iSwear = await delay(5000);
 
   const promiseToGetPictures = iSwear.map((result) => {
     const hotel = result.value;
@@ -298,7 +306,6 @@ async function detailedHotelsSearch(hotels) {
 
     return promise;
   });
-
 
   //OR this is returned to external await
   return Promise.allSettled(promiseToGetPictures);

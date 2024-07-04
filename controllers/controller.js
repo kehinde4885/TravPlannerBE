@@ -52,7 +52,11 @@ exports.travelInfo_getFlights = async (req, res) => {
   //console.log(`IP`, ip);
 
   try {
-    const origin = await getOriginWithIP(ip);
+    const { city, country } = await getOriginWithIP(ip);
+    const origin = {
+      city,
+      country,
+    };
     console.log(`origin`, origin);
     const destination = {
       city: getCountry(req.params.country).capital,
@@ -77,7 +81,7 @@ exports.travelInfo_getFlights = async (req, res) => {
 
     const flights = await getFlights(originID, destinationID, date);
 
-    console.log("Flights", flights);
+    //console.log("Flights", flights);
 
     const data = flights.data.itineraries.map((e) => {
       return {
@@ -92,7 +96,7 @@ exports.travelInfo_getFlights = async (req, res) => {
       };
     });
 
-    console.log("Data", data);
+    //console.log("Data", data);
 
     res.render("flights", { flights: data });
   } catch (error) {
@@ -154,9 +158,164 @@ exports.travelInfo_getHotels = async (req, res) => {
       };
     });
 
-
     res.render("hotels", { hotels: hotelsToDisplay });
   } catch (error) {
     console.log("Async Error", error);
   }
+};
+
+// ***********************
+exports.travelInfo_getWeather = async (req, res) => {
+  try {
+    const { capital: destCapital } = getCountry(req.params.country);
+
+    const { lat, lon } = await geolocation(destCapital);
+
+    const currentWeather = await getCurrentWeather(lat, lon);
+
+    const { list } = await getWeatherForecast(lat, lon);
+
+    //Destructuting
+    const threeHrFocast = list.slice(0, 4).map((element) => {
+      const {
+        dt_txt,
+        main: { temp },
+        weather: [icon],
+      } = element;
+      
+      const isoDate = dt_txt.replace(" ", "T");
+      const time = DateTime.fromISO(isoDate).toLocaleString({
+        hour: "2-digit",
+        minute: "2-digit",
+        hourCycle: "h12",
+      });
+
+      return {
+        time,
+        temp: Math.floor(temp),
+        icon,
+      };
+    });
+    
+    const dailyForecast = [];
+    for (let startIndex = 7; startIndex <= list.length; startIndex += 8) {
+      const {
+        dt,
+        main: { temp },
+        weather: [icon],
+      } = list[startIndex];
+
+      dailyForecast.push({
+        day: DateTime.fromSeconds(dt).weekdayShort,
+        temp: Math.floor(temp),
+        icon,
+      });
+    }
+
+    //DEstructuring
+    const {
+      weather: [{ icon: currentIcon }],
+      main: { temp: currentTemp, feels_like: realFeel, pressure, humidity },
+      wind,
+      dt: date,
+    } = currentWeather;
+
+    const current = {
+      currentIcon,
+      temp: Math.floor(currentTemp),
+      realFeel: Math.floor(realFeel),
+      pressure,
+      humidity,
+      wind: { ...wind, speed: Math.floor(wind.speed) },
+    };
+
+    res.render("weather", {
+      today: current,
+      forecast: dailyForecast,
+      hourly: threeHrFocast,
+    });
+  } catch (error) {
+    console.log("travInfo_GetWeather:", error);
+  }
+};
+
+//************************ */
+// TESTINg
+// exports.travelInfo_getWeather = async (req, res) => {
+//   //console.log(req.params);
+
+//   try {
+//     //const { capital: destCapital } = getCountry(req.params.country);
+
+//     //const { lat, lon } = await geolocation(destCapital);
+
+//     // console.log(destCapital);
+
+//     const currentWeather = await getCurrentWeather(3, 6);
+
+//     //const { list } = await getWeatherForecast(lat, lon);
+
+//     //DEstructuring
+
+//     const {
+//       weather: [{ icon }],
+//       main: { temp, feels_like: realFeel, pressure, humidity },
+//       wind,
+//       dt: date,
+//       sys: { sunrise },
+//     } = currentWeather;
+
+//     console.log(DateTime.fromSeconds(date).toISO());
+
+//     //res.render("weather", [{icon,temp,realFeel, pressure, humidity,wind},{}]);
+//   } catch (error) {}
+// };
+
+// module.exports.travelInfo_getWeather();
+
+async function geolocation(city) {
+  try {
+    const results = await fetch(
+      `http://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=1&appid=${process.env.OPENWEATHER}`
+    );
+
+    const data = await results.json();
+    return data[0];
+  } catch (error) {
+    console.log("geolocation", error);
+  }
+}
+
+async function getCurrentWeather(lat, lon) {
+  try {
+    const results = await fetch(
+      `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${process.env.OPENWEATHER}&units=metric`
+    );
+    const data = await results.json();
+
+    return data;
+  } catch (error) {
+    console.log("getCurrentWeather", error);
+  }
+}
+
+async function getWeatherForecast(lat, lon) {
+  try {
+    const results = await fetch(
+      `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=${process.env.OPENWEATHER}&units=metric`
+    );
+    const data = await results.json();
+
+    return data;
+  } catch (err) {
+    console.log("getWeatherForecast", err);
+  }
+}
+
+exports.travelInfo_getEvents = async (req, res) => {
+  res.send("Events");
+};
+
+exports.travelInfo_getAttractions = async (req, res) => {
+  res.send("Attractions");
 };
