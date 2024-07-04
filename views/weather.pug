@@ -1,0 +1,50 @@
+extend layout.pug 
+block content 
+  main 
+    div.flex.gap-6
+      article(class=['max-w-[450px]', ' shrink-0 ' ,'space-y-5' ,'overflow-hidden', 'rounded-[40px]' ,'border', 'border-black'])
+        div(class=['rounded-t-[40px]', 'bg-sec', 'px-10' ,'py-7'])
+          p.kanitextl.text-base Today
+        //- 
+        .flex.justify-between.px-10.pb-10
+          div 
+            p.rockreg.text-4xl #{today.temp}°
+            .space-y-2 
+              p 
+                span(class=['kanitextl', 'text-[1.125rem]']) Real Feel
+                span(class=['kanitreg', 'text-[1.125rem]'])  #{today.realFeel}°C
+              p 
+                span(class=['kanitextl', 'text-[1.125rem]']) Wind
+                span(class=['kanitreg', 'text-[1.125rem]'])  N#{today.wind.deg}W #{today.wind.speed}m/s
+              p 
+                span(class=['kanitextl', 'text-[1.125rem]']) Pressure
+                span(class=['kanitreg', 'text-[1.125rem]'])  #{today.pressure}hPa
+              p 
+                span(class=['kanitextl', 'text-[1.125rem]']) Humidity
+                span(class=['kanitreg', 'text-[1.125rem]'])  #{today.humidity}%
+          .aspect-square.h-32.w-32.rounded-full
+            - var url = `https://openweathermap.org/img/wn/${today.currentIcon}@4x.png`
+              img(src=url, alt="").h-full.w-full
+              
+      aside.flex.gap-6 
+        each cast in forecast
+          - var url = `https://openweathermap.org/img/wn/${cast.icon}@4x.png`
+            div.self-start(class=['max-w-[200px]' ,'space-y-5' ,'overflow-hidden', 'rounded-[40px]' ,'border', 'border-black' , 'px-4'])
+              div(class=['rounded-t-[40px]']).border-b.px-10.py-7
+                p.kanitextl.text-center.text-base #{cast.day}
+              .flex.flex-col.items-center 
+                p(class=['text-2xl']).rockreg #{cast.temp}°
+                .aspect-square.h-28.w-28.rounded-full 
+                  img(src=url, alt="")
+    div.customShadow.mx-auto.w-max.space-y-7.px-10.py-14(class=['bg-[#EEE3D3]'])
+      p.kanitextl.text-base Today's Metrics
+      div.flex.gap-16
+        each threehour in hourly
+          - var url = `https://openweathermap.org/img/wn/${threehour.icon}@4x.png`
+          div(class=['max-w-[126px]']).flex.flex-col.rounded-xl.bg-pri-20.px-3.py-6 
+            div.aspect-square.h-10.w-10.self-end.rounded-full
+              img.h-full.w-full(src=url alt)
+            p(class=['text-[.625rem]']).kanitextl #{threehour.time} 
+            p.rockreg.text-sm #{threehour.temp}°
+
+        

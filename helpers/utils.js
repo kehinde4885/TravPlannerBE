@@ -2,9 +2,10 @@
 const countryData = require("../MynewFile4.json");
 const flights = require("../mockFlights.json");
 const Bottleneck = require("bottleneck");
+const { DateTime } = require("luxon");
 
 function getCountryAbout() {
-   //Used inside a Class/Object
+  //Used inside a Class/Object
   //Used as a Method
   const gottenCities = this.getCities();
 
@@ -76,9 +77,6 @@ async function getFlights(originID, destinationID, departDate) {
   return result;
 }
 
-
-
-
 async function getOriginWithIP(ip) {
   // get Location name from Abstract API
   // Use Environment Variables for API Keys
@@ -96,7 +94,7 @@ async function getOriginWithIP(ip) {
   let response = await fetch(url);
   let location = await response.json();
 
-  return location
+  return location;
 
   //const origin = { city: location.city, country: location.country };
 
@@ -366,6 +364,111 @@ const detailImageFetch = async (id) => {
   return data;
 };
 
+async function getGeolocation(city) {
+  try {
+    const results = await fetch(
+      `http://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=1&appid=${process.env.OPENWEATHER}`
+    );
+
+    const data = await results.json();
+    return data[0];
+  } catch (error) {
+    console.log("geolocation", error);
+  }
+}
+
+async function getCurrentWeather(lat, lon) {
+  try {
+    const results = await fetch(
+      `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${process.env.OPENWEATHER}&units=metric`
+    );
+    const data = await results.json();
+
+    return data;
+  } catch (error) {
+    console.log("getCurrentWeather", error);
+  }
+}
+
+async function getWeatherForecast(lat, lon) {
+  try {
+    const results = await fetch(
+      `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=${process.env.OPENWEATHER}&units=metric`
+    );
+    const data = await results.json();
+
+    return data;
+  } catch (err) {
+    console.log("getWeatherForecast", err);
+  }
+}
+
+function popDailyForecast(list) {
+  const dailyForecast = [];
+  for (let startIndex = 7; startIndex <= list.length; startIndex += 8) {
+    const {
+      dt,
+      main: { temp },
+      weather: [{ icon }],
+    } = list[startIndex];
+
+    dailyForecast.push({
+      day: DateTime.fromSeconds(dt).weekdayShort,
+      temp: Math.floor(temp),
+      icon,
+    });
+  }
+
+  return dailyForecast;
+}
+
+function pop3hoursForecast(list) {
+  //Destructuting
+  const threeHrFocast = list.slice(0, 4).map((element) => {
+    const {
+      dt_txt,
+      main: { temp },
+      weather: [{ icon }],
+    } = element;
+
+    const isoDate = dt_txt.replace(" ", "T");
+    const time = DateTime.fromISO(isoDate).toLocaleString({
+      hour: "2-digit",
+      minute: "2-digit",
+      hourCycle: "h12",
+    });
+
+    return {
+      time,
+      temp: Math.floor(temp),
+      icon,
+    };
+  });
+
+  return threeHrFocast;
+}
+
+function popTodayWeather(currentWeather) {
+  //DEstructuring
+  const {
+    weather: [{ icon: currentIcon }],
+    main: { temp: currentTemp, feels_like: realFeel, pressure, humidity },
+    wind,
+    dt: date,
+  } = currentWeather;
+
+  const current = {
+    currentIcon,
+    temp: Math.floor(currentTemp),
+    realFeel: Math.floor(realFeel),
+    pressure,
+    humidity,
+    wind: { ...wind, speed: Math.floor(wind.speed) },
+  };
+
+  return current;
+}
+
 module.exports = {
   getCities,
   getCountryAbout,
@@ -378,4 +481,10 @@ module.exports = {
   detailedHotelsSearch,
   hotelSearch,
   convertPriceRange,
+  getGeolocation,
+  getCurrentWeather,
+  getWeatherForecast,
+  popDailyForecast,
+  pop3hoursForecast,
+  popTodayWeather,
 };

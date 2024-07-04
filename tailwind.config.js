@@ -8,7 +8,10 @@ module.exports = {
   content: ["./public/*.html", "./views/*.pug", "./*.html"],
   theme: {
     colors: {
-      pri: "#39A7F7",
+      pri: {
+        DEFAULT: "#39A7F7",
+        20: "#A3BCCE"
+      },
       sec: "#F7AA39",
       ter: "#A2865B",
       black: {

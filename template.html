@@ -7,126 +7,209 @@
     <title>Document</title>
   </head>
   <body>
-    <a href="http://www.google.com">
-      <article class="customShadow flex gap-32 pr-8">
-        <div class="aspect-video basis-[35%]">
-          <img
-            class="h-full object-cover"
-            src="/public/images/hotel.jpg"
-            alt="" />
-        </div>
-
-        <div class="my-10 space-y-6">
-          <div class="flex gap-3">
-            <h3 class="rockbold text-xl leading-none">The Cove</h3>
-            <span class="label2 kanitmed self-end">Expensive</span>
+    <main>
+      <div class="flex gap-6">
+        <article
+          class="max-w-[450px] shrink-0 space-y-5 overflow-hidden rounded-[40px] border border-black">
+          <div class="rounded-t-[40px] bg-sec px-10 py-7">
+            <p class="kanitextl text-base">Today</p>
           </div>
-          <div class="flex gap-2">
-            <span class="h-8 w-8 rounded-full bg-sec"></span>
-            <span class="h-8 w-8 rounded-full bg-sec"></span>
-            <span class="h-8 w-8 rounded-full bg-sec"></span>
-            <span class="h-8 w-8 rounded-full bg-sec"></span>
-            <span class="h-8 w-8 rounded-full bg-black-25"></span>
+          <!--  -->
+
+          <div class="flex justify-between px-10 pb-10">
+            <div>
+              <p class="rockreg text-4xl">17°</p>
+
+              <div class="space-y-2">
+                <p>
+                  <span class="kanitextl text-[1.125rem]">Real Feel</span>
+                  <span class="kanitreg text-[1.125rem]">24°C</span>
+                </p>
+                <p>
+                  <span class="kanitextl text-[1.125rem]">Wind</span>
+                  <span class="kanitreg text-[1.125rem]">N250W 2m/s</span>
+                </p>
+                <p>
+                  <span class="kanitextl text-[1.125rem]">Pressure</span>
+                  <span class="kanitreg text-[1.125rem]">1000PHa</span>
+                </p>
+                <p>
+                  <span class="kanitextl text-[1.125rem]">Humidity</span>
+                  <span class="kanitreg text-[1.125rem]">51%</span>
+                </p>
+              </div>
+            </div>
+            <!--  -->
+            <div class="aspect-square h-32 w-32 rounded-full">
+              <img
+                class="h-full w-full"
+                src="https://openweathermap.org/img/wn/10d@4x.png"
+                alt="" />
+              <!-- <img src="public/images/10d@4x.png" alt="" /> -->
+            </div>
           </div>
-          <p class="kanitextl max-w-[28ch] text-base">
-            Rosewood London combines English heritage with contemporary
-            sophistication in the very heart of the capital. The Grade
-            II-listed, building has been renovated to provide accommodation with
-            the feel of a stylish London residence. The guestrooms and suites
-            are inspired by a traditional British manor house. The restaurants
-            and bars are destinations in their own right. Recreational
-            facilities include the Sense, A Rosewood Spa, Rosewood's signature
-            spa brand, and a well-equipped fitness suite.
-          </p>
+        </article>
 
-          <div class="flex w-3/4 flex-wrap gap-4">
-            <span
-              class="kanitextl rounded bg-pri px-4 py-1 text-base text-white"
-              >Spa</span
-            >
-            <span
-              class="kanitextl rounded bg-pri px-4 py-1 text-base text-white"
-              >Wifi</span
-            >
-            <span
-              class="kanitextl rounded bg-pri px-4 py-1 text-base text-white"
-              >Restaurant</span
-            >
-            <span
-              class="kanitextl rounded bg-pri px-4 py-1 text-base text-white"
-              >Room Service</span
-            >
-            <span
-              class="kanitextl rounded bg-pri px-4 py-1 text-base text-white"
-              >Laundry Service</span
-            >
+        <aside class="flex gap-6">
+          <!--  -->
+          <div
+            class="max-w-[200px] space-y-5 overflow-hidden rounded-[40px] border border-black px-4">
+            <div class="rounded-t-[40px] border-b px-10 py-7">
+              <p class="kanitextl text-center text-base">Mon</p>
+            </div>
+
+            <div class="flex flex-col items-center">
+              <p class="rockreg text-[4.6875rem]">17°</p>
+
+              <div class="aspect-square h-28 w-28 rounded-full">
+                <img
+                  class="h-full w-full"
+                  src="https://openweathermap.org/img/wn/10d@4x.png"
+                  alt="" />
+                <!-- <img src="public/images/10d@4x.png" alt="" /> -->
+              </div>
+            </div>
           </div>
-        </div>
-      </article>
-    </a>
+          <!--  -->
+          <div
+            class="max-w-[200px] space-y-5 overflow-hidden rounded-[40px] border border-black px-4">
+            <div class="rounded-t-[40px] border-b px-10 py-7">
+              <p class="kanitextl text-center text-base">Mon</p>
+            </div>
 
-    <!-- <div class="bg-ter px-8 py-20">
-      <form class="flex gap-[6px] py-8" action="">
-        <div
-          class="flex h-32 grow flex-col bg-[#d9d9d9] px-4 first:rounded-l-lg last:rounded-r-lg has-[:focus]:ring-4">
-          <label class="kanitextl block text-[1.5rem]" for="location"
-            >Location</label
-          >
-          <input
-            class="w-full basis-full bg-[transparent] text-lg outline-none"
-            type="text" />
-        </div>
+            <div class="flex flex-col items-center">
+              <p class="rockreg text-[4.6875rem]">17°</p>
 
-        <div
-          class="flex h-32 grow flex-col bg-[#d9d9d9] px-4 first:rounded-l-lg last:rounded-r-lg has-[:focus]:ring-4">
-          <label class="kanitextl block text-[1.5rem]" for="location"
-            >Date</label
-          >
-          <input
-            class="w-full basis-full bg-[transparent] text-lg outline-none"
-            type="text" />
-        </div>
-        <div
-          class="flex h-32 grow flex-col bg-[#d9d9d9] px-4 first:rounded-l-lg last:rounded-r-lg has-[:focus]:ring-4">
-          <label class="kanitextl block text-[1.5rem]" for="location"
-            >Depart</label
-          >
-          <input
-            class="w-full basis-full bg-[transparent] text-lg outline-none"
-            type="text" />
-        </div>
-        <div
-          class="flex h-32 grow flex-col bg-[#d9d9d9] px-4 first:rounded-l-lg last:rounded-r-lg has-[:focus]:ring-4">
-          <label class="kanitextl block text-[1.5rem]" for="location"
-            >Return</label
-          >
-          <input
-            class="w-full basis-full bg-[transparent] text-lg outline-none"
-            type="text" />
-        </div>
-        <div
-          class="flex h-32 grow flex-col bg-[#d9d9d9] px-4 first:rounded-l-lg last:rounded-r-lg has-[:focus]:ring-4">
-          <label class="kanitextl block text-[1.5rem]" for="location"
-            >Travellers and Cabin CLass</label
-          >
-          <input
-            class="w-full basis-full bg-[transparent] text-lg outline-none"
-            type="text" />
-        </div>
-      </form>
-    </div>
+              <div class="aspect-square h-28 w-28 rounded-full">
+                <img
+                  class="h-full w-full"
+                  src="https://openweathermap.org/img/wn/10d@4x.png"
+                  alt="" />
+                <!-- <img src="public/images/10d@4x.png" alt="" /> -->
+              </div>
+            </div>
+          </div>
+          <!--  -->
+          <div
+            class="max-w-[200px] space-y-5 overflow-hidden rounded-[40px] border border-black px-4">
+            <div class="rounded-t-[40px] border-b px-10 py-7">
+              <p class="kanitextl text-center text-base">Mon</p>
+            </div>
 
-    <div class="customShadow flex items-center">
-      <p class="rocklight text-xl basis-0">Qatar Airways</p>
-      <div class="text-center grow flex flex-col gap-4">
-        <p class="rockbold">Lagos, Nigeria - Tokyo, Japan</p>
-        <p class="kanitextl text-base">180 Minutes</p>
-        <p class="kanitextl text-base">Stops: 1</p>
-        <p class="rocklight text-xl">
-          <span>17:30</span> 
-          <span>4:30</span></p>
-        <p class="rockbold text-xl">$750</p>
+            <div class="flex flex-col items-center">
+              <p class="rockreg text-[4.6875rem]">17°</p>
+
+              <div class="aspect-square h-28 w-28 rounded-full">
+                <img
+                  class="h-full w-full"
+                  src="https://openweathermap.org/img/wn/10d@4x.png"
+                  alt="" />
+                <!-- <img src="public/images/10d@4x.png" alt="" /> -->
+              </div>
+            </div>
+          </div>
+          <!--  -->
+          <div
+            class="max-w-[200px] space-y-5 overflow-hidden rounded-[40px] border border-black px-4">
+            <div class="rounded-t-[40px] border-b px-10 py-7">
+              <p class="kanitextl text-center text-base">Mon</p>
+            </div>
+
+            <div class="flex flex-col items-center">
+              <p class="rockreg text-[4.6875rem]">17°</p>
+
+              <div class="aspect-square h-28 w-28 rounded-full">
+                <img
+                  class="h-full w-full"
+                  src="https://openweathermap.org/img/wn/10d@4x.png"
+                  alt="" />
+                <!-- <img src="public/images/10d@4x.png" alt="" /> -->
+              </div>
+            </div>
+          </div>
+          <!--  -->
+          <div
+            class="max-w-[200px] space-y-5 overflow-hidden rounded-[40px] border border-black px-4">
+            <div class="rounded-t-[40px] border-b px-10 py-7">
+              <p class="kanitextl text-center text-base">Mon</p>
+            </div>
+
+            <div class="flex flex-col items-center">
+              <p class="rockreg text-[4.6875rem]">17°</p>
+
+              <div class="aspect-square h-28 w-28 rounded-full">
+                <img
+                  class="h-full w-full"
+                  src="https://openweathermap.org/img/wn/10d@4x.png"
+                  alt="" />
+                <!-- <img src="public/images/10d@4x.png" alt="" /> -->
+              </div>
+            </div>
+          </div>
+          <!--  -->
+        </aside>
       </div>
-    </div> -->
+
+      <div
+        class="customShadow mx-auto w-max space-y-7 bg-[#EEE3D3] px-10 py-14">
+        <p class="kanitextl text-base">Today's Metrics</p>
+
+        <div class="flex gap-16">
+          <!--  -->
+          <div
+            class="flex max-w-[126px] flex-col rounded-xl bg-pri-20 px-3 py-6">
+            <div class="aspect-square h-10 w-10 self-end rounded-full">
+              <img
+                class="h-full w-full"
+                src="https://openweathermap.org/img/wn/10d@4x.png"
+                alt="" />
+              <!-- <img src="public/images/10d@4x.png" alt="" /> -->
+            </div>
+            <p class="kanitextl text-[.625rem]">11:00 AM</p>
+            <p class="rockreg text-sm">17°</p>
+          </div>
+          <!--  -->
+          <div
+            class="flex max-w-[126px] flex-col rounded-xl bg-pri-20 px-3 py-6">
+            <div class="aspect-square h-10 w-10 self-end rounded-full">
+              <img
+                class="h-full w-full"
+                src="https://openweathermap.org/img/wn/10d@4x.png"
+                alt="" />
+              <!-- <img src="public/images/10d@4x.png" alt="" /> -->
+            </div>
+            <p class="kanitextl text-[.625rem]">11:00 AM</p>
+            <p class="rockreg text-sm">17°</p>
+          </div>
+          <!--  -->
+          <div
+            class="flex max-w-[126px] flex-col rounded-xl bg-pri-20 px-3 py-6">
+            <div class="aspect-square h-10 w-10 self-end rounded-full">
+              <img
+                class="h-full w-full"
+                src="https://openweathermap.org/img/wn/10d@4x.png"
+                alt="" />
+              <!-- <img src="public/images/10d@4x.png" alt="" /> -->
+            </div>
+            <p class="kanitextl text-[.625rem]">11:00 AM</p>
+            <p class="rockreg text-sm">17°</p>
+          </div>
+          <!--  -->
+          <div
+            class="flex max-w-[126px] flex-col rounded-xl bg-pri-20 px-3 py-6">
+            <div class="aspect-square h-10 w-10 self-end rounded-full">
+              <img
+                class="h-full w-full"
+                src="https://openweathermap.org/img/wn/10d@4x.png"
+                alt="" />
+              <!-- <img src="public/images/10d@4x.png" alt="" /> -->
+            </div>
+            <p class="kanitextl text-[.625rem]">11:00 AM</p>
+            <p class="rockreg text-sm">17°</p>
+          </div>
+          <!--  -->
+        </div>
+      </div>
+    </main>
   </body>
 </html>

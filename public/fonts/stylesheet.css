@@ -25,6 +25,14 @@
 }
 
 @font-face {
+  font-family: 'kanitregular';
+  src: url('fonts/kanit-regular-webfont.woff2') format('woff2'),
+       url('fonts/kanit-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: "rockwell_novaregular";
   src: url("fonts/rockwellnova-webfont.woff2") format("woff2"),
     url("fonts/rockwellnova-webfont.woff") format("woff");
