@@ -7,12 +7,16 @@
     <link rel="stylesheet" href="./output.css" />
   </head>
   <body class="layout">
-    <form action="/home" id="mypopover" popover class="popover">
-      <input
-        class="searchBar"
-        type="search"
-        name="country"
-        placeholder="Search by Country..." />
+    <div popover id="mypopover" popover class="popover">
+      <form action="/home" class="w-full text-center">
+        <input
+          class="searchBar"
+          type="search"
+          name="country"
+          placeholder="Search by Country..." />
+
+        <button>Search</button>
+      </form>
 
       <button
         id="button"
@@ -21,9 +25,7 @@
         class="absolute right-24 top-14 w-12 text-white">
         <img src="images/close.svg" alt="" />
       </button>
-
-      <button>Search</button>
-    </form>
+    </div>
 
     <header class="flex flex-row items-center justify-between">
       <picture>
@@ -132,7 +134,7 @@
     </section>
 
     <footer
-      class="kanitextl flex h-60 items-end justify-between bg-black-75 pb-8 text-base text-white">
+      class="kanitextl flex h-60 items-end justify-between px-24 bg-black-75 pb-8 text-base text-white">
       <p>Copyright@2024</p>
       <p>
         Designed and Developed<br />

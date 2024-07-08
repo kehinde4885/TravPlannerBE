@@ -87,7 +87,7 @@
   }
 
   .popover:popover-open {
-    @apply flex h-screen w-screen items-center justify-center bg-ter;
+    @apply  flex h-screen w-screen items-center justify-center bg-ter;
   }
 
   .layout > :is(section) {

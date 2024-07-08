@@ -1,0 +1,22 @@
+extends layout
+
+block content
+  h1.rockreg.text-2xl.text-black #{`Upcoming events in ${country}`}
+
+  main.relative.grid.grid-cols-2.gap-36
+    span.line
+    each event in events 
+      .flex.shrink-0.gap-14
+        .self-center(class=['h-4/5','basis-1/2'])
+          img.h-full.w-full.object-cover(src='/images/festival.jpg' alt)
+        .space-y-8(class=['basis-1/2'])
+          h2.rockbold.text-xl #{event.title}
+          p.kanitextl.w-fit.text-base.text-black #{event.description}
+          .flex.flex-col.gap-6
+            .flex.flex-col.gap-6 
+              span.kanitextl.w-max.rounded.bg-pri.px-8.py-2.text-base.text-white #{event.category}
+              span.kanitextl.w-max.rounded.bg-pri.px-8.py-2.text-base.text-white #{event.start}
+            .flex.flex-col.gap-6 
+              span.kanitextl.w-max.rounded.bg-pri.px-8.py-2.text-base.text-white #{event.duration}
+            span.kanitextl.w-max.rounded.bg-pri.px-8.py-2.text-base.text-white #{event.address}
+  

@@ -3,6 +3,7 @@ const countryData = require("../MyCountries.json");
 const Bottleneck = require("bottleneck");
 const { DateTime } = require("luxon");
 
+
 function getCountryAbout() {
   //Used inside a Class/Object
   //Used as a Method
@@ -144,11 +145,14 @@ function getCountry(country) {
   });
 }
 
-function getHours(minutes) {
+function convMintoHours(minutes) {
   let hours = Math.floor(minutes / 60);
   let min = minutes % 60;
+
   return `${hours}H ${min}Min`;
 }
+
+
 
 function getTime(strings) {
   let index = strings.indexOf("T");
@@ -475,7 +479,7 @@ module.exports = {
   getOriginWithIP,
   getEntityID,
   getCountry,
-  getHours,
+  convMintoHours,
   getTime,
   detailedHotelsSearch,
   hotelSearch,

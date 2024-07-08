@@ -1,11 +1,8 @@
 let fs = require("fs");
 const { DateTime } = require("luxon");
-// exports.book_update_get = asyncHandler(async (req, res, next) => {
 
 //Environment Variables
 require("dotenv").config();
-
-const flights = require("../mockFlights.json");
 
 //Helpers
 const {
@@ -15,7 +12,7 @@ const {
   getCountry,
   getEntityID,
   getFlights,
-  getHours,
+  convMintoHours,
   getOriginWithIP,
   detailedHotelsSearch,
   convertPriceRange,
@@ -95,7 +92,7 @@ exports.travelInfo_getFlights = async (req, res) => {
         origin: `${e.legs[0].origin.city}, ${e.legs[0].origin.country}`,
         destination: `${e.legs[0].destination.city}, ${e.legs[0].destination.country}`,
         carrier: e.legs[0].carriers.marketing[0].name,
-        duration: getHours(e.legs[0].durationInMinutes),
+        duration: convMintoHours(e.legs[0].durationInMinutes),
         stops: e.legs[0].stopCount,
         departure: getTime(e.legs[0].departure),
         arrival: getTime(e.legs[0].arrival),
@@ -171,6 +168,7 @@ exports.travelInfo_getHotels = async (req, res) => {
 };
 
 // ***********************
+
 exports.travelInfo_getWeather = async (req, res) => {
   try {
     const { capital: destCapital } = getCountry(req.params.country);
@@ -232,7 +230,58 @@ exports.travelInfo_getWeather = async (req, res) => {
 // module.exports.travelInfo_getWeather();
 
 exports.travelInfo_getEvents = async (req, res) => {
-  res.send("Events");
+  //Implement Fallback api with Rapid
+
+  const country = req.params.country;
+  //get country object
+  const countryIso = getCountry(country).iso2;
+
+  //get events file through commonJS import, relative to this file
+  const events = require(`../Datafiles/${countryIso}.json`);
+
+  //Filter the Events by date for Relevancy
+  //Filter function
+
+  //Destructure
+  const toRender = events.map((event) => {
+    let {
+      title,
+      description,
+      category,
+      start,
+      geo: {
+        address: { formatted_address: address },
+      },
+      labels,
+      duration,
+    } = event;
+
+    start = DateTime.fromISO(start).toLocaleString({
+      month: "short",
+      day: "2-digit",
+      year: "numeric",
+    });
+
+    duration = convMintoHours(Math.floor(duration/60))
+   
+    return {
+      title,
+      description,
+      category,
+      start,
+      duration,
+      address,
+      labels,
+    };
+  });
+
+  // render the Events view template
+  // with 10 Events
+  res.render("events", { events: toRender.slice(0, 10), country: country });
+
+  // get the File of the country
+  // Array of Events
+  // Each event is an Object
 };
 
 exports.travelInfo_getAttractions = async (req, res) => {
