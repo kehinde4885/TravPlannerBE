@@ -1,5 +1,6 @@
 let fs = require("fs");
 
+//Sorts Helsinki
 function function1() {
   //Sort Helsinki
   //temporary Arr
@@ -8,11 +9,12 @@ function function1() {
 
   let helsinki = require("../json/HelsinkiSorted.json");
 
+  //Push out only required data for Sorting
   helsinki.map((e, index) => {
     arr.push({ index: index, value: e.name.common });
   });
 
-  // // //console.log(arr.length);
+  //Sort Alphabetically
   arr.sort((a, b) => {
     const nameA = a.value.toUpperCase();
     const nameB = b.value.toUpperCase();
@@ -28,34 +30,41 @@ function function1() {
     return 0;
   });
 
+  //Using the Sorted Array,
+  //Push the complete data from helsinki into a new array
+  //Which would also now be sorted
   arr.map((e) => {
     arr3.push(helsinki[e.index]);
   });
 
+  //Store in File
   fs.writeFile("HelsinkiSorted.json", JSON.stringify(arr3), function (err) {
     if (err) throw err;
     console.log("saved");
   });
 }
 
-function1();
-
+//Creates My File from sorted County,City,State
 function function2() {
   //Create MyFile from Country City State
   //Function 2
-  const model2 = require("../coutStatCit2.0.json");
+  //const model2 = require("../coutStatCit2.0.json");
+  const model2 = require("../coutStatCit2.0Sorted.json");
 
   let model3 = model2.map((element) => {
     // Gets the states array
     // Find the state that has the same name with the capital
 
     let capitalStateObject = element.states.find((e) =>
+      //Find the State object of the Capital state
       e.name.includes(element.capital)
     );
 
     //ARRAY
+    // check if the capitalStateObject is not Empty
     let capitalCities = capitalStateObject ? capitalStateObject.cities : null;
 
+    //If it's not Empty DO:
     if (capitalCities) {
       // console.log(capitalCities)
       let arr = capitalCities.map((e) => e.name);
@@ -71,6 +80,7 @@ function function2() {
       };
     }
 
+    //If it's Empty DO:
     return {
       name: element.name,
       capital: element.capital,
@@ -88,19 +98,24 @@ function function2() {
   });
 }
 
+//function3()
+//Sorts Country,City,State
 function function3() {
   //Sorts CountryCityState
   //temporary Arr
   let arr4 = [];
   let arr5 = [];
 
-  let countries = require("../helpers/countries+states+cities.json");
+  let countries = require("../json/coutStatCit2.0Sorted.json");
 
   countries.map((e, index) => {
+    //Step1
+    //Stores the item and its current location in arr4
     arr4.push({ index: index, value: e.name });
   });
 
-  // // //console.log(arr.length);
+  //Step 2
+  //Sorts the array4 by the value key
   arr4.sort((a, b) => {
     const nameA = a.value.toUpperCase();
     const nameB = b.value.toUpperCase();
@@ -117,17 +132,26 @@ function function3() {
   });
 
   arr4.map((e) => {
+    // Goes to the original unsorted array
+    // Gets the same item using the location
+    // Stored during step 1
+    // Stores the item in arr5
     arr5.push(countries[e.index]);
   });
 
-  fs.writeFile("c+s+c2.0.json", JSON.stringify(arr5), function (err) {
-    if (err) throw err;
-    console.log("saved");
-  });
+  fs.writeFile(
+    "coutStatCit2.0Sorted.json",
+    JSON.stringify(arr5),
+    function (err) {
+      if (err) throw err;
+      console.log("saved");
+    }
+  );
 }
 
+//Sorts MyFile/MyCountries
 function function4() {
-  //Sorts Myfile
+  //Sorts Mycountries
   //temporary Arr
   let arr = [];
   let arr3 = [];
@@ -158,40 +182,209 @@ function function4() {
     arr3.push(myFile[e.index]);
   });
 
-  fs.writeFile("MynewFile3.json", JSON.stringify(arr3), function (err) {
+  fs.writeFile("MynewFile3Sorted.json", JSON.stringify(arr3), function (err) {
     if (err) throw err;
     console.log("saved");
   });
 }
 
-function4();
+// const helsinki = require("../json/HelsinkiSorted.json");
 
-const helsinki = require("../json/HelsinkiSorted.json");
+// const myfile = require("../json/MynewFile3.json");
 
-const myfile = require("../json/MynewFile3.json");
+// const cout = require("../json/coutStatCit2.0Sorted.json");
 
-let mapped = myfile.map((e, index) => {
-  //return {m:e.name,h:helsinki[index].name.common}
-  // return e.name === helsinki[index].name.common ? true : `${e.name}false`
+// cout.map((e, index) => {
+//   e.name === myCountries[index].name
+//     ? console.log("same", index)
+//     : console.log({ t: e.name, m: myCountries[index].name });
+// });
 
-  //e.name ===helsinki[index].name.common ? "": console.log({m:e.name,h:helsinki[index].name.common})
+// let mapped = myCountries.map((element, index) => {
+//   return { ...element, iso3: cout[index].iso3, iso2: cout[index].iso2 };
+// });
 
-  let obj = helsinki[index];
+// fs.writeFile("MyCountries2.json", JSON.stringify(mapped), function (err) {
+//   if (err) throw err;
+//   console.log("saved");
+// });
 
-  if (e.name === obj.name.common) {
-    return {
-      ...e,
-      official: obj.name.official,
-      currencies: obj.currencies,
-      latlng: obj.latLng,
-      area: obj.area,
-      landlocked: obj.landlocked,
-      map: obj.maps.googleMaps,
-      population: obj.population,
-      flags: obj.flags,
-      coatOfArms: obj.coatOfArms,
-    };
+function function5() {
+  //Cross checks my file with helsinkiDB
+  // then combines it if checks pass
+
+  let mapped = myfile.map((e, index) => {
+    //
+    //return {m:e.name,h:helsinki[index].name.common}
+    // return e.name === helsinki[index].name.common ? true : `${e.name}false`
+    e.name === helsinki[index].name.common
+      ? ""
+      : console.log({ m: e.name, h: helsinki[index].name.common });
+    let obj = helsinki[index];
+    //Combines Helsinki DB with MyNewFile--
+    // Stores it in Mapped
+    // Write Storage is not Present
+    if (e.name === obj.name.common) {
+      return {
+        ...e,
+        official: obj.name.official,
+        currencies: obj.currencies,
+        latlng: obj.latLng,
+        area: obj.area,
+        landlocked: obj.landlocked,
+        map: obj.maps.googleMaps,
+        population: obj.population,
+        flags: obj.flags,
+        coatOfArms: obj.coatOfArms,
+      };
+    }
+    console.log("Failed");
+  });
+}
+
+//PREDict HQ LOGIc
+const myCountries = require("../MyCountries.json");
+
+async function mainEdit2() {
+  let arrayOfPromises = myCountries.map((element) => {
+    return new Promise((resolve, reject) => {});
+  });
+}
+
+let mainARRAY = [];
+
+async function mainEdit() {
+  const nonExisting = [];
+  for (let index = 0; index < myCountries.length; index++) {
+    const element = myCountries[index];
+
+    // fs.promises
+    //   .access(`./DataFiles/${element.iso2}.json`)
+    //   .then(() => {
+    //     console.log("existing");
+    //   })
+    //   .catch(() => {
+    //     nonExisting.push(element.iso2);
+    //   });
+
+    try {
+      fs.accessSync(`./DataFiles/${element.iso2}.json`);
+    } catch (err) {
+      nonExisting.push(element.iso2);
+    }
+
+    //console.log(data.length);
+    //mainARRAY.push(data);
+    //console.log(`DONE WITH ${element.name}`);
   }
 
-  console.log("Failed");
-});
+  // //Second Iteration to get complete data
+  // for (let index = 0; index < nonExisting.length; index++) {
+
+  //  const data = await main(nonExisting[index]);
+  //   //console.log(nonExisting.length)
+
+  // }
+
+  // Iteration didnt work
+  // Trying it one by one
+
+  //main(nonExisting[1]);
+  // console.log(nonExisting);
+}
+
+// if (fs.promises.access("./DataFiles/AD.json")) {
+//   console.log("Present");
+// } else {
+//   console.log("Absent");
+// }
+
+mainEdit();
+
+// if (fs.existsSync('./DataFiles/AE.json')) {
+//   console.log(true)
+// } else {
+//   console.log(false)
+// }
+
+// if (fs.promises.access('./DataFiles/AE.json')) {
+//   console.log(true)
+// } else {
+//   console.log(false)
+// }
+
+//Origimal Function
+async function main(iso2) {
+  function delay() {
+    console.log("delaying for 30 Secs");
+    return new Promise((resolve, reject) => {
+      setTimeout(() => {
+        resolve();
+      }, 30000);
+    });
+  }
+
+  // await delay();
+
+  console.log(`Starting ${iso2}`);
+  let arr = [];
+  async function collateData(url) {
+    console.log(url);
+    function delay() {
+      console.log("delaying for 1 Secs");
+      return new Promise((resolve, reject) => {
+        setTimeout(() => {
+          resolve();
+        }, 1000);
+      });
+    }
+
+    await delay();
+
+    try {
+      const options = {
+        headers: {
+          Authorization: "Bearer XAIJOdOiCZTifUGFWT2tg994wWdnnN5LIlQvg65X",
+          Accept: "application/json",
+        },
+      };
+
+      const rawData = await fetch(url, options);
+
+      const data = await rawData.json();
+
+      //console.log(data);
+
+      if (data.next === null) {
+        // arr.push(results.results);
+        arr = arr.concat(data.results);
+        console.log(`done with ${iso2}`);
+
+        fs.writeFile(
+          `DataFiles/${iso2}.json`,
+          JSON.stringify(arr),
+          function (err) {
+            if (err) throw err;
+            console.log("saved");
+          }
+        );
+
+        return;
+      }
+
+      //arr.push(results.results);
+
+      arr = arr.concat(data.results);
+
+      //console.log("next request is:", data.next);
+
+      collateData(data.next);
+    } catch (error) {
+      console.log(`PredictHQAPIERROR${iso2}`, error);
+    }
+  }
+
+  await collateData(
+    `https://api.predicthq.com/v1/events?country=${iso2}&category=politics%2Cconferences%2Cexpos%2Cconcerts%2Cfestivals%2Cperforming-arts%2Csports%2Ccommunity%2Cacademic`
+  );
+}

@@ -93,4 +93,15 @@
   .layout > :is(section) {
     margin-top: 10.5rem;
   }
+
+  .line {
+    width: 2px;
+    background-color: black;
+    height: 90%;
+    margin-block: auto;
+    position: absolute;
+    left: 50%;
+    align-self: center;
+    transform-origin: center;
+  }
 }
