@@ -1,0 +1,4656 @@
+[
+  {
+    "relevance": 0,
+    "id": "66APecmaWvNbbUdpbd",
+    "title": "Purito",
+    "description": "Sourced from predicthq.com",
+    "category": "sports",
+    "labels": ["outdoor-sports", "running", "sport"],
+    "rank": 31,
+    "local_rank": 49,
+    "phq_attendance": 117,
+    "entities": [],
+    "duration": 86399,
+    "start": "2024-08-10T22:00:00Z",
+    "start_local": "2024-08-11T00:00:00",
+    "end": "2024-08-11T21:59:59Z",
+    "end_local": "2024-08-11T23:59:59",
+    "updated": "2024-06-11T00:32:50Z",
+    "first_seen": "2024-02-12T05:59:25Z",
+    "timezone": "Europe/Andorra",
+    "location": [1.5218355, 42.5063174],
+    "geo": {
+      "geometry": { "coordinates": [1.5218355, 42.5063174], "type": "Point" },
+      "placekey": "@7f8-68f-fs5",
+      "address": {
+        "country_code": "AD",
+        "formatted_address": "Carrer Prat de la Creu, AD500 Andorra la Vella, Andorra",
+        "locality": "Andorra la Vella",
+        "postcode": "AD500",
+        "region": "Andorra la Vella"
+      }
+    },
+    "impact_patterns": [
+      {
+        "vertical": "accommodation",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-08-11", "value": 117, "position": "event_day" }
+        ]
+      },
+      {
+        "vertical": "hospitality",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-08-11", "value": 117, "position": "event_day" }
+        ]
+      },
+      {
+        "vertical": "retail",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-08-11", "value": 117, "position": "event_day" }
+        ]
+      }
+    ],
+    "scope": "locality",
+    "country": "AD",
+    "place_hierarchies": [
+      ["6295630", "6255148", "3041565", "3041566", "3041563"]
+    ],
+    "state": "active",
+    "brand_safe": true,
+    "private": false,
+    "predicted_event_spend": 1781,
+    "predicted_event_spend_industries": {
+      "accommodation": 0,
+      "hospitality": 1103,
+      "transportation": 678
+    },
+    "phq_labels": [
+      { "label": "outdoor-sports", "weight": 0.5 },
+      { "label": "running", "weight": 0.5 }
+    ]
+  },
+  {
+    "relevance": 0,
+    "id": "64abZ2hjLraoH2Einj",
+    "title": "Mountain Festival Comapedrosa",
+    "description": "Sourced from predicthq.com",
+    "category": "sports",
+    "labels": ["festival", "outdoor-sports", "running", "sport"],
+    "rank": 28,
+    "local_rank": 51,
+    "phq_attendance": 81,
+    "entities": [],
+    "duration": 0,
+    "start": "2024-07-20T07:00:00Z",
+    "start_local": "2024-07-20T09:00:00",
+    "end": "2024-07-20T07:00:00Z",
+    "end_local": "2024-07-20T09:00:00",
+    "updated": "2024-06-04T01:48:41Z",
+    "first_seen": "2023-10-30T00:52:07Z",
+    "timezone": "Europe/Andorra",
+    "location": [1.4818113, 42.574856],
+    "geo": {
+      "geometry": { "coordinates": [1.4818113, 42.574856], "type": "Point" },
+      "placekey": "@7f8-6pz-rff",
+      "address": {
+        "country_code": "AD",
+        "formatted_address": "AD400 Arinsal, Andorra",
+        "locality": "Arinsal",
+        "postcode": "AD400",
+        "region": "La Massana"
+      }
+    },
+    "impact_patterns": [
+      {
+        "vertical": "accommodation",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-07-20", "value": 81, "position": "event_day" }
+        ]
+      },
+      {
+        "vertical": "hospitality",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-07-20", "value": 81, "position": "event_day" }
+        ]
+      },
+      {
+        "vertical": "retail",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-07-20", "value": 81, "position": "event_day" }
+        ]
+      }
+    ],
+    "scope": "locality",
+    "country": "AD",
+    "place_hierarchies": [
+      ["6295630", "6255148", "3041565", "3040131", "3041519"],
+      ["6295630", "6255148", "3041565", "3040131", "3040132"]
+    ],
+    "state": "active",
+    "brand_safe": true,
+    "private": false,
+    "predicted_event_spend": 1191,
+    "predicted_event_spend_industries": {
+      "accommodation": 0,
+      "hospitality": 722,
+      "transportation": 469
+    },
+    "phq_labels": [
+      { "label": "festival", "weight": 0.33 },
+      { "label": "outdoor-sports", "weight": 0.33 },
+      { "label": "running", "weight": 0.33 }
+    ]
+  },
+  {
+    "relevance": 0,
+    "id": "Cg75zbe3v5CEEaxGPF",
+    "title": "UEFA Conference League - 1st Qualifying Round - Inter Club d'Escaldes vs Velež",
+    "description": "Sourced from predicthq.com",
+    "category": "sports",
+    "labels": ["soccer", "sport"],
+    "rank": 54,
+    "local_rank": 71,
+    "phq_attendance": 1539,
+    "entities": [
+      {
+        "entity_id": "5GxY2hJTSvfLcNPuEnGxkh",
+        "name": "Estadi Nacional Consell General",
+        "type": "venue",
+        "formatted_address": "Baixada del Molí, 31-35, AD500 Andorra la Vella, Andorra"
+      }
+    ],
+    "duration": 0,
+    "start": "2024-07-18T16:00:00Z",
+    "start_local": "2024-07-18T18:00:00",
+    "end": "2024-07-18T16:00:00Z",
+    "end_local": "2024-07-18T18:00:00",
+    "predicted_end": "2024-07-18T17:50:00Z",
+    "predicted_end_local": "2024-07-18T19:50:00",
+    "updated": "2024-06-24T17:55:11Z",
+    "first_seen": "2024-06-18T17:06:17Z",
+    "timezone": "Europe/Andorra",
+    "location": [1.5174616, 42.5046893],
+    "geo": {
+      "geometry": { "coordinates": [1.5174616, 42.5046893], "type": "Point" },
+      "placekey": "@7f8-6wx-5fz",
+      "address": {
+        "country_code": "AD",
+        "formatted_address": "Baixada del Molí, 31-35, AD500 Andorra la Vella, Andorra",
+        "postcode": "AD500",
+        "locality": "Andorra la Vella",
+        "region": "Andorra la Vella"
+      }
+    },
+    "impact_patterns": [
+      {
+        "vertical": "accommodation",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-07-17", "value": 308, "position": "leading" },
+          {
+            "date_local": "2024-07-18",
+            "value": 1539,
+            "position": "event_day"
+          },
+          { "date_local": "2024-07-19", "value": 154, "position": "lagging" }
+        ]
+      },
+      {
+        "vertical": "hospitality",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-07-17", "value": 354, "position": "leading" },
+          {
+            "date_local": "2024-07-18",
+            "value": 1539,
+            "position": "event_day"
+          },
+          { "date_local": "2024-07-19", "value": 31, "position": "lagging" }
+        ]
+      },
+      {
+        "vertical": "retail",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-07-18", "value": 1539, "position": "event_day" }
+        ]
+      }
+    ],
+    "scope": "locality",
+    "country": "AD",
+    "place_hierarchies": [
+      ["6295630", "6255148", "3041565", "3041566", "3041563"]
+    ],
+    "state": "active",
+    "brand_safe": true,
+    "private": false,
+    "predicted_event_spend": 39876,
+    "predicted_event_spend_industries": {
+      "accommodation": 10585,
+      "hospitality": 18143,
+      "transportation": 11148
+    },
+    "phq_labels": [{ "label": "soccer", "weight": 1 }]
+  },
+  {
+    "relevance": 0,
+    "id": "GbjaKCEP3uCSRLtSYU",
+    "title": "UEFA Conference League - 1st Qualifying Round - Atlètic Club d'Escaldes vs F91 Dudelange",
+    "description": "Sourced from predicthq.com",
+    "category": "sports",
+    "labels": ["soccer", "sport"],
+    "rank": 60,
+    "local_rank": 78,
+    "phq_attendance": 3306,
+    "entities": [
+      {
+        "entity_id": "5GxY2hJTSvfLcNPuEnGxkh",
+        "name": "Estadi Nacional Consell General",
+        "type": "venue",
+        "formatted_address": "Baixada del Molí, 31-35, AD500 Andorra la Vella, Andorra"
+      }
+    ],
+    "duration": 0,
+    "start": "2024-07-11T16:30:00Z",
+    "start_local": "2024-07-11T18:30:00",
+    "end": "2024-07-11T16:30:00Z",
+    "end_local": "2024-07-11T18:30:00",
+    "predicted_end": "2024-07-11T18:20:00Z",
+    "predicted_end_local": "2024-07-11T20:20:00",
+    "updated": "2024-06-24T18:41:57Z",
+    "first_seen": "2024-06-18T17:08:18Z",
+    "timezone": "Europe/Andorra",
+    "location": [1.5174616, 42.5046893],
+    "geo": {
+      "geometry": { "coordinates": [1.5174616, 42.5046893], "type": "Point" },
+      "placekey": "@7f8-6wx-5fz",
+      "address": {
+        "country_code": "AD",
+        "formatted_address": "Baixada del Molí, 31-35, AD500 Andorra la Vella, Andorra",
+        "postcode": "AD500",
+        "locality": "Andorra la Vella",
+        "region": "Andorra la Vella"
+      }
+    },
+    "impact_patterns": [
+      {
+        "vertical": "accommodation",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-07-10", "value": 662, "position": "leading" },
+          {
+            "date_local": "2024-07-11",
+            "value": 3306,
+            "position": "event_day"
+          },
+          { "date_local": "2024-07-12", "value": 331, "position": "lagging" }
+        ]
+      },
+      {
+        "vertical": "hospitality",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-07-10", "value": 761, "position": "leading" },
+          {
+            "date_local": "2024-07-11",
+            "value": 3306,
+            "position": "event_day"
+          },
+          { "date_local": "2024-07-12", "value": 67, "position": "lagging" }
+        ]
+      },
+      {
+        "vertical": "retail",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-07-11", "value": 3306, "position": "event_day" }
+        ]
+      }
+    ],
+    "scope": "locality",
+    "country": "AD",
+    "place_hierarchies": [
+      ["6295630", "6255148", "3041565", "3041566", "3041563"]
+    ],
+    "state": "active",
+    "brand_safe": true,
+    "private": false,
+    "predicted_event_spend": 85661,
+    "predicted_event_spend_industries": {
+      "accommodation": 22738,
+      "hospitality": 38974,
+      "transportation": 23948
+    },
+    "phq_labels": [{ "label": "soccer", "weight": 1 }]
+  },
+  {
+    "relevance": 0,
+    "id": "8DD8FWDfcoBubCDzeN",
+    "title": "Mando Diao",
+    "description": "Sourced from predicthq.com",
+    "category": "concerts",
+    "labels": ["concert", "music"],
+    "rank": 45,
+    "local_rank": 59,
+    "phq_attendance": 532,
+    "entities": [
+      {
+        "entity_id": "37c64Hqei5T2wBBZ9nK3GrJ",
+        "name": "Sala Apollo",
+        "type": "venue",
+        "formatted_address": "Carrer de la Borda, 5, AD500 Andorra la Vella, Andorra"
+      }
+    ],
+    "duration": 0,
+    "start": "2024-07-10T17:00:00Z",
+    "start_local": "2024-07-10T19:00:00",
+    "end": "2024-07-10T17:00:00Z",
+    "end_local": "2024-07-10T19:00:00",
+    "predicted_end": "2024-07-10T21:10:00Z",
+    "predicted_end_local": "2024-07-10T23:10:00",
+    "updated": "2024-06-11T06:42:56Z",
+    "first_seen": "2024-04-15T20:01:44Z",
+    "timezone": "Europe/Andorra",
+    "location": [1.5326615, 42.5078282],
+    "geo": {
+      "geometry": { "coordinates": [1.5326615, 42.5078282], "type": "Point" },
+      "placekey": "@7f8-68f-2tv",
+      "address": {
+        "country_code": "AD",
+        "formatted_address": "Carrer de la Borda, 5, AD500 Andorra la Vella, Andorra",
+        "postcode": "AD500",
+        "locality": "Andorra la Vella",
+        "region": "Andorra la Vella"
+      }
+    },
+    "impact_patterns": [
+      {
+        "vertical": "accommodation",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-07-10", "value": 532, "position": "event_day" }
+        ]
+      },
+      {
+        "vertical": "hospitality",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-07-09", "value": 80, "position": "leading" },
+          { "date_local": "2024-07-10", "value": 532, "position": "event_day" },
+          { "date_local": "2024-07-11", "value": 16, "position": "lagging" }
+        ]
+      },
+      {
+        "vertical": "retail",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-07-10", "value": 532, "position": "event_day" }
+        ]
+      }
+    ],
+    "scope": "locality",
+    "country": "AD",
+    "place_hierarchies": [
+      ["6295630", "6255148", "3041565", "3338529", "3040051"]
+    ],
+    "state": "active",
+    "brand_safe": true,
+    "private": false,
+    "predicted_event_spend": 12347,
+    "predicted_event_spend_industries": {
+      "accommodation": 2561,
+      "hospitality": 5934,
+      "transportation": 3851
+    },
+    "phq_labels": [
+      { "label": "rock", "weight": 0.74 },
+      { "label": "pop", "weight": 0.26 }
+    ]
+  },
+  {
+    "relevance": 0,
+    "id": "5tVPwJzrb684GiY7ip",
+    "title": "UEFA Champions League - 1st Qualifying Round - UE Santa Coloma vs Ballkani",
+    "description": "Sourced from predicthq.com",
+    "category": "sports",
+    "labels": ["soccer", "sport"],
+    "rank": 54,
+    "local_rank": 71,
+    "phq_attendance": 1622,
+    "entities": [
+      {
+        "entity_id": "5GxY2hJTSvfLcNPuEnGxkh",
+        "name": "Estadi Nacional Consell General",
+        "type": "venue",
+        "formatted_address": "Baixada del Molí, 31-35, AD500 Andorra la Vella, Andorra"
+      }
+    ],
+    "duration": 0,
+    "start": "2024-07-09T18:00:00Z",
+    "start_local": "2024-07-09T20:00:00",
+    "end": "2024-07-09T18:00:00Z",
+    "end_local": "2024-07-09T20:00:00",
+    "predicted_end": "2024-07-09T19:50:00Z",
+    "predicted_end_local": "2024-07-09T21:50:00",
+    "updated": "2024-06-24T17:53:01Z",
+    "first_seen": "2024-06-18T18:30:27Z",
+    "timezone": "Europe/Andorra",
+    "location": [1.5174616, 42.5046893],
+    "geo": {
+      "geometry": { "coordinates": [1.5174616, 42.5046893], "type": "Point" },
+      "placekey": "@7f8-6wx-5fz",
+      "address": {
+        "country_code": "AD",
+        "formatted_address": "Baixada del Molí, 31-35, AD500 Andorra la Vella, Andorra",
+        "postcode": "AD500",
+        "locality": "Andorra la Vella",
+        "region": "Andorra la Vella"
+      }
+    },
+    "impact_patterns": [
+      {
+        "vertical": "accommodation",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-07-08", "value": 325, "position": "leading" },
+          {
+            "date_local": "2024-07-09",
+            "value": 1622,
+            "position": "event_day"
+          },
+          { "date_local": "2024-07-10", "value": 163, "position": "lagging" }
+        ]
+      },
+      {
+        "vertical": "hospitality",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-07-08", "value": 374, "position": "leading" },
+          {
+            "date_local": "2024-07-09",
+            "value": 1622,
+            "position": "event_day"
+          },
+          { "date_local": "2024-07-10", "value": 33, "position": "lagging" }
+        ]
+      },
+      {
+        "vertical": "retail",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-07-09", "value": 1622, "position": "event_day" }
+        ]
+      }
+    ],
+    "scope": "locality",
+    "country": "AD",
+    "place_hierarchies": [
+      ["6295630", "6255148", "3041565", "3041566", "3041563"]
+    ],
+    "state": "active",
+    "brand_safe": true,
+    "private": false,
+    "predicted_event_spend": 42027,
+    "predicted_event_spend_industries": {
+      "accommodation": 11156,
+      "hospitality": 19121,
+      "transportation": 11749
+    },
+    "phq_labels": [{ "label": "soccer", "weight": 1 }]
+  },
+  {
+    "relevance": 0,
+    "id": "6J7bpTjNomuwWeLjui",
+    "title": "Longevity and Biohacking Convention",
+    "description": "Sourced from predicthq.com",
+    "category": "conferences",
+    "labels": ["conference"],
+    "rank": 44,
+    "local_rank": 61,
+    "phq_attendance": 500,
+    "entities": [
+      {
+        "entity_id": "43qEHAYLzNVf25EsfyTn7w",
+        "name": "Centre de Congressos d'Andorra la Vella",
+        "type": "venue",
+        "formatted_address": "Plaça del Poble\ns/n\nAD500 Andorra la Vella\nAndorra"
+      }
+    ],
+    "duration": 259199,
+    "start": "2024-07-04T22:00:00Z",
+    "start_local": "2024-07-05T00:00:00",
+    "end": "2024-07-07T21:59:59Z",
+    "end_local": "2024-07-07T23:59:59",
+    "updated": "2024-07-03T23:30:58Z",
+    "first_seen": "2023-08-06T01:30:15Z",
+    "timezone": "Europe/Andorra",
+    "location": [1.522502, 42.506945],
+    "geo": {
+      "geometry": { "coordinates": [1.522502, 42.506945], "type": "Point" },
+      "placekey": "@7f8-68g-5vf",
+      "address": {
+        "country_code": "AD",
+        "formatted_address": "Plaça del Poble\ns/n\nAD500 Andorra la Vella\nAndorra",
+        "locality": "Andorra"
+      }
+    },
+    "impact_patterns": [
+      {
+        "vertical": "accommodation",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-07-03", "value": 75, "position": "leading" },
+          { "date_local": "2024-07-04", "value": 200, "position": "leading" },
+          { "date_local": "2024-07-05", "value": 500, "position": "event_day" },
+          { "date_local": "2024-07-06", "value": 500, "position": "event_day" },
+          { "date_local": "2024-07-07", "value": 500, "position": "event_day" },
+          { "date_local": "2024-07-08", "value": 100, "position": "lagging" },
+          { "date_local": "2024-07-09", "value": 25, "position": "lagging" }
+        ]
+      },
+      {
+        "vertical": "hospitality",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-07-03", "value": 25, "position": "leading" },
+          { "date_local": "2024-07-04", "value": 200, "position": "leading" },
+          { "date_local": "2024-07-05", "value": 500, "position": "event_day" },
+          { "date_local": "2024-07-06", "value": 500, "position": "event_day" },
+          { "date_local": "2024-07-07", "value": 500, "position": "event_day" },
+          { "date_local": "2024-07-08", "value": 65, "position": "lagging" }
+        ]
+      },
+      {
+        "vertical": "retail",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-07-05", "value": 500, "position": "event_day" },
+          { "date_local": "2024-07-06", "value": 500, "position": "event_day" },
+          { "date_local": "2024-07-07", "value": 500, "position": "event_day" }
+        ]
+      }
+    ],
+    "scope": "locality",
+    "country": "AD",
+    "place_hierarchies": [
+      ["6295630", "6255148", "3041565", "3041566", "3041563"]
+    ],
+    "state": "active",
+    "brand_safe": true,
+    "private": false,
+    "predicted_event_spend": 75315,
+    "predicted_event_spend_industries": {
+      "accommodation": 22009,
+      "hospitality": 42440,
+      "transportation": 10866
+    },
+    "phq_labels": [
+      { "label": "lifestyle", "weight": 0.636 },
+      { "label": "medical", "weight": 0.364 }
+    ]
+  },
+  {
+    "relevance": 0,
+    "id": "Ak4CMUVkKHbSeG2Shs",
+    "title": "Andorra MTB Classic - Pyrenees",
+    "description": "Sourced from predicthq.com",
+    "category": "sports",
+    "labels": ["outdoor-sports", "running", "sport"],
+    "rank": 30,
+    "local_rank": 51,
+    "phq_attendance": 102,
+    "entities": [],
+    "duration": 345599,
+    "start": "2024-07-02T22:00:00Z",
+    "start_local": "2024-07-03T00:00:00",
+    "end": "2024-07-06T21:59:59Z",
+    "end_local": "2024-07-06T23:59:59",
+    "updated": "2024-06-04T07:40:02Z",
+    "first_seen": "2024-05-06T00:04:04Z",
+    "timezone": "Europe/Andorra",
+    "location": [1.5147392, 42.545625],
+    "geo": {
+      "geometry": { "coordinates": [1.5147392, 42.545625], "type": "Point" },
+      "placekey": "@7f8-68k-5s5",
+      "address": {
+        "country_code": "AD",
+        "formatted_address": "Avinguda de Sant Antoni, AD400 La Massana, Andorra",
+        "locality": "La Massana",
+        "postcode": "AD400",
+        "region": "La Massana"
+      }
+    },
+    "impact_patterns": [
+      {
+        "vertical": "accommodation",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-07-03", "value": 21, "position": "event_day" },
+          { "date_local": "2024-07-04", "value": 21, "position": "event_day" },
+          { "date_local": "2024-07-05", "value": 27, "position": "event_day" },
+          { "date_local": "2024-07-06", "value": 32, "position": "event_day" }
+        ]
+      },
+      {
+        "vertical": "hospitality",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-07-03", "value": 21, "position": "event_day" },
+          { "date_local": "2024-07-04", "value": 21, "position": "event_day" },
+          { "date_local": "2024-07-05", "value": 27, "position": "event_day" },
+          { "date_local": "2024-07-06", "value": 32, "position": "event_day" }
+        ]
+      },
+      {
+        "vertical": "retail",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-07-03", "value": 102, "position": "event_day" },
+          { "date_local": "2024-07-04", "value": 102, "position": "event_day" },
+          { "date_local": "2024-07-05", "value": 102, "position": "event_day" },
+          { "date_local": "2024-07-06", "value": 102, "position": "event_day" }
+        ]
+      }
+    ],
+    "scope": "locality",
+    "country": "AD",
+    "place_hierarchies": [
+      ["6295630", "6255148", "3041565", "3040131", "3040132"]
+    ],
+    "state": "active",
+    "brand_safe": true,
+    "private": false,
+    "predicted_event_spend": 1486,
+    "predicted_event_spend_industries": {
+      "accommodation": 0,
+      "hospitality": 901,
+      "transportation": 584
+    },
+    "phq_labels": [
+      { "label": "outdoor-sports", "weight": 0.5 },
+      { "label": "running", "weight": 0.5 }
+    ]
+  },
+  {
+    "relevance": 0,
+    "id": "cawqmpHuuA8pws7dow",
+    "title": "Eurobasket Small Countries - Final - Andorra vs Malta",
+    "description": "Sourced from predicthq.com",
+    "category": "sports",
+    "labels": ["basketball", "sport"],
+    "rank": 59,
+    "local_rank": 77,
+    "phq_attendance": 2936,
+    "entities": [
+      {
+        "entity_id": "37Z9BVHZmYB6tCDxsWZJBtN",
+        "name": "Poliesportiu d'Andorra",
+        "type": "venue",
+        "formatted_address": "Baixada del Molí, AD500 Andorra la Vella, Andorra"
+      }
+    ],
+    "duration": 0,
+    "start": "2024-06-30T17:30:00Z",
+    "start_local": "2024-06-30T19:30:00",
+    "end": "2024-06-30T17:30:00Z",
+    "end_local": "2024-06-30T19:30:00",
+    "predicted_end": "2024-06-30T19:15:00Z",
+    "predicted_end_local": "2024-06-30T21:15:00",
+    "updated": "2024-06-30T03:47:54Z",
+    "first_seen": "2024-04-20T08:08:35Z",
+    "timezone": "Europe/Andorra",
+    "location": [1.5166323, 42.5048869],
+    "geo": {
+      "geometry": { "coordinates": [1.5166323, 42.5048869], "type": "Point" },
+      "placekey": "@7f8-6wx-5xq",
+      "address": {
+        "country_code": "AD",
+        "formatted_address": "Baixada del Molí, AD500 Andorra la Vella, Andorra",
+        "postcode": "AD500",
+        "locality": "Andorra la Vella",
+        "region": "Andorra la Vella"
+      }
+    },
+    "impact_patterns": [
+      {
+        "vertical": "accommodation",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-06-29", "value": 588, "position": "leading" },
+          {
+            "date_local": "2024-06-30",
+            "value": 2936,
+            "position": "event_day"
+          },
+          { "date_local": "2024-07-01", "value": 294, "position": "lagging" }
+        ]
+      },
+      {
+        "vertical": "hospitality",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-06-29", "value": 676, "position": "leading" },
+          {
+            "date_local": "2024-06-30",
+            "value": 2936,
+            "position": "event_day"
+          },
+          { "date_local": "2024-07-01", "value": 59, "position": "lagging" }
+        ]
+      },
+      {
+        "vertical": "retail",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-06-30", "value": 2936, "position": "event_day" }
+        ]
+      }
+    ],
+    "scope": "locality",
+    "country": "AD",
+    "place_hierarchies": [
+      ["6295630", "6255148", "3041565", "3041566", "3041563"]
+    ],
+    "state": "active",
+    "brand_safe": true,
+    "private": false,
+    "predicted_event_spend": 76074,
+    "predicted_event_spend_industries": {
+      "accommodation": 20193,
+      "hospitality": 34612,
+      "transportation": 21268
+    },
+    "phq_labels": [{ "label": "basketball", "weight": 1 }]
+  },
+  {
+    "relevance": 0,
+    "id": "CHPwLEWFUswwo9ayTJ",
+    "title": "David Guetta - Andorra Mountain Music 24",
+    "description": "Sourced from predicthq.com",
+    "category": "concerts",
+    "labels": ["concert", "music"],
+    "rank": 76,
+    "local_rank": 100,
+    "phq_attendance": 20000,
+    "entities": [
+      {
+        "entity_id": "bUtjjeUdJ92i24EGg3YM7",
+        "name": "Parking el Tarter",
+        "type": "venue",
+        "formatted_address": "Camí Pont del Tarter, AD100, Andorra"
+      }
+    ],
+    "duration": 0,
+    "start": "2024-06-30T15:00:00Z",
+    "start_local": "2024-06-30T17:00:00",
+    "end": "2024-06-30T15:00:00Z",
+    "end_local": "2024-06-30T17:00:00",
+    "predicted_end": "2024-06-30T21:40:00Z",
+    "predicted_end_local": "2024-06-30T23:40:00",
+    "updated": "2024-07-05T18:22:13Z",
+    "first_seen": "2023-12-15T00:15:16Z",
+    "timezone": "Europe/Andorra",
+    "location": [1.6480405, 42.5789207],
+    "geo": {
+      "geometry": { "coordinates": [1.6480405, 42.5789207], "type": "Point" },
+      "placekey": "@7f8-684-qmk",
+      "address": {
+        "country_code": "AD",
+        "formatted_address": "Camí Pont del Tarter, AD100, Andorra",
+        "postcode": "AD100",
+        "region": "Canillo"
+      }
+    },
+    "impact_patterns": [
+      {
+        "vertical": "accommodation",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-06-27", "value": 2000, "position": "leading" },
+          { "date_local": "2024-06-28", "value": 11000, "position": "leading" },
+          { "date_local": "2024-06-29", "value": 12000, "position": "leading" },
+          {
+            "date_local": "2024-06-30",
+            "value": 20000,
+            "position": "event_day"
+          },
+          { "date_local": "2024-07-01", "value": 3000, "position": "lagging" },
+          { "date_local": "2024-07-02", "value": 2000, "position": "lagging" }
+        ]
+      },
+      {
+        "vertical": "hospitality",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-06-28", "value": 400, "position": "leading" },
+          { "date_local": "2024-06-29", "value": 5000, "position": "leading" },
+          {
+            "date_local": "2024-06-30",
+            "value": 20000,
+            "position": "event_day"
+          },
+          { "date_local": "2024-07-01", "value": 600, "position": "lagging" }
+        ]
+      },
+      {
+        "vertical": "retail",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-06-25", "value": 200, "position": "leading" },
+          { "date_local": "2024-06-26", "value": 200, "position": "leading" },
+          { "date_local": "2024-06-27", "value": 200, "position": "leading" },
+          { "date_local": "2024-06-28", "value": 200, "position": "leading" },
+          { "date_local": "2024-06-29", "value": 3200, "position": "leading" },
+          {
+            "date_local": "2024-06-30",
+            "value": 20000,
+            "position": "event_day"
+          },
+          { "date_local": "2024-07-01", "value": 400, "position": "lagging" },
+          { "date_local": "2024-07-02", "value": 0, "position": "lagging" },
+          { "date_local": "2024-07-03", "value": 0, "position": "lagging" },
+          { "date_local": "2024-07-04", "value": 0, "position": "lagging" },
+          { "date_local": "2024-07-05", "value": 0, "position": "lagging" }
+        ]
+      }
+    ],
+    "scope": "locality",
+    "country": "AD",
+    "place_hierarchies": [
+      ["6295630", "6255148", "3041565", "3041203", "3039154"],
+      ["6295630", "6255148", "3041565", "3041203", "3041204"]
+    ],
+    "state": "active",
+    "brand_safe": true,
+    "private": false,
+    "predicted_event_spend": 981256,
+    "predicted_event_spend_industries": {
+      "accommodation": 206338,
+      "hospitality": 580089,
+      "transportation": 194828
+    },
+    "phq_labels": [
+      { "label": "electronic", "weight": 0.77 },
+      { "label": "pop", "weight": 0.23 }
+    ]
+  },
+  {
+    "relevance": 0,
+    "id": "HGYuvX46bsUiC2kuym",
+    "title": "Eurobasket Small Countries - 3rd Place Final - San Marino vs Gibraltar",
+    "description": "Sourced from predicthq.com",
+    "category": "sports",
+    "labels": ["basketball", "sport"],
+    "rank": 54,
+    "local_rank": 71,
+    "phq_attendance": 1567,
+    "entities": [
+      {
+        "entity_id": "37Z9BVHZmYB6tCDxsWZJBtN",
+        "name": "Poliesportiu d'Andorra",
+        "type": "venue",
+        "formatted_address": "Baixada del Molí, AD500 Andorra la Vella, Andorra"
+      }
+    ],
+    "duration": 0,
+    "start": "2024-06-30T15:00:00Z",
+    "start_local": "2024-06-30T17:00:00",
+    "end": "2024-06-30T15:00:00Z",
+    "end_local": "2024-06-30T17:00:00",
+    "predicted_end": "2024-06-30T16:45:00Z",
+    "predicted_end_local": "2024-06-30T18:45:00",
+    "updated": "2024-06-30T03:45:36Z",
+    "first_seen": "2024-04-20T08:08:35Z",
+    "timezone": "Europe/Andorra",
+    "location": [1.5166323, 42.5048869],
+    "geo": {
+      "geometry": { "coordinates": [1.5166323, 42.5048869], "type": "Point" },
+      "placekey": "@7f8-6wx-5xq",
+      "address": {
+        "country_code": "AD",
+        "formatted_address": "Baixada del Molí, AD500 Andorra la Vella, Andorra",
+        "postcode": "AD500",
+        "locality": "Andorra la Vella",
+        "region": "Andorra la Vella"
+      }
+    },
+    "impact_patterns": [
+      {
+        "vertical": "accommodation",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-06-29", "value": 314, "position": "leading" },
+          {
+            "date_local": "2024-06-30",
+            "value": 1567,
+            "position": "event_day"
+          },
+          { "date_local": "2024-07-01", "value": 157, "position": "lagging" }
+        ]
+      },
+      {
+        "vertical": "hospitality",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-06-29", "value": 361, "position": "leading" },
+          {
+            "date_local": "2024-06-30",
+            "value": 1567,
+            "position": "event_day"
+          },
+          { "date_local": "2024-07-01", "value": 32, "position": "lagging" }
+        ]
+      },
+      {
+        "vertical": "retail",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-06-30", "value": 1567, "position": "event_day" }
+        ]
+      }
+    ],
+    "scope": "locality",
+    "country": "AD",
+    "place_hierarchies": [
+      ["6295630", "6255148", "3041565", "3041566", "3041563"]
+    ],
+    "state": "active",
+    "brand_safe": true,
+    "private": false,
+    "predicted_event_spend": 40602,
+    "predicted_event_spend_industries": {
+      "accommodation": 10777,
+      "hospitality": 18473,
+      "transportation": 11351
+    },
+    "phq_labels": [{ "label": "basketball", "weight": 1 }]
+  },
+  {
+    "relevance": 0,
+    "id": "BGqYqNCYv58FtHMJYA",
+    "title": "Eurobasket Small Countries - Semi-finals - Andorra vs San Marino",
+    "description": "Sourced from predicthq.com",
+    "category": "sports",
+    "labels": ["basketball", "sport"],
+    "rank": 59,
+    "local_rank": 77,
+    "phq_attendance": 2936,
+    "entities": [
+      {
+        "entity_id": "37Z9BVHZmYB6tCDxsWZJBtN",
+        "name": "Poliesportiu d'Andorra",
+        "type": "venue",
+        "formatted_address": "Baixada del Molí, AD500 Andorra la Vella, Andorra"
+      }
+    ],
+    "duration": 0,
+    "start": "2024-06-29T17:30:00Z",
+    "start_local": "2024-06-29T19:30:00",
+    "end": "2024-06-29T17:30:00Z",
+    "end_local": "2024-06-29T19:30:00",
+    "predicted_end": "2024-06-29T19:15:00Z",
+    "predicted_end_local": "2024-06-29T21:15:00",
+    "updated": "2024-06-27T21:03:16Z",
+    "first_seen": "2024-04-20T08:08:35Z",
+    "timezone": "Europe/Andorra",
+    "location": [1.5166323, 42.5048869],
+    "geo": {
+      "geometry": { "coordinates": [1.5166323, 42.5048869], "type": "Point" },
+      "placekey": "@7f8-6wx-5xq",
+      "address": {
+        "country_code": "AD",
+        "formatted_address": "Baixada del Molí, AD500 Andorra la Vella, Andorra",
+        "postcode": "AD500",
+        "locality": "Andorra la Vella",
+        "region": "Andorra la Vella"
+      }
+    },
+    "impact_patterns": [
+      {
+        "vertical": "accommodation",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-06-28", "value": 588, "position": "leading" },
+          {
+            "date_local": "2024-06-29",
+            "value": 2936,
+            "position": "event_day"
+          },
+          { "date_local": "2024-06-30", "value": 294, "position": "lagging" }
+        ]
+      },
+      {
+        "vertical": "hospitality",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-06-28", "value": 676, "position": "leading" },
+          {
+            "date_local": "2024-06-29",
+            "value": 2936,
+            "position": "event_day"
+          },
+          { "date_local": "2024-06-30", "value": 59, "position": "lagging" }
+        ]
+      },
+      {
+        "vertical": "retail",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-06-29", "value": 2936, "position": "event_day" }
+        ]
+      }
+    ],
+    "scope": "locality",
+    "country": "AD",
+    "place_hierarchies": [
+      ["6295630", "6255148", "3041565", "3041566", "3041563"]
+    ],
+    "state": "active",
+    "brand_safe": true,
+    "private": false,
+    "predicted_event_spend": 76074,
+    "predicted_event_spend_industries": {
+      "accommodation": 20193,
+      "hospitality": 34612,
+      "transportation": 21268
+    },
+    "phq_labels": [{ "label": "basketball", "weight": 1 }]
+  },
+  {
+    "relevance": 0,
+    "id": "GTBvJhNxbXh9WK6Qnt",
+    "title": "Molan los 90 XXL - Andorra Mountain Music 24",
+    "description": "Sourced from predicthq.com",
+    "category": "concerts",
+    "labels": ["concert", "music"],
+    "rank": 42,
+    "local_rank": 70,
+    "phq_attendance": 404,
+    "entities": [
+      {
+        "entity_id": "bUtjjeUdJ92i24EGg3YM7",
+        "name": "Parking el Tarter",
+        "type": "venue",
+        "formatted_address": "Camí Pont del Tarter, AD100, Andorra"
+      }
+    ],
+    "duration": 0,
+    "start": "2024-06-29T16:00:00Z",
+    "start_local": "2024-06-29T18:00:00",
+    "end": "2024-06-29T16:00:00Z",
+    "end_local": "2024-06-29T18:00:00",
+    "predicted_end": "2024-06-29T20:10:00Z",
+    "predicted_end_local": "2024-06-29T22:10:00",
+    "updated": "2024-06-29T17:02:22Z",
+    "first_seen": "2023-12-15T00:15:46Z",
+    "timezone": "Europe/Andorra",
+    "location": [1.6480405, 42.5789207],
+    "geo": {
+      "geometry": { "coordinates": [1.6480405, 42.5789207], "type": "Point" },
+      "placekey": "@7f8-684-qmk",
+      "address": {
+        "country_code": "AD",
+        "formatted_address": "Camí Pont del Tarter, AD100, Andorra",
+        "postcode": "AD100",
+        "region": "Canillo"
+      }
+    },
+    "impact_patterns": [
+      {
+        "vertical": "accommodation",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-06-29", "value": 404, "position": "event_day" }
+        ]
+      },
+      {
+        "vertical": "hospitality",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-06-28", "value": 61, "position": "leading" },
+          { "date_local": "2024-06-29", "value": 404, "position": "event_day" },
+          { "date_local": "2024-06-30", "value": 13, "position": "lagging" }
+        ]
+      },
+      {
+        "vertical": "retail",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-06-29", "value": 404, "position": "event_day" }
+        ]
+      }
+    ],
+    "scope": "locality",
+    "country": "AD",
+    "place_hierarchies": [
+      ["6295630", "6255148", "3041565", "3041203", "3039154"],
+      ["6295630", "6255148", "3041565", "3041203", "3041204"]
+    ],
+    "state": "active",
+    "brand_safe": true,
+    "private": false,
+    "predicted_event_spend": 9376,
+    "predicted_event_spend_industries": {
+      "accommodation": 1945,
+      "hospitality": 4506,
+      "transportation": 2924
+    },
+    "phq_labels": [
+      { "label": "pop", "weight": 0.33 },
+      { "label": "electronic", "weight": 0.33 },
+      { "label": "other", "weight": 0.33 }
+    ]
+  },
+  {
+    "relevance": 0,
+    "id": "GRnRZy6Krz3sFYttCZ",
+    "title": "Eurobasket Small Countries - Semi-finals - Gibraltar vs Malta",
+    "description": "Sourced from predicthq.com",
+    "category": "sports",
+    "labels": ["basketball", "sport"],
+    "rank": 54,
+    "local_rank": 72,
+    "phq_attendance": 1671,
+    "entities": [
+      {
+        "entity_id": "37Z9BVHZmYB6tCDxsWZJBtN",
+        "name": "Poliesportiu d'Andorra",
+        "type": "venue",
+        "formatted_address": "Baixada del Molí, AD500 Andorra la Vella, Andorra"
+      }
+    ],
+    "duration": 0,
+    "start": "2024-06-29T15:00:00Z",
+    "start_local": "2024-06-29T17:00:00",
+    "end": "2024-06-29T15:00:00Z",
+    "end_local": "2024-06-29T17:00:00",
+    "predicted_end": "2024-06-29T16:45:00Z",
+    "predicted_end_local": "2024-06-29T18:45:00",
+    "updated": "2024-06-28T09:35:41Z",
+    "first_seen": "2024-04-20T08:08:35Z",
+    "timezone": "Europe/Andorra",
+    "location": [1.5166323, 42.5048869],
+    "geo": {
+      "geometry": { "coordinates": [1.5166323, 42.5048869], "type": "Point" },
+      "placekey": "@7f8-6wx-5xq",
+      "address": {
+        "country_code": "AD",
+        "formatted_address": "Baixada del Molí, AD500 Andorra la Vella, Andorra",
+        "postcode": "AD500",
+        "locality": "Andorra la Vella",
+        "region": "Andorra la Vella"
+      }
+    },
+    "impact_patterns": [
+      {
+        "vertical": "accommodation",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-06-28", "value": 335, "position": "leading" },
+          {
+            "date_local": "2024-06-29",
+            "value": 1671,
+            "position": "event_day"
+          },
+          { "date_local": "2024-06-30", "value": 168, "position": "lagging" }
+        ]
+      },
+      {
+        "vertical": "hospitality",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-06-28", "value": 385, "position": "leading" },
+          {
+            "date_local": "2024-06-29",
+            "value": 1671,
+            "position": "event_day"
+          },
+          { "date_local": "2024-06-30", "value": 34, "position": "lagging" }
+        ]
+      },
+      {
+        "vertical": "retail",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-06-29", "value": 1671, "position": "event_day" }
+        ]
+      }
+    ],
+    "scope": "locality",
+    "country": "AD",
+    "place_hierarchies": [
+      ["6295630", "6255148", "3041565", "3041566", "3041563"]
+    ],
+    "state": "active",
+    "brand_safe": true,
+    "private": false,
+    "predicted_event_spend": 43297,
+    "predicted_event_spend_industries": {
+      "accommodation": 11493,
+      "hospitality": 19699,
+      "transportation": 12104
+    },
+    "phq_labels": [{ "label": "basketball", "weight": 1 }]
+  },
+  {
+    "relevance": 0,
+    "id": "GcLRm7cSqAufraYbL6",
+    "title": "Eurobasket Small Countries - Group Stage - Andorra vs Malta",
+    "description": "Sourced from predicthq.com",
+    "category": "sports",
+    "labels": ["basketball", "sport"],
+    "rank": 54,
+    "local_rank": 72,
+    "phq_attendance": 1670,
+    "entities": [
+      {
+        "entity_id": "37Z9BVHZmYB6tCDxsWZJBtN",
+        "name": "Poliesportiu d'Andorra",
+        "type": "venue",
+        "formatted_address": "Baixada del Molí, AD500 Andorra la Vella, Andorra"
+      }
+    ],
+    "duration": 0,
+    "start": "2024-06-27T17:30:00Z",
+    "start_local": "2024-06-27T19:30:00",
+    "end": "2024-06-27T17:30:00Z",
+    "end_local": "2024-06-27T19:30:00",
+    "predicted_end": "2024-06-27T19:15:00Z",
+    "predicted_end_local": "2024-06-27T21:15:00",
+    "updated": "2024-06-11T02:31:13Z",
+    "first_seen": "2024-04-20T08:08:35Z",
+    "timezone": "Europe/Andorra",
+    "location": [1.5166323, 42.5048869],
+    "geo": {
+      "geometry": { "coordinates": [1.5166323, 42.5048869], "type": "Point" },
+      "placekey": "@7f8-6wx-5xq",
+      "address": {
+        "country_code": "AD",
+        "formatted_address": "Baixada del Molí, AD500 Andorra la Vella, Andorra",
+        "postcode": "AD500",
+        "locality": "Andorra la Vella",
+        "region": "Andorra la Vella"
+      }
+    },
+    "impact_patterns": [
+      {
+        "vertical": "accommodation",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-06-26", "value": 334, "position": "leading" },
+          {
+            "date_local": "2024-06-27",
+            "value": 1670,
+            "position": "event_day"
+          },
+          { "date_local": "2024-06-28", "value": 167, "position": "lagging" }
+        ]
+      },
+      {
+        "vertical": "hospitality",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-06-26", "value": 385, "position": "leading" },
+          {
+            "date_local": "2024-06-27",
+            "value": 1670,
+            "position": "event_day"
+          },
+          { "date_local": "2024-06-28", "value": 34, "position": "lagging" }
+        ]
+      },
+      {
+        "vertical": "retail",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-06-27", "value": 1670, "position": "event_day" }
+        ]
+      }
+    ],
+    "scope": "locality",
+    "country": "AD",
+    "place_hierarchies": [
+      ["6295630", "6255148", "3041565", "3041566", "3041563"]
+    ],
+    "state": "active",
+    "brand_safe": true,
+    "private": false,
+    "predicted_event_spend": 43271,
+    "predicted_event_spend_industries": {
+      "accommodation": 11486,
+      "hospitality": 19687,
+      "transportation": 12097
+    },
+    "phq_labels": [{ "label": "basketball", "weight": 1 }]
+  },
+  {
+    "relevance": 0,
+    "id": "H3qaKM9F6HEsp5o76L",
+    "title": "Eurobasket Small Countries - Group Stage - Gibraltar vs San Marino",
+    "description": "Sourced from predicthq.com",
+    "category": "sports",
+    "labels": ["basketball", "sport"],
+    "rank": 51,
+    "local_rank": 69,
+    "phq_attendance": 1171,
+    "entities": [
+      {
+        "entity_id": "37Z9BVHZmYB6tCDxsWZJBtN",
+        "name": "Poliesportiu d'Andorra",
+        "type": "venue",
+        "formatted_address": "Baixada del Molí, AD500 Andorra la Vella, Andorra"
+      }
+    ],
+    "duration": 0,
+    "start": "2024-06-27T15:00:00Z",
+    "start_local": "2024-06-27T17:00:00",
+    "end": "2024-06-27T15:00:00Z",
+    "end_local": "2024-06-27T17:00:00",
+    "predicted_end": "2024-06-27T16:45:00Z",
+    "predicted_end_local": "2024-06-27T18:45:00",
+    "updated": "2024-06-11T06:38:01Z",
+    "first_seen": "2024-04-20T08:08:35Z",
+    "timezone": "Europe/Andorra",
+    "location": [1.5166323, 42.5048869],
+    "geo": {
+      "geometry": { "coordinates": [1.5166323, 42.5048869], "type": "Point" },
+      "placekey": "@7f8-6wx-5xq",
+      "address": {
+        "country_code": "AD",
+        "formatted_address": "Baixada del Molí, AD500 Andorra la Vella, Andorra",
+        "postcode": "AD500",
+        "locality": "Andorra la Vella",
+        "region": "Andorra la Vella"
+      }
+    },
+    "impact_patterns": [
+      {
+        "vertical": "accommodation",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-06-26", "value": 235, "position": "leading" },
+          {
+            "date_local": "2024-06-27",
+            "value": 1171,
+            "position": "event_day"
+          },
+          { "date_local": "2024-06-28", "value": 118, "position": "lagging" }
+        ]
+      },
+      {
+        "vertical": "hospitality",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-06-26", "value": 270, "position": "leading" },
+          {
+            "date_local": "2024-06-27",
+            "value": 1171,
+            "position": "event_day"
+          },
+          { "date_local": "2024-06-28", "value": 24, "position": "lagging" }
+        ]
+      },
+      {
+        "vertical": "retail",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-06-27", "value": 1171, "position": "event_day" }
+        ]
+      }
+    ],
+    "scope": "locality",
+    "country": "AD",
+    "place_hierarchies": [
+      ["6295630", "6255148", "3041565", "3041566", "3041563"]
+    ],
+    "state": "active",
+    "brand_safe": true,
+    "private": false,
+    "predicted_event_spend": 30341,
+    "predicted_event_spend_industries": {
+      "accommodation": 8054,
+      "hospitality": 13804,
+      "transportation": 8482
+    },
+    "phq_labels": [{ "label": "basketball", "weight": 1 }]
+  },
+  {
+    "relevance": 0,
+    "id": "C4vP3WkjxS3PvdnYok",
+    "title": "Eurobasket Small Countries - Group Stage - Andorra vs Gibraltar",
+    "description": "Sourced from predicthq.com",
+    "category": "sports",
+    "labels": ["basketball", "sport"],
+    "rank": 54,
+    "local_rank": 72,
+    "phq_attendance": 1670,
+    "entities": [
+      {
+        "entity_id": "37Z9BVHZmYB6tCDxsWZJBtN",
+        "name": "Poliesportiu d'Andorra",
+        "type": "venue",
+        "formatted_address": "Baixada del Molí, AD500 Andorra la Vella, Andorra"
+      }
+    ],
+    "duration": 0,
+    "start": "2024-06-26T17:30:00Z",
+    "start_local": "2024-06-26T19:30:00",
+    "end": "2024-06-26T17:30:00Z",
+    "end_local": "2024-06-26T19:30:00",
+    "predicted_end": "2024-06-26T19:15:00Z",
+    "predicted_end_local": "2024-06-26T21:15:00",
+    "updated": "2024-06-10T23:55:07Z",
+    "first_seen": "2024-04-20T08:08:35Z",
+    "timezone": "Europe/Andorra",
+    "location": [1.5166323, 42.5048869],
+    "geo": {
+      "geometry": { "coordinates": [1.5166323, 42.5048869], "type": "Point" },
+      "placekey": "@7f8-6wx-5xq",
+      "address": {
+        "country_code": "AD",
+        "formatted_address": "Baixada del Molí, AD500 Andorra la Vella, Andorra",
+        "postcode": "AD500",
+        "locality": "Andorra la Vella",
+        "region": "Andorra la Vella"
+      }
+    },
+    "impact_patterns": [
+      {
+        "vertical": "accommodation",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-06-25", "value": 334, "position": "leading" },
+          {
+            "date_local": "2024-06-26",
+            "value": 1670,
+            "position": "event_day"
+          },
+          { "date_local": "2024-06-27", "value": 167, "position": "lagging" }
+        ]
+      },
+      {
+        "vertical": "hospitality",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-06-25", "value": 385, "position": "leading" },
+          {
+            "date_local": "2024-06-26",
+            "value": 1670,
+            "position": "event_day"
+          },
+          { "date_local": "2024-06-27", "value": 34, "position": "lagging" }
+        ]
+      },
+      {
+        "vertical": "retail",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-06-26", "value": 1670, "position": "event_day" }
+        ]
+      }
+    ],
+    "scope": "locality",
+    "country": "AD",
+    "place_hierarchies": [
+      ["6295630", "6255148", "3041565", "3041566", "3041563"]
+    ],
+    "state": "active",
+    "brand_safe": true,
+    "private": false,
+    "predicted_event_spend": 43271,
+    "predicted_event_spend_industries": {
+      "accommodation": 11486,
+      "hospitality": 19687,
+      "transportation": 12097
+    },
+    "phq_labels": [{ "label": "basketball", "weight": 1 }]
+  },
+  {
+    "relevance": 0,
+    "id": "6fL5JbFQeNYnBKWWgX",
+    "title": "Eurobasket Small Countries - Group Stage - Malta vs San Marino",
+    "description": "Sourced from predicthq.com",
+    "category": "sports",
+    "labels": ["basketball", "sport"],
+    "rank": 51,
+    "local_rank": 69,
+    "phq_attendance": 1171,
+    "entities": [
+      {
+        "entity_id": "37Z9BVHZmYB6tCDxsWZJBtN",
+        "name": "Poliesportiu d'Andorra",
+        "type": "venue",
+        "formatted_address": "Baixada del Molí, AD500 Andorra la Vella, Andorra"
+      }
+    ],
+    "duration": 0,
+    "start": "2024-06-26T15:00:00Z",
+    "start_local": "2024-06-26T17:00:00",
+    "end": "2024-06-26T15:00:00Z",
+    "end_local": "2024-06-26T17:00:00",
+    "predicted_end": "2024-06-26T16:45:00Z",
+    "predicted_end_local": "2024-06-26T18:45:00",
+    "updated": "2024-06-11T08:48:35Z",
+    "first_seen": "2024-04-20T08:08:35Z",
+    "timezone": "Europe/Andorra",
+    "location": [1.5166323, 42.5048869],
+    "geo": {
+      "geometry": { "coordinates": [1.5166323, 42.5048869], "type": "Point" },
+      "placekey": "@7f8-6wx-5xq",
+      "address": {
+        "country_code": "AD",
+        "formatted_address": "Baixada del Molí, AD500 Andorra la Vella, Andorra",
+        "postcode": "AD500",
+        "locality": "Andorra la Vella",
+        "region": "Andorra la Vella"
+      }
+    },
+    "impact_patterns": [
+      {
+        "vertical": "accommodation",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-06-25", "value": 235, "position": "leading" },
+          {
+            "date_local": "2024-06-26",
+            "value": 1171,
+            "position": "event_day"
+          },
+          { "date_local": "2024-06-27", "value": 118, "position": "lagging" }
+        ]
+      },
+      {
+        "vertical": "hospitality",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-06-25", "value": 270, "position": "leading" },
+          {
+            "date_local": "2024-06-26",
+            "value": 1171,
+            "position": "event_day"
+          },
+          { "date_local": "2024-06-27", "value": 24, "position": "lagging" }
+        ]
+      },
+      {
+        "vertical": "retail",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-06-26", "value": 1171, "position": "event_day" }
+        ]
+      }
+    ],
+    "scope": "locality",
+    "country": "AD",
+    "place_hierarchies": [
+      ["6295630", "6255148", "3041565", "3041566", "3041563"]
+    ],
+    "state": "active",
+    "brand_safe": true,
+    "private": false,
+    "predicted_event_spend": 30341,
+    "predicted_event_spend_industries": {
+      "accommodation": 8054,
+      "hospitality": 13804,
+      "transportation": 8482
+    },
+    "phq_labels": [{ "label": "basketball", "weight": 1 }]
+  },
+  {
+    "relevance": 0,
+    "id": "8ppcEn9KQrFvfZyWNH",
+    "title": "Eurobasket Small Countries - Group Stage - San Marino vs Andorra",
+    "description": "Sourced from predicthq.com",
+    "category": "sports",
+    "labels": ["basketball", "sport"],
+    "rank": 54,
+    "local_rank": 72,
+    "phq_attendance": 1670,
+    "entities": [
+      {
+        "entity_id": "37Z9BVHZmYB6tCDxsWZJBtN",
+        "name": "Poliesportiu d'Andorra",
+        "type": "venue",
+        "formatted_address": "Baixada del Molí, AD500 Andorra la Vella, Andorra"
+      }
+    ],
+    "duration": 0,
+    "start": "2024-06-25T17:30:00Z",
+    "start_local": "2024-06-25T19:30:00",
+    "end": "2024-06-25T17:30:00Z",
+    "end_local": "2024-06-25T19:30:00",
+    "predicted_end": "2024-06-25T19:15:00Z",
+    "predicted_end_local": "2024-06-25T21:15:00",
+    "updated": "2024-06-11T04:39:30Z",
+    "first_seen": "2024-04-20T08:08:35Z",
+    "timezone": "Europe/Andorra",
+    "location": [1.5166323, 42.5048869],
+    "geo": {
+      "geometry": { "coordinates": [1.5166323, 42.5048869], "type": "Point" },
+      "placekey": "@7f8-6wx-5xq",
+      "address": {
+        "country_code": "AD",
+        "formatted_address": "Baixada del Molí, AD500 Andorra la Vella, Andorra",
+        "postcode": "AD500",
+        "locality": "Andorra la Vella",
+        "region": "Andorra la Vella"
+      }
+    },
+    "impact_patterns": [
+      {
+        "vertical": "accommodation",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-06-24", "value": 334, "position": "leading" },
+          {
+            "date_local": "2024-06-25",
+            "value": 1670,
+            "position": "event_day"
+          },
+          { "date_local": "2024-06-26", "value": 167, "position": "lagging" }
+        ]
+      },
+      {
+        "vertical": "hospitality",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-06-24", "value": 385, "position": "leading" },
+          {
+            "date_local": "2024-06-25",
+            "value": 1670,
+            "position": "event_day"
+          },
+          { "date_local": "2024-06-26", "value": 34, "position": "lagging" }
+        ]
+      },
+      {
+        "vertical": "retail",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-06-25", "value": 1670, "position": "event_day" }
+        ]
+      }
+    ],
+    "scope": "locality",
+    "country": "AD",
+    "place_hierarchies": [
+      ["6295630", "6255148", "3041565", "3041566", "3041563"]
+    ],
+    "state": "active",
+    "brand_safe": true,
+    "private": false,
+    "predicted_event_spend": 43271,
+    "predicted_event_spend_industries": {
+      "accommodation": 11486,
+      "hospitality": 19687,
+      "transportation": 12097
+    },
+    "phq_labels": [{ "label": "basketball", "weight": 1 }]
+  },
+  {
+    "relevance": 0,
+    "id": "F3eCUCFt7yoK48QQmb",
+    "title": "Eurobasket Small Countries - Group Stage - Gibraltar vs Malta",
+    "description": "Sourced from predicthq.com",
+    "category": "sports",
+    "labels": ["basketball", "sport"],
+    "rank": 51,
+    "local_rank": 69,
+    "phq_attendance": 1171,
+    "entities": [
+      {
+        "entity_id": "37Z9BVHZmYB6tCDxsWZJBtN",
+        "name": "Poliesportiu d'Andorra",
+        "type": "venue",
+        "formatted_address": "Baixada del Molí, AD500 Andorra la Vella, Andorra"
+      }
+    ],
+    "duration": 0,
+    "start": "2024-06-25T15:00:00Z",
+    "start_local": "2024-06-25T17:00:00",
+    "end": "2024-06-25T15:00:00Z",
+    "end_local": "2024-06-25T17:00:00",
+    "predicted_end": "2024-06-25T16:45:00Z",
+    "predicted_end_local": "2024-06-25T18:45:00",
+    "updated": "2024-06-11T08:12:16Z",
+    "first_seen": "2024-04-20T08:08:35Z",
+    "timezone": "Europe/Andorra",
+    "location": [1.5166323, 42.5048869],
+    "geo": {
+      "geometry": { "coordinates": [1.5166323, 42.5048869], "type": "Point" },
+      "placekey": "@7f8-6wx-5xq",
+      "address": {
+        "country_code": "AD",
+        "formatted_address": "Baixada del Molí, AD500 Andorra la Vella, Andorra",
+        "postcode": "AD500",
+        "locality": "Andorra la Vella",
+        "region": "Andorra la Vella"
+      }
+    },
+    "impact_patterns": [
+      {
+        "vertical": "accommodation",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-06-24", "value": 235, "position": "leading" },
+          {
+            "date_local": "2024-06-25",
+            "value": 1171,
+            "position": "event_day"
+          },
+          { "date_local": "2024-06-26", "value": 118, "position": "lagging" }
+        ]
+      },
+      {
+        "vertical": "hospitality",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-06-24", "value": 270, "position": "leading" },
+          {
+            "date_local": "2024-06-25",
+            "value": 1171,
+            "position": "event_day"
+          },
+          { "date_local": "2024-06-26", "value": 24, "position": "lagging" }
+        ]
+      },
+      {
+        "vertical": "retail",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-06-25", "value": 1171, "position": "event_day" }
+        ]
+      }
+    ],
+    "scope": "locality",
+    "country": "AD",
+    "place_hierarchies": [
+      ["6295630", "6255148", "3041565", "3041566", "3041563"]
+    ],
+    "state": "active",
+    "brand_safe": true,
+    "private": false,
+    "predicted_event_spend": 30341,
+    "predicted_event_spend_industries": {
+      "accommodation": 8054,
+      "hospitality": 13804,
+      "transportation": 8482
+    },
+    "phq_labels": [{ "label": "basketball", "weight": 1 }]
+  },
+  {
+    "relevance": 0,
+    "id": "CA6iJjDaVwb5hviebn",
+    "title": "El Telar Dorado #9: Joan Planes",
+    "description": "Sourced from predicthq.com - Conoce la experiencia de Joan Planes que consiguió transformar una empresa familiar en una multinacional del IBEX-35.",
+    "category": "conferences",
+    "labels": ["business", "conference"],
+    "rank": 28,
+    "local_rank": 44,
+    "phq_attendance": 84,
+    "entities": [],
+    "duration": 5400,
+    "start": "2024-06-19T17:30:00Z",
+    "start_local": "2024-06-19T19:30:00",
+    "end": "2024-06-19T19:00:00Z",
+    "end_local": "2024-06-19T21:00:00",
+    "updated": "2024-06-06T05:31:36Z",
+    "first_seen": "2024-06-06T05:14:26Z",
+    "timezone": "Europe/Andorra",
+    "location": [1.5393217, 42.5092686],
+    "geo": {
+      "geometry": { "coordinates": [1.5393217, 42.5092686], "type": "Point" },
+      "placekey": "@7f8-68f-9xq",
+      "address": {
+        "country_code": "AD",
+        "formatted_address": "Plaça Coprínceps, AD700 Escaldes-Engordany, Andorra",
+        "locality": "Escaldes-Engordany",
+        "postcode": "AD700",
+        "region": "Escaldes-Engordany"
+      }
+    },
+    "impact_patterns": [
+      {
+        "vertical": "accommodation",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-06-19", "value": 84, "position": "event_day" }
+        ]
+      },
+      {
+        "vertical": "hospitality",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-06-19", "value": 84, "position": "event_day" }
+        ]
+      },
+      {
+        "vertical": "retail",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-06-19", "value": 84, "position": "event_day" }
+        ]
+      }
+    ],
+    "scope": "locality",
+    "country": "AD",
+    "place_hierarchies": [
+      ["6295630", "6255148", "3041565", "3338529", "3040648"],
+      ["6295630", "6255148", "3041565", "3338529", "3040051"]
+    ],
+    "state": "active",
+    "brand_safe": true,
+    "private": false,
+    "predicted_event_spend": 1423,
+    "predicted_event_spend_industries": {
+      "accommodation": 0,
+      "hospitality": 937,
+      "transportation": 486
+    },
+    "phq_labels": [{ "label": "education-and-careers", "weight": 1 }]
+  },
+  {
+    "relevance": 0,
+    "id": "4uo2ETdXhQtUR5oKvj",
+    "title": "DIGITAL MINDSET:  PENSAR, ACTUAR I SER DIGITAL",
+    "description": "Sourced from predicthq.com - Una xerrada per a aprendre a pensar, actuar i ser digital en el món actual. No t'ho perdis!",
+    "category": "conferences",
+    "labels": ["conference", "science", "technology"],
+    "rank": 30,
+    "local_rank": 45,
+    "phq_attendance": 98,
+    "entities": [],
+    "duration": 5400,
+    "start": "2024-06-19T17:00:00Z",
+    "start_local": "2024-06-19T19:00:00",
+    "end": "2024-06-19T18:30:00Z",
+    "end_local": "2024-06-19T20:30:00",
+    "updated": "2024-06-13T17:43:36Z",
+    "first_seen": "2024-06-13T02:58:38Z",
+    "timezone": "Europe/Andorra",
+    "location": [1.5296565, 42.50914469999999],
+    "geo": {
+      "geometry": {
+        "coordinates": [1.5296565, 42.50914469999999],
+        "type": "Point"
+      },
+      "placekey": "@7f8-68f-4d9",
+      "address": {
+        "country_code": "AD",
+        "formatted_address": "Avinguda Doctor Mitjavila, AD500 Andorra la Vella, Andorra",
+        "locality": "Andorra la Vella",
+        "postcode": "AD500",
+        "region": "Andorra la Vella"
+      }
+    },
+    "impact_patterns": [
+      {
+        "vertical": "accommodation",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-06-19", "value": 98, "position": "event_day" }
+        ]
+      },
+      {
+        "vertical": "hospitality",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-06-19", "value": 98, "position": "event_day" }
+        ]
+      },
+      {
+        "vertical": "retail",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-06-19", "value": 98, "position": "event_day" }
+        ]
+      }
+    ],
+    "scope": "locality",
+    "country": "AD",
+    "place_hierarchies": [
+      ["6295630", "6255148", "3041565", "3338529", "3040051"]
+    ],
+    "state": "active",
+    "brand_safe": true,
+    "private": false,
+    "predicted_event_spend": 1660,
+    "predicted_event_spend_industries": {
+      "accommodation": 0,
+      "hospitality": 1093,
+      "transportation": 567
+    },
+    "phq_labels": [
+      { "label": "science-and-technology", "weight": 0.617 },
+      { "label": "education-and-careers", "weight": 0.383 }
+    ]
+  },
+  {
+    "relevance": 0,
+    "id": "DpVu7DsskWQGrfuS5a",
+    "title": "Segunda División - FC Andorra vs Racing Ferrol",
+    "description": "Sourced from predicthq.com",
+    "category": "sports",
+    "labels": ["soccer", "sport"],
+    "rank": 51,
+    "local_rank": 68,
+    "phq_attendance": 1120,
+    "entities": [
+      {
+        "entity_id": "5GxY2hJTSvfLcNPuEnGxkh",
+        "name": "Estadi Nacional Consell General",
+        "type": "venue",
+        "formatted_address": "Baixada del Molí, 31-35, AD500 Andorra la Vella, Andorra"
+      }
+    ],
+    "duration": 6806,
+    "start": "2024-06-02T14:15:00Z",
+    "start_local": "2024-06-02T16:15:00",
+    "end": "2024-06-02T16:08:26Z",
+    "end_local": "2024-06-02T18:08:26",
+    "updated": "2024-06-06T13:08:24Z",
+    "first_seen": "2023-06-28T12:16:16Z",
+    "timezone": "Europe/Andorra",
+    "location": [1.5174616, 42.5046893],
+    "geo": {
+      "geometry": { "coordinates": [1.5174616, 42.5046893], "type": "Point" },
+      "placekey": "@7f8-6wx-5fz",
+      "address": {
+        "country_code": "AD",
+        "formatted_address": "Baixada del Molí, 31-35, AD500 Andorra la Vella, Andorra",
+        "postcode": "AD500",
+        "locality": "Andorra la Vella",
+        "region": "Andorra la Vella"
+      }
+    },
+    "impact_patterns": [
+      {
+        "vertical": "accommodation",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-06-01", "value": 224, "position": "leading" },
+          {
+            "date_local": "2024-06-02",
+            "value": 1120,
+            "position": "event_day"
+          },
+          { "date_local": "2024-06-03", "value": 112, "position": "lagging" }
+        ]
+      },
+      {
+        "vertical": "hospitality",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-06-01", "value": 258, "position": "leading" },
+          {
+            "date_local": "2024-06-02",
+            "value": 1120,
+            "position": "event_day"
+          },
+          { "date_local": "2024-06-03", "value": 23, "position": "lagging" }
+        ]
+      },
+      {
+        "vertical": "retail",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-06-02", "value": 1120, "position": "event_day" }
+        ]
+      }
+    ],
+    "scope": "locality",
+    "country": "AD",
+    "place_hierarchies": [
+      ["6295630", "6255148", "3041565", "3041566", "3041563"]
+    ],
+    "state": "active",
+    "brand_safe": true,
+    "private": false,
+    "predicted_event_spend": 29020,
+    "predicted_event_spend_industries": {
+      "accommodation": 7703,
+      "hospitality": 13203,
+      "transportation": 8113
+    },
+    "phq_labels": [{ "label": "soccer", "weight": 1 }]
+  },
+  {
+    "relevance": 0,
+    "id": "3U5TBQdeCuz5EgHeN6",
+    "title": "AZURE EN ACCIÓ: CASOS D'ÈXIT AL NÚVOL",
+    "description": "Sourced from predicthq.com - Explorem diversos casos d'èxit que destaquen les capacitats d'Azure amb Aritz Rechi",
+    "category": "conferences",
+    "labels": ["conference", "science", "technology"],
+    "rank": 29,
+    "local_rank": 44,
+    "phq_attendance": 88,
+    "entities": [],
+    "duration": 9000,
+    "start": "2024-05-29T17:00:00Z",
+    "start_local": "2024-05-29T19:00:00",
+    "end": "2024-05-29T19:30:00Z",
+    "end_local": "2024-05-29T21:30:00",
+    "updated": "2024-06-04T22:53:25Z",
+    "first_seen": "2024-05-16T00:16:44Z",
+    "timezone": "Europe/Andorra",
+    "location": [1.5296565, 42.50914469999999],
+    "geo": {
+      "geometry": {
+        "coordinates": [1.5296565, 42.50914469999999],
+        "type": "Point"
+      },
+      "placekey": "@7f8-68f-4d9",
+      "address": {
+        "country_code": "AD",
+        "formatted_address": "Avinguda Doctor Mitjavila, AD500 Andorra la Vella, Andorra",
+        "locality": "Andorra la Vella",
+        "postcode": "AD500",
+        "region": "Andorra la Vella"
+      }
+    },
+    "impact_patterns": [
+      {
+        "vertical": "accommodation",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-05-29", "value": 88, "position": "event_day" }
+        ]
+      },
+      {
+        "vertical": "hospitality",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-05-29", "value": 88, "position": "event_day" }
+        ]
+      },
+      {
+        "vertical": "retail",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-05-29", "value": 88, "position": "event_day" }
+        ]
+      }
+    ],
+    "scope": "locality",
+    "country": "AD",
+    "place_hierarchies": [
+      ["6295630", "6255148", "3041565", "3338529", "3040051"]
+    ],
+    "state": "active",
+    "brand_safe": true,
+    "private": false,
+    "predicted_event_spend": 1491,
+    "predicted_event_spend_industries": {
+      "accommodation": 0,
+      "hospitality": 981,
+      "transportation": 509
+    },
+    "phq_labels": [
+      { "label": "science-and-technology", "weight": 0.617 },
+      { "label": "education-and-careers", "weight": 0.383 }
+    ]
+  },
+  {
+    "relevance": 0,
+    "id": "4wvygNFNviqYo4qRFZ",
+    "title": "Ginestà",
+    "description": "Sourced from predicthq.com",
+    "category": "concerts",
+    "labels": ["concert", "music"],
+    "rank": 38,
+    "local_rank": 60,
+    "phq_attendance": 255,
+    "entities": [
+      {
+        "entity_id": "GR4rBMNpXdkwbZmbqSTcjH",
+        "name": "Auditori Nacional d'Andorra",
+        "type": "venue",
+        "formatted_address": "Carretera de Segudet, S/N Ordino, Ordino, Andorra"
+      }
+    ],
+    "duration": 0,
+    "start": "2024-05-23T19:30:00Z",
+    "start_local": "2024-05-23T21:30:00",
+    "end": "2024-05-23T19:30:00Z",
+    "end_local": "2024-05-23T21:30:00",
+    "predicted_end": "2024-05-23T23:40:00Z",
+    "predicted_end_local": "2024-05-24T01:40:00",
+    "updated": "2024-06-12T01:20:48Z",
+    "first_seen": "2023-11-29T20:15:40Z",
+    "timezone": "Europe/Andorra",
+    "location": [1.536996, 42.5572235],
+    "geo": {
+      "geometry": { "coordinates": [1.536996, 42.5572235], "type": "Point" },
+      "placekey": "@7f8-6pv-ct9",
+      "address": {
+        "country_code": "AD",
+        "formatted_address": "Carretera de Segudet, S/N Ordino, Ordino, Andorra",
+        "locality": "Ordino"
+      }
+    },
+    "impact_patterns": [
+      {
+        "vertical": "accommodation",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-05-23", "value": 255, "position": "event_day" }
+        ]
+      },
+      {
+        "vertical": "hospitality",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-05-23", "value": 255, "position": "event_day" }
+        ]
+      },
+      {
+        "vertical": "retail",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-05-23", "value": 255, "position": "event_day" }
+        ]
+      }
+    ],
+    "scope": "locality",
+    "country": "AD",
+    "place_hierarchies": [
+      ["6295630", "6255148", "3041565", "3039676", "3039132"],
+      ["6295630", "6255148", "3041565", "3039676", "3039678"]
+    ],
+    "state": "active",
+    "brand_safe": true,
+    "private": false,
+    "predicted_event_spend": 3622,
+    "predicted_event_spend_industries": {
+      "accommodation": 0,
+      "hospitality": 2146,
+      "transportation": 1475
+    },
+    "phq_labels": [
+      { "label": "pop", "weight": 0.6 },
+      { "label": "jazz-and-classical", "weight": 0.4 }
+    ]
+  },
+  {
+    "relevance": 0,
+    "id": "yxpcUDaNqRTcrRAEwT",
+    "title": "ACTINN I L’IMPULS DE LA INNOVACIÓ I LES NOVES TECNOLOGIES A ANDORRA",
+    "description": "Sourced from predicthq.com - En aquesta sessió Ignasi Martín presentarà què és, qui el conforma i què fa el clúster de les noves tecnologies i de la innovació d’Andorra.",
+    "category": "conferences",
+    "labels": ["conference", "science", "technology"],
+    "rank": 29,
+    "local_rank": 44,
+    "phq_attendance": 86,
+    "entities": [],
+    "duration": 9000,
+    "start": "2024-05-22T17:00:00Z",
+    "start_local": "2024-05-22T19:00:00",
+    "end": "2024-05-22T19:30:00Z",
+    "end_local": "2024-05-22T21:30:00",
+    "updated": "2024-06-05T01:13:24Z",
+    "first_seen": "2024-05-16T00:53:07Z",
+    "timezone": "Europe/Andorra",
+    "location": [1.5296565, 42.50914469999999],
+    "geo": {
+      "geometry": {
+        "coordinates": [1.5296565, 42.50914469999999],
+        "type": "Point"
+      },
+      "placekey": "@7f8-68f-4d9",
+      "address": {
+        "country_code": "AD",
+        "formatted_address": "Avinguda Doctor Mitjavila, AD500 Andorra la Vella, Andorra",
+        "locality": "Andorra la Vella",
+        "postcode": "AD500",
+        "region": "Andorra la Vella"
+      }
+    },
+    "impact_patterns": [
+      {
+        "vertical": "accommodation",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-05-22", "value": 86, "position": "event_day" }
+        ]
+      },
+      {
+        "vertical": "hospitality",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-05-22", "value": 86, "position": "event_day" }
+        ]
+      },
+      {
+        "vertical": "retail",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-05-22", "value": 86, "position": "event_day" }
+        ]
+      }
+    ],
+    "scope": "locality",
+    "country": "AD",
+    "place_hierarchies": [
+      ["6295630", "6255148", "3041565", "3338529", "3040051"]
+    ],
+    "state": "active",
+    "brand_safe": true,
+    "private": false,
+    "predicted_event_spend": 1457,
+    "predicted_event_spend_industries": {
+      "accommodation": 0,
+      "hospitality": 959,
+      "transportation": 498
+    },
+    "phq_labels": [{ "label": "science-and-technology", "weight": 1 }]
+  },
+  {
+    "relevance": 0,
+    "id": "HFHoAhaibo6TSbzuxE",
+    "title": "Segunda División - FC Andorra vs Burgos",
+    "description": "Sourced from predicthq.com",
+    "category": "sports",
+    "labels": ["soccer", "sport"],
+    "rank": 52,
+    "local_rank": 69,
+    "phq_attendance": 1210,
+    "entities": [
+      {
+        "entity_id": "5GxY2hJTSvfLcNPuEnGxkh",
+        "name": "Estadi Nacional Consell General",
+        "type": "venue",
+        "formatted_address": "Baixada del Molí, 31-35, AD500 Andorra la Vella, Andorra"
+      }
+    ],
+    "duration": 6930,
+    "start": "2024-05-18T12:00:00Z",
+    "start_local": "2024-05-18T14:00:00",
+    "end": "2024-05-18T13:55:30Z",
+    "end_local": "2024-05-18T15:55:30",
+    "updated": "2024-06-05T18:23:35Z",
+    "first_seen": "2023-06-28T12:16:16Z",
+    "timezone": "Europe/Andorra",
+    "location": [1.5174616, 42.5046893],
+    "geo": {
+      "geometry": { "coordinates": [1.5174616, 42.5046893], "type": "Point" },
+      "placekey": "@7f8-6wx-5fz",
+      "address": {
+        "country_code": "AD",
+        "formatted_address": "Baixada del Molí, 31-35, AD500 Andorra la Vella, Andorra",
+        "postcode": "AD500",
+        "locality": "Andorra la Vella",
+        "region": "Andorra la Vella"
+      }
+    },
+    "impact_patterns": [
+      {
+        "vertical": "accommodation",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-05-17", "value": 242, "position": "leading" },
+          {
+            "date_local": "2024-05-18",
+            "value": 1210,
+            "position": "event_day"
+          },
+          { "date_local": "2024-05-19", "value": 121, "position": "lagging" }
+        ]
+      },
+      {
+        "vertical": "hospitality",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-05-17", "value": 279, "position": "leading" },
+          {
+            "date_local": "2024-05-18",
+            "value": 1210,
+            "position": "event_day"
+          },
+          { "date_local": "2024-05-19", "value": 25, "position": "lagging" }
+        ]
+      },
+      {
+        "vertical": "retail",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-05-18", "value": 1210, "position": "event_day" }
+        ]
+      }
+    ],
+    "scope": "locality",
+    "country": "AD",
+    "place_hierarchies": [
+      ["6295630", "6255148", "3041565", "3041566", "3041563"]
+    ],
+    "state": "active",
+    "brand_safe": true,
+    "private": false,
+    "predicted_event_spend": 31352,
+    "predicted_event_spend_industries": {
+      "accommodation": 8322,
+      "hospitality": 14264,
+      "transportation": 8765
+    },
+    "phq_labels": [{ "label": "soccer", "weight": 1 }]
+  },
+  {
+    "relevance": 0,
+    "id": "FZYaT7nQQJ3ErXViKG",
+    "title": "El Telar Dorado #8: Fran Monaj",
+    "description": "Sourced from predicthq.com - Transformar un negocio físico en digital. Conoce las claves que han llevado al éxito el proyecto de Fran y Carlos Monaj (YouTalk).",
+    "category": "conferences",
+    "labels": ["business", "conference"],
+    "rank": 30,
+    "local_rank": 46,
+    "phq_attendance": 101,
+    "entities": [],
+    "duration": 3600,
+    "start": "2024-05-15T17:30:00Z",
+    "start_local": "2024-05-15T19:30:00",
+    "end": "2024-05-15T18:30:00Z",
+    "end_local": "2024-05-15T20:30:00",
+    "updated": "2024-06-05T18:51:19Z",
+    "first_seen": "2024-05-02T02:46:17Z",
+    "timezone": "Europe/Andorra",
+    "location": [1.5393217, 42.5092686],
+    "geo": {
+      "geometry": { "coordinates": [1.5393217, 42.5092686], "type": "Point" },
+      "placekey": "@7f8-68f-9xq",
+      "address": {
+        "country_code": "AD",
+        "formatted_address": "Plaça Coprínceps, AD700 Escaldes-Engordany, Andorra",
+        "locality": "Escaldes-Engordany",
+        "postcode": "AD700",
+        "region": "Escaldes-Engordany"
+      }
+    },
+    "impact_patterns": [
+      {
+        "vertical": "accommodation",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-05-15", "value": 101, "position": "event_day" }
+        ]
+      },
+      {
+        "vertical": "hospitality",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-05-15", "value": 101, "position": "event_day" }
+        ]
+      },
+      {
+        "vertical": "retail",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-05-15", "value": 101, "position": "event_day" }
+        ]
+      }
+    ],
+    "scope": "locality",
+    "country": "AD",
+    "place_hierarchies": [
+      ["6295630", "6255148", "3041565", "3338529", "3040648"],
+      ["6295630", "6255148", "3041565", "3338529", "3040051"]
+    ],
+    "state": "active",
+    "brand_safe": true,
+    "private": false,
+    "predicted_event_spend": 1711,
+    "predicted_event_spend_industries": {
+      "accommodation": 0,
+      "hospitality": 1126,
+      "transportation": 584
+    },
+    "phq_labels": [{ "label": "education-and-careers", "weight": 1 }]
+  },
+  {
+    "relevance": 0,
+    "id": "AtVwJx7a5hp8BrFvoQ",
+    "title": "Valencia Basket vs BC Andorra",
+    "alternate_titles": ["Liga ACB - Andorra vs Valencia"],
+    "description": "Sourced from predicthq.com",
+    "category": "sports",
+    "labels": ["basketball", "sport"],
+    "rank": 63,
+    "local_rank": 80,
+    "phq_attendance": 4523,
+    "entities": [
+      {
+        "entity_id": "37Z9BVHZmYB6tCDxsWZJBtN",
+        "name": "Poliesportiu d'Andorra",
+        "type": "venue",
+        "formatted_address": "Baixada del Molí, AD500 Andorra la Vella, Andorra"
+      }
+    ],
+    "duration": 6511,
+    "start": "2024-05-12T16:30:00Z",
+    "start_local": "2024-05-12T18:30:00",
+    "end": "2024-05-12T18:18:31Z",
+    "end_local": "2024-05-12T20:18:31",
+    "updated": "2024-06-05T16:44:37Z",
+    "first_seen": "2023-08-03T16:02:26Z",
+    "timezone": "Europe/Andorra",
+    "location": [1.5166323, 42.5048869],
+    "geo": {
+      "geometry": { "coordinates": [1.5166323, 42.5048869], "type": "Point" },
+      "placekey": "@7f8-6wx-5xq",
+      "address": {
+        "country_code": "AD",
+        "formatted_address": "Baixada del Molí, AD500 Andorra la Vella, Andorra",
+        "postcode": "AD500",
+        "locality": "Andorra la Vella",
+        "region": "Andorra la Vella"
+      }
+    },
+    "impact_patterns": [
+      {
+        "vertical": "accommodation",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-05-11", "value": 905, "position": "leading" },
+          {
+            "date_local": "2024-05-12",
+            "value": 4523,
+            "position": "event_day"
+          },
+          { "date_local": "2024-05-13", "value": 453, "position": "lagging" }
+        ]
+      },
+      {
+        "vertical": "hospitality",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-05-11", "value": 1584, "position": "leading" },
+          {
+            "date_local": "2024-05-12",
+            "value": 4523,
+            "position": "event_day"
+          },
+          { "date_local": "2024-05-13", "value": 1584, "position": "lagging" }
+        ]
+      },
+      {
+        "vertical": "retail",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-05-07", "value": 272, "position": "leading" },
+          { "date_local": "2024-05-08", "value": 272, "position": "leading" },
+          { "date_local": "2024-05-09", "value": 272, "position": "leading" },
+          { "date_local": "2024-05-10", "value": 1312, "position": "leading" },
+          { "date_local": "2024-05-11", "value": 1403, "position": "leading" },
+          {
+            "date_local": "2024-05-12",
+            "value": 4523,
+            "position": "event_day"
+          },
+          { "date_local": "2024-05-13", "value": 996, "position": "lagging" },
+          { "date_local": "2024-05-14", "value": 272, "position": "lagging" },
+          { "date_local": "2024-05-15", "value": 272, "position": "lagging" },
+          { "date_local": "2024-05-16", "value": 272, "position": "lagging" },
+          { "date_local": "2024-05-17", "value": 272, "position": "lagging" }
+        ]
+      }
+    ],
+    "scope": "locality",
+    "country": "AD",
+    "place_hierarchies": [
+      ["6295630", "6255148", "3041565", "3041566", "3041563"]
+    ],
+    "state": "active",
+    "brand_safe": true,
+    "private": false,
+    "predicted_event_spend": 229383,
+    "predicted_event_spend_industries": {
+      "accommodation": 46663,
+      "hospitality": 138635,
+      "transportation": 44083
+    },
+    "phq_labels": [{ "label": "basketball", "weight": 1 }]
+  },
+  {
+    "relevance": 0,
+    "id": "953nSDPcnkDMQm7XJ8",
+    "title": "Odoo Roadshow Andorra",
+    "description": "Sourced from predicthq.com - ¡Simplifiquemos todo con Odoo, el software integrado todo en uno!",
+    "category": "conferences",
+    "labels": ["conference", "science", "technology"],
+    "rank": 29,
+    "local_rank": 45,
+    "phq_attendance": 92,
+    "entities": [],
+    "duration": 10800,
+    "start": "2024-05-07T16:00:00Z",
+    "start_local": "2024-05-07T18:00:00",
+    "end": "2024-05-07T19:00:00Z",
+    "end_local": "2024-05-07T21:00:00",
+    "updated": "2024-06-05T00:34:01Z",
+    "first_seen": "2024-03-28T00:21:52Z",
+    "timezone": "Europe/Andorra",
+    "location": [1.5402787, 42.5094988],
+    "geo": {
+      "geometry": { "coordinates": [1.5402787, 42.5094988], "type": "Point" },
+      "placekey": "@7f8-68f-649",
+      "address": {
+        "country_code": "AD",
+        "formatted_address": "Carrer del Prat Gran, AD700 Escaldes-Engordany, Andorra",
+        "locality": "Escaldes-Engordany",
+        "postcode": "AD700",
+        "region": "Escaldes-Engordany"
+      }
+    },
+    "impact_patterns": [
+      {
+        "vertical": "accommodation",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-05-07", "value": 92, "position": "event_day" }
+        ]
+      },
+      {
+        "vertical": "hospitality",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-05-07", "value": 92, "position": "event_day" }
+        ]
+      },
+      {
+        "vertical": "retail",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-05-07", "value": 92, "position": "event_day" }
+        ]
+      }
+    ],
+    "scope": "locality",
+    "country": "AD",
+    "place_hierarchies": [
+      ["6295630", "6255148", "3041565", "3338529", "3040648"],
+      ["6295630", "6255148", "3041565", "3338529", "3040051"]
+    ],
+    "state": "active",
+    "brand_safe": true,
+    "private": false,
+    "predicted_event_spend": 1559,
+    "predicted_event_spend_industries": {
+      "accommodation": 0,
+      "hospitality": 1026,
+      "transportation": 532
+    },
+    "phq_labels": [{ "label": "science-and-technology", "weight": 1 }]
+  },
+  {
+    "relevance": 0,
+    "id": "BiTrcJk2aWPjRRioUM",
+    "title": "Segunda División - FC Andorra vs Albacete",
+    "description": "Sourced from predicthq.com",
+    "category": "sports",
+    "labels": ["soccer", "sport"],
+    "rank": 58,
+    "local_rank": 75,
+    "phq_attendance": 2414,
+    "entities": [
+      {
+        "entity_id": "5GxY2hJTSvfLcNPuEnGxkh",
+        "name": "Estadi Nacional Consell General",
+        "type": "venue",
+        "formatted_address": "Baixada del Molí, 31-35, AD500 Andorra la Vella, Andorra"
+      }
+    ],
+    "duration": 6906,
+    "start": "2024-05-05T14:15:00Z",
+    "start_local": "2024-05-05T16:15:00",
+    "end": "2024-05-05T16:10:06Z",
+    "end_local": "2024-05-05T18:10:06",
+    "updated": "2024-06-04T23:10:17Z",
+    "first_seen": "2023-06-28T12:12:23Z",
+    "timezone": "Europe/Andorra",
+    "location": [1.5174616, 42.5046893],
+    "geo": {
+      "geometry": { "coordinates": [1.5174616, 42.5046893], "type": "Point" },
+      "placekey": "@7f8-6wx-5fz",
+      "address": {
+        "country_code": "AD",
+        "formatted_address": "Baixada del Molí, 31-35, AD500 Andorra la Vella, Andorra",
+        "postcode": "AD500",
+        "locality": "Andorra la Vella",
+        "region": "Andorra la Vella"
+      }
+    },
+    "impact_patterns": [
+      {
+        "vertical": "accommodation",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-05-04", "value": 483, "position": "leading" },
+          {
+            "date_local": "2024-05-05",
+            "value": 2414,
+            "position": "event_day"
+          },
+          { "date_local": "2024-05-06", "value": 242, "position": "lagging" }
+        ]
+      },
+      {
+        "vertical": "hospitality",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-05-04", "value": 556, "position": "leading" },
+          {
+            "date_local": "2024-05-05",
+            "value": 2414,
+            "position": "event_day"
+          },
+          { "date_local": "2024-05-06", "value": 49, "position": "lagging" }
+        ]
+      },
+      {
+        "vertical": "retail",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-05-05", "value": 2414, "position": "event_day" }
+        ]
+      }
+    ],
+    "scope": "locality",
+    "country": "AD",
+    "place_hierarchies": [
+      ["6295630", "6255148", "3041565", "3041566", "3041563"]
+    ],
+    "state": "active",
+    "brand_safe": true,
+    "private": false,
+    "predicted_event_spend": 62548,
+    "predicted_event_spend_industries": {
+      "accommodation": 16603,
+      "hospitality": 28458,
+      "transportation": 17487
+    },
+    "phq_labels": [{ "label": "soccer", "weight": 1 }]
+  },
+  {
+    "relevance": 0,
+    "id": "9iqyRZyQykY4cFYVee",
+    "title": "Jornades Holístiques",
+    "description": "Sourced from predicthq.com - Concert aromàtic, gongs, trementinaires, sonoterapia, tallers, Chikung i molt més durant dos dies intensos aprenent dels millors.",
+    "category": "conferences",
+    "labels": ["conference", "health"],
+    "rank": 38,
+    "local_rank": 57,
+    "phq_attendance": 242,
+    "entities": [],
+    "duration": 10800,
+    "start": "2024-05-03T17:00:00Z",
+    "start_local": "2024-05-03T19:00:00",
+    "end": "2024-05-03T20:00:00Z",
+    "end_local": "2024-05-03T22:00:00",
+    "updated": "2024-06-05T05:44:50Z",
+    "first_seen": "2024-03-28T01:22:43Z",
+    "timezone": "Europe/Andorra",
+    "location": [1.5240154, 42.5318577],
+    "geo": {
+      "geometry": { "coordinates": [1.5240154, 42.5318577], "type": "Point" },
+      "placekey": "@7f8-68n-whq",
+      "address": {
+        "country_code": "AD",
+        "formatted_address": "Carretera d'Anyós, AD400 La Massana, Andorra",
+        "locality": "La Massana",
+        "postcode": "AD400",
+        "region": "La Massana"
+      }
+    },
+    "impact_patterns": [
+      {
+        "vertical": "accommodation",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-05-03", "value": 242, "position": "event_day" }
+        ]
+      },
+      {
+        "vertical": "hospitality",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-05-03", "value": 242, "position": "event_day" }
+        ]
+      },
+      {
+        "vertical": "retail",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-05-03", "value": 242, "position": "event_day" }
+        ]
+      }
+    ],
+    "scope": "locality",
+    "country": "AD",
+    "place_hierarchies": [
+      ["6295630", "6255148", "3041565", "3040131", "3041543"],
+      ["6295630", "6255148", "3041565", "3040131", "3040132"]
+    ],
+    "state": "active",
+    "brand_safe": true,
+    "private": false,
+    "predicted_event_spend": 4101,
+    "predicted_event_spend_industries": {
+      "accommodation": 0,
+      "hospitality": 2699,
+      "transportation": 1401
+    },
+    "phq_labels": [{ "label": "medical", "weight": 1 }]
+  },
+  {
+    "relevance": 0,
+    "id": "5vBgxH6wWwJSrA7nzE",
+    "title": "FC Barcelona vs BC Andorra",
+    "alternate_titles": ["Liga ACB - Andorra vs Barcelona"],
+    "description": "Sourced from predicthq.com",
+    "category": "sports",
+    "labels": ["basketball", "sport"],
+    "rank": 64,
+    "local_rank": 81,
+    "phq_attendance": 4827,
+    "entities": [
+      {
+        "entity_id": "37Z9BVHZmYB6tCDxsWZJBtN",
+        "name": "Poliesportiu d'Andorra",
+        "type": "venue",
+        "formatted_address": "Baixada del Molí, AD500 Andorra la Vella, Andorra"
+      }
+    ],
+    "duration": 7598,
+    "start": "2024-04-28T16:30:00Z",
+    "start_local": "2024-04-28T18:30:00",
+    "end": "2024-04-28T18:36:38Z",
+    "end_local": "2024-04-28T20:36:38",
+    "updated": "2024-06-05T10:35:14Z",
+    "first_seen": "2023-08-03T16:02:26Z",
+    "timezone": "Europe/Andorra",
+    "location": [1.5166323, 42.5048869],
+    "geo": {
+      "geometry": { "coordinates": [1.5166323, 42.5048869], "type": "Point" },
+      "placekey": "@7f8-6wx-5xq",
+      "address": {
+        "country_code": "AD",
+        "formatted_address": "Baixada del Molí, AD500 Andorra la Vella, Andorra",
+        "postcode": "AD500",
+        "locality": "Andorra la Vella",
+        "region": "Andorra la Vella"
+      }
+    },
+    "impact_patterns": [
+      {
+        "vertical": "accommodation",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-04-27", "value": 966, "position": "leading" },
+          {
+            "date_local": "2024-04-28",
+            "value": 4827,
+            "position": "event_day"
+          },
+          { "date_local": "2024-04-29", "value": 483, "position": "lagging" }
+        ]
+      },
+      {
+        "vertical": "hospitality",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-04-27", "value": 1690, "position": "leading" },
+          {
+            "date_local": "2024-04-28",
+            "value": 4827,
+            "position": "event_day"
+          },
+          { "date_local": "2024-04-29", "value": 1690, "position": "lagging" }
+        ]
+      },
+      {
+        "vertical": "retail",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-04-23", "value": 290, "position": "leading" },
+          { "date_local": "2024-04-24", "value": 290, "position": "leading" },
+          { "date_local": "2024-04-25", "value": 290, "position": "leading" },
+          { "date_local": "2024-04-26", "value": 1400, "position": "leading" },
+          { "date_local": "2024-04-27", "value": 1497, "position": "leading" },
+          {
+            "date_local": "2024-04-28",
+            "value": 4827,
+            "position": "event_day"
+          },
+          { "date_local": "2024-04-29", "value": 1062, "position": "lagging" },
+          { "date_local": "2024-04-30", "value": 290, "position": "lagging" },
+          { "date_local": "2024-05-01", "value": 290, "position": "lagging" },
+          { "date_local": "2024-05-02", "value": 290, "position": "lagging" },
+          { "date_local": "2024-05-03", "value": 290, "position": "lagging" }
+        ]
+      }
+    ],
+    "scope": "locality",
+    "country": "AD",
+    "place_hierarchies": [
+      ["6295630", "6255148", "3041565", "3041566", "3041563"]
+    ],
+    "state": "active",
+    "brand_safe": true,
+    "private": false,
+    "predicted_event_spend": 244800,
+    "predicted_event_spend_industries": {
+      "accommodation": 49799,
+      "hospitality": 147953,
+      "transportation": 47046
+    },
+    "phq_labels": [{ "label": "basketball", "weight": 1 }]
+  },
+  {
+    "relevance": 0,
+    "id": "CCUEfuvNa6XMvH94cn",
+    "title": "Segunda División - FC Andorra vs Racing Santander",
+    "description": "Sourced from predicthq.com",
+    "category": "sports",
+    "labels": ["soccer", "sport"],
+    "rank": 56,
+    "local_rank": 73,
+    "phq_attendance": 2065,
+    "entities": [
+      {
+        "entity_id": "5GxY2hJTSvfLcNPuEnGxkh",
+        "name": "Estadi Nacional Consell General",
+        "type": "venue",
+        "formatted_address": "Baixada del Molí, 31-35, AD500 Andorra la Vella, Andorra"
+      }
+    ],
+    "duration": 7274,
+    "start": "2024-04-26T18:30:00Z",
+    "start_local": "2024-04-26T20:30:00",
+    "end": "2024-04-26T20:31:14Z",
+    "end_local": "2024-04-26T22:31:14",
+    "updated": "2024-06-05T03:41:38Z",
+    "first_seen": "2023-06-28T12:16:16Z",
+    "timezone": "Europe/Andorra",
+    "location": [1.5174616, 42.5046893],
+    "geo": {
+      "geometry": { "coordinates": [1.5174616, 42.5046893], "type": "Point" },
+      "placekey": "@7f8-6wx-5fz",
+      "address": {
+        "country_code": "AD",
+        "formatted_address": "Baixada del Molí, 31-35, AD500 Andorra la Vella, Andorra",
+        "postcode": "AD500",
+        "locality": "Andorra la Vella",
+        "region": "Andorra la Vella"
+      }
+    },
+    "impact_patterns": [
+      {
+        "vertical": "accommodation",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-04-25", "value": 413, "position": "leading" },
+          {
+            "date_local": "2024-04-26",
+            "value": 2065,
+            "position": "event_day"
+          },
+          { "date_local": "2024-04-27", "value": 207, "position": "lagging" }
+        ]
+      },
+      {
+        "vertical": "hospitality",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-04-25", "value": 475, "position": "leading" },
+          {
+            "date_local": "2024-04-26",
+            "value": 2065,
+            "position": "event_day"
+          },
+          { "date_local": "2024-04-27", "value": 42, "position": "lagging" }
+        ]
+      },
+      {
+        "vertical": "retail",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-04-26", "value": 2065, "position": "event_day" }
+        ]
+      }
+    ],
+    "scope": "locality",
+    "country": "AD",
+    "place_hierarchies": [
+      ["6295630", "6255148", "3041565", "3041566", "3041563"]
+    ],
+    "state": "active",
+    "brand_safe": true,
+    "private": false,
+    "predicted_event_spend": 53506,
+    "predicted_event_spend_industries": {
+      "accommodation": 14202,
+      "hospitality": 24344,
+      "transportation": 14958
+    },
+    "phq_labels": [{ "label": "soccer", "weight": 1 }]
+  },
+  {
+    "relevance": 0,
+    "id": "834vvFPN48GPvnJusX",
+    "title": "Presentación del libro Bitcoin con Rigor",
+    "description": "Sourced from predicthq.com - Acompáñanos en la presentación del libro \"Bitcoin con Rigor\" para aprender  qué diferencia a Bitcoin :)",
+    "category": "conferences",
+    "labels": ["conference", "science", "technology"],
+    "rank": 30,
+    "local_rank": 45,
+    "phq_attendance": 96,
+    "entities": [],
+    "duration": 9000,
+    "start": "2024-04-22T16:00:00Z",
+    "start_local": "2024-04-22T18:00:00",
+    "end": "2024-04-22T18:30:00Z",
+    "end_local": "2024-04-22T20:30:00",
+    "updated": "2024-06-05T17:29:41Z",
+    "first_seen": "2024-04-18T00:33:14Z",
+    "timezone": "Europe/Andorra",
+    "location": [1.5308601, 42.5081728],
+    "geo": {
+      "geometry": { "coordinates": [1.5308601, 42.5081728], "type": "Point" },
+      "placekey": "@7f8-68f-249",
+      "address": {
+        "country_code": "AD",
+        "formatted_address": "Avinguda Meritxell, AD500 Andorra la Vella, Andorra",
+        "locality": "Andorra la Vella",
+        "postcode": "AD500",
+        "region": "Andorra la Vella"
+      }
+    },
+    "impact_patterns": [
+      {
+        "vertical": "accommodation",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-04-22", "value": 96, "position": "event_day" }
+        ]
+      },
+      {
+        "vertical": "hospitality",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-04-22", "value": 96, "position": "event_day" }
+        ]
+      },
+      {
+        "vertical": "retail",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-04-22", "value": 96, "position": "event_day" }
+        ]
+      }
+    ],
+    "scope": "locality",
+    "country": "AD",
+    "place_hierarchies": [
+      ["6295630", "6255148", "3041565", "3338529", "3040051"]
+    ],
+    "state": "active",
+    "brand_safe": true,
+    "private": false,
+    "predicted_event_spend": 1626,
+    "predicted_event_spend_industries": {
+      "accommodation": 0,
+      "hospitality": 1070,
+      "transportation": 555
+    },
+    "phq_labels": [
+      { "label": "science-and-technology", "weight": 0.617 },
+      { "label": "education-and-careers", "weight": 0.383 }
+    ]
+  },
+  {
+    "relevance": 0,
+    "id": "B5m4xDoJX9AcZLCvRp",
+    "title": "Xavi Malacara",
+    "description": "Sourced from predicthq.com",
+    "category": "concerts",
+    "labels": ["concert", "music"],
+    "rank": 44,
+    "local_rank": 59,
+    "phq_attendance": 509,
+    "entities": [
+      {
+        "entity_id": "M3utxwTj94kRpHqjuYSdMM",
+        "name": "Hard Rock Café - Andorra",
+        "type": "venue",
+        "formatted_address": "Carrer Bonaventura Riberaygua, 4, AD500 Andorra la Vella, Andorra"
+      }
+    ],
+    "duration": 0,
+    "start": "2024-04-19T18:00:00Z",
+    "start_local": "2024-04-19T20:00:00",
+    "end": "2024-04-19T18:00:00Z",
+    "end_local": "2024-04-19T20:00:00",
+    "predicted_end": "2024-04-19T22:10:00Z",
+    "predicted_end_local": "2024-04-20T00:10:00",
+    "updated": "2024-06-12T13:06:32Z",
+    "first_seen": "2024-02-23T20:48:38Z",
+    "timezone": "Europe/Andorra",
+    "location": [1.5319981, 42.5076991],
+    "geo": {
+      "geometry": { "coordinates": [1.5319981, 42.5076991], "type": "Point" },
+      "placekey": "@7f8-68f-2tv",
+      "address": {
+        "country_code": "AD",
+        "formatted_address": "Carrer Bonaventura Riberaygua, 4, AD500 Andorra la Vella, Andorra",
+        "postcode": "AD500",
+        "locality": "Andorra la Vella",
+        "region": "Andorra la Vella"
+      }
+    },
+    "impact_patterns": [
+      {
+        "vertical": "accommodation",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-04-19", "value": 509, "position": "event_day" }
+        ]
+      },
+      {
+        "vertical": "hospitality",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-04-18", "value": 77, "position": "leading" },
+          { "date_local": "2024-04-19", "value": 509, "position": "event_day" },
+          { "date_local": "2024-04-20", "value": 16, "position": "lagging" }
+        ]
+      },
+      {
+        "vertical": "retail",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-04-19", "value": 509, "position": "event_day" }
+        ]
+      }
+    ],
+    "scope": "locality",
+    "country": "AD",
+    "place_hierarchies": [
+      ["6295630", "6255148", "3041565", "3338529", "3040051"]
+    ],
+    "state": "active",
+    "brand_safe": true,
+    "private": false,
+    "predicted_event_spend": 11813,
+    "predicted_event_spend_industries": {
+      "accommodation": 2450,
+      "hospitality": 5678,
+      "transportation": 3684
+    }
+  },
+  {
+    "relevance": 0,
+    "id": "ETpCDYJMRZ9iFm7aXA",
+    "title": "El Teler Daurat, amb Judit Hidalgo d'Andorra Business by Aumentium",
+    "description": "Sourced from predicthq.com - Vine a gaudir d'El Teler Daurat i aprendre noves vies per fer crèixer el teu projecte a Andorra, no t'ho pots pedre!",
+    "category": "conferences",
+    "labels": ["business", "conference"],
+    "rank": 30,
+    "local_rank": 46,
+    "phq_attendance": 102,
+    "entities": [],
+    "duration": 3600,
+    "start": "2024-04-17T17:30:00Z",
+    "start_local": "2024-04-17T19:30:00",
+    "end": "2024-04-17T18:30:00Z",
+    "end_local": "2024-04-17T20:30:00",
+    "updated": "2024-06-05T10:05:08Z",
+    "first_seen": "2024-04-04T00:22:15Z",
+    "timezone": "Europe/Andorra",
+    "location": [1.5296565, 42.50914469999999],
+    "geo": {
+      "geometry": {
+        "coordinates": [1.5296565, 42.50914469999999],
+        "type": "Point"
+      },
+      "placekey": "@7f8-68f-4d9",
+      "address": {
+        "country_code": "AD",
+        "formatted_address": "Avinguda Doctor Mitjavila, AD500 Andorra la Vella, Andorra",
+        "locality": "Andorra la Vella",
+        "postcode": "AD500",
+        "region": "Andorra la Vella"
+      }
+    },
+    "impact_patterns": [
+      {
+        "vertical": "accommodation",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-04-17", "value": 102, "position": "event_day" }
+        ]
+      },
+      {
+        "vertical": "hospitality",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-04-17", "value": 102, "position": "event_day" }
+        ]
+      },
+      {
+        "vertical": "retail",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-04-17", "value": 102, "position": "event_day" }
+        ]
+      }
+    ],
+    "scope": "locality",
+    "country": "AD",
+    "place_hierarchies": [
+      ["6295630", "6255148", "3041565", "3338529", "3040051"]
+    ],
+    "state": "active",
+    "brand_safe": true,
+    "private": false,
+    "predicted_event_spend": 1728,
+    "predicted_event_spend_industries": {
+      "accommodation": 0,
+      "hospitality": 1137,
+      "transportation": 590
+    },
+    "phq_labels": [{ "label": "education-and-careers", "weight": 1 }]
+  },
+  {
+    "relevance": 0,
+    "id": "BTSERgEUvx9kERJpNX",
+    "title": "Segunda División - FC Andorra vs Eibar",
+    "description": "Sourced from predicthq.com",
+    "category": "sports",
+    "labels": ["soccer", "sport"],
+    "rank": 58,
+    "local_rank": 75,
+    "phq_attendance": 2463,
+    "entities": [
+      {
+        "entity_id": "5GxY2hJTSvfLcNPuEnGxkh",
+        "name": "Estadi Nacional Consell General",
+        "type": "venue",
+        "formatted_address": "Baixada del Molí, 31-35, AD500 Andorra la Vella, Andorra"
+      }
+    ],
+    "duration": 7127,
+    "start": "2024-04-14T14:15:00Z",
+    "start_local": "2024-04-14T16:15:00",
+    "end": "2024-04-14T16:13:47Z",
+    "end_local": "2024-04-14T18:13:47",
+    "updated": "2024-06-05T06:38:14Z",
+    "first_seen": "2023-06-28T12:31:59Z",
+    "timezone": "Europe/Andorra",
+    "location": [1.5174616, 42.5046893],
+    "geo": {
+      "geometry": { "coordinates": [1.5174616, 42.5046893], "type": "Point" },
+      "placekey": "@7f8-6wx-5fz",
+      "address": {
+        "country_code": "AD",
+        "formatted_address": "Baixada del Molí, 31-35, AD500 Andorra la Vella, Andorra",
+        "postcode": "AD500",
+        "locality": "Andorra la Vella",
+        "region": "Andorra la Vella"
+      }
+    },
+    "impact_patterns": [
+      {
+        "vertical": "accommodation",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-04-13", "value": 493, "position": "leading" },
+          {
+            "date_local": "2024-04-14",
+            "value": 2463,
+            "position": "event_day"
+          },
+          { "date_local": "2024-04-15", "value": 247, "position": "lagging" }
+        ]
+      },
+      {
+        "vertical": "hospitality",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-04-13", "value": 567, "position": "leading" },
+          {
+            "date_local": "2024-04-14",
+            "value": 2463,
+            "position": "event_day"
+          },
+          { "date_local": "2024-04-15", "value": 50, "position": "lagging" }
+        ]
+      },
+      {
+        "vertical": "retail",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-04-14", "value": 2463, "position": "event_day" }
+        ]
+      }
+    ],
+    "scope": "locality",
+    "country": "AD",
+    "place_hierarchies": [
+      ["6295630", "6255148", "3041565", "3041566", "3041563"]
+    ],
+    "state": "active",
+    "brand_safe": true,
+    "private": false,
+    "predicted_event_spend": 63818,
+    "predicted_event_spend_industries": {
+      "accommodation": 16940,
+      "hospitality": 29036,
+      "transportation": 17842
+    },
+    "phq_labels": [{ "label": "soccer", "weight": 1 }]
+  },
+  {
+    "relevance": 0,
+    "id": "HprkPvBXHmxUrkWmcB",
+    "title": "World Championship Division IIA (W) - Group Stage - Kazakhstan vs Spain",
+    "description": "Sourced from predicthq.com",
+    "category": "sports",
+    "labels": ["ice-hockey", "sport"],
+    "rank": 54,
+    "local_rank": 78,
+    "phq_attendance": 1500,
+    "entities": [
+      {
+        "entity_id": "zyRkWCjxALVSLgeWDRi3aT",
+        "name": "Palau de Gel d’Andorra",
+        "type": "venue",
+        "formatted_address": "Sant Joan de Caselles, Carretera General, AD100 Canillo, Andorra"
+      }
+    ],
+    "duration": 0,
+    "start": "2024-04-13T18:00:00Z",
+    "start_local": "2024-04-13T20:00:00",
+    "end": "2024-04-13T18:00:00Z",
+    "end_local": "2024-04-13T20:00:00",
+    "predicted_end": "2024-04-13T20:15:00Z",
+    "predicted_end_local": "2024-04-13T22:15:00",
+    "updated": "2024-06-12T02:33:17Z",
+    "first_seen": "2024-01-01T06:32:29Z",
+    "timezone": "Europe/Andorra",
+    "location": [1.5980087232840967, 42.566328247687686],
+    "geo": {
+      "geometry": {
+        "coordinates": [1.5980087232840967, 42.566328247687686],
+        "type": "Point"
+      },
+      "placekey": "@7f8-67g-qxq",
+      "address": {
+        "country_code": "AD",
+        "formatted_address": "Sant Joan de Caselles, Carretera General, AD100 Canillo, Andorra",
+        "postcode": "AD100",
+        "locality": "Canillo",
+        "region": "Canillo"
+      }
+    },
+    "impact_patterns": [
+      {
+        "vertical": "accommodation",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-04-12", "value": 300, "position": "leading" },
+          {
+            "date_local": "2024-04-13",
+            "value": 1500,
+            "position": "event_day"
+          },
+          { "date_local": "2024-04-14", "value": 150, "position": "lagging" }
+        ]
+      },
+      {
+        "vertical": "hospitality",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-04-12", "value": 345, "position": "leading" },
+          {
+            "date_local": "2024-04-13",
+            "value": 1500,
+            "position": "event_day"
+          },
+          { "date_local": "2024-04-14", "value": 30, "position": "lagging" }
+        ]
+      },
+      {
+        "vertical": "retail",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-04-13", "value": 1500, "position": "event_day" }
+        ]
+      }
+    ],
+    "scope": "locality",
+    "country": "AD",
+    "place_hierarchies": [
+      ["6295630", "6255148", "3041565", "3041203", "3041204"]
+    ],
+    "state": "active",
+    "brand_safe": true,
+    "private": false,
+    "predicted_event_spend": 37908,
+    "predicted_event_spend_industries": {
+      "accommodation": 10316,
+      "hospitality": 16733,
+      "transportation": 10858
+    },
+    "phq_labels": [{ "label": "ice-hockey", "weight": 1 }]
+  },
+  {
+    "relevance": 0,
+    "id": "Gagne8yjTUkuFx6sxJ",
+    "title": "World Championship Division IIA (W) - Group Stage - Chinese Taipei vs Iceland",
+    "description": "Sourced from predicthq.com",
+    "category": "sports",
+    "labels": ["ice-hockey", "sport"],
+    "rank": 49,
+    "local_rank": 74,
+    "phq_attendance": 940,
+    "entities": [
+      {
+        "entity_id": "zyRkWCjxALVSLgeWDRi3aT",
+        "name": "Palau de Gel d’Andorra",
+        "type": "venue",
+        "formatted_address": "Sant Joan de Caselles, Carretera General, AD100 Canillo, Andorra"
+      }
+    ],
+    "duration": 0,
+    "start": "2024-04-13T14:30:00Z",
+    "start_local": "2024-04-13T16:30:00",
+    "end": "2024-04-13T14:30:00Z",
+    "end_local": "2024-04-13T16:30:00",
+    "predicted_end": "2024-04-13T16:45:00Z",
+    "predicted_end_local": "2024-04-13T18:45:00",
+    "updated": "2024-06-12T04:03:54Z",
+    "first_seen": "2024-01-01T06:31:59Z",
+    "timezone": "Europe/Andorra",
+    "location": [1.5980087232840967, 42.566328247687686],
+    "geo": {
+      "geometry": {
+        "coordinates": [1.5980087232840967, 42.566328247687686],
+        "type": "Point"
+      },
+      "placekey": "@7f8-67g-qxq",
+      "address": {
+        "country_code": "AD",
+        "formatted_address": "Sant Joan de Caselles, Carretera General, AD100 Canillo, Andorra",
+        "postcode": "AD100",
+        "locality": "Canillo",
+        "region": "Canillo"
+      }
+    },
+    "impact_patterns": [
+      {
+        "vertical": "accommodation",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-04-13", "value": 940, "position": "event_day" }
+        ]
+      },
+      {
+        "vertical": "hospitality",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-04-12", "value": 104, "position": "leading" },
+          { "date_local": "2024-04-13", "value": 940, "position": "event_day" }
+        ]
+      },
+      {
+        "vertical": "retail",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-04-13", "value": 940, "position": "event_day" }
+        ]
+      }
+    ],
+    "scope": "locality",
+    "country": "AD",
+    "place_hierarchies": [
+      ["6295630", "6255148", "3041565", "3041203", "3041204"]
+    ],
+    "state": "active",
+    "brand_safe": true,
+    "private": false,
+    "predicted_event_spend": 23756,
+    "predicted_event_spend_industries": {
+      "accommodation": 6465,
+      "hospitality": 10486,
+      "transportation": 6804
+    },
+    "phq_labels": [{ "label": "ice-hockey", "weight": 1 }]
+  },
+  {
+    "relevance": 0,
+    "id": "GjeT8MRyid537qH2r3",
+    "title": "World Championship Division IIA (W) - Group Stage - Mexico vs Belgium",
+    "description": "Sourced from predicthq.com",
+    "category": "sports",
+    "labels": ["ice-hockey", "sport"],
+    "rank": 54,
+    "local_rank": 78,
+    "phq_attendance": 1500,
+    "entities": [
+      {
+        "entity_id": "zyRkWCjxALVSLgeWDRi3aT",
+        "name": "Palau de Gel d’Andorra",
+        "type": "venue",
+        "formatted_address": "Sant Joan de Caselles, Carretera General, AD100 Canillo, Andorra"
+      }
+    ],
+    "duration": 0,
+    "start": "2024-04-13T11:00:00Z",
+    "start_local": "2024-04-13T13:00:00",
+    "end": "2024-04-13T11:00:00Z",
+    "end_local": "2024-04-13T13:00:00",
+    "predicted_end": "2024-04-13T13:15:00Z",
+    "predicted_end_local": "2024-04-13T15:15:00",
+    "updated": "2024-06-12T14:20:24Z",
+    "first_seen": "2024-01-01T06:32:03Z",
+    "timezone": "Europe/Andorra",
+    "location": [1.5980087232840967, 42.566328247687686],
+    "geo": {
+      "geometry": {
+        "coordinates": [1.5980087232840967, 42.566328247687686],
+        "type": "Point"
+      },
+      "placekey": "@7f8-67g-qxq",
+      "address": {
+        "country_code": "AD",
+        "formatted_address": "Sant Joan de Caselles, Carretera General, AD100 Canillo, Andorra",
+        "postcode": "AD100",
+        "locality": "Canillo",
+        "region": "Canillo"
+      }
+    },
+    "impact_patterns": [
+      {
+        "vertical": "accommodation",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-04-12", "value": 300, "position": "leading" },
+          {
+            "date_local": "2024-04-13",
+            "value": 1500,
+            "position": "event_day"
+          },
+          { "date_local": "2024-04-14", "value": 150, "position": "lagging" }
+        ]
+      },
+      {
+        "vertical": "hospitality",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-04-12", "value": 345, "position": "leading" },
+          {
+            "date_local": "2024-04-13",
+            "value": 1500,
+            "position": "event_day"
+          },
+          { "date_local": "2024-04-14", "value": 30, "position": "lagging" }
+        ]
+      },
+      {
+        "vertical": "retail",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-04-13", "value": 1500, "position": "event_day" }
+        ]
+      }
+    ],
+    "scope": "locality",
+    "country": "AD",
+    "place_hierarchies": [
+      ["6295630", "6255148", "3041565", "3041203", "3041204"]
+    ],
+    "state": "active",
+    "brand_safe": true,
+    "private": false,
+    "predicted_event_spend": 37908,
+    "predicted_event_spend_industries": {
+      "accommodation": 10316,
+      "hospitality": 16733,
+      "transportation": 10858
+    },
+    "phq_labels": [{ "label": "ice-hockey", "weight": 1 }]
+  },
+  {
+    "relevance": 0,
+    "id": "FS6jRdMatXCs6u59pY",
+    "title": "World Championship Division IIA (W) - Group Stage - Chinese Taipei vs Spain",
+    "description": "Sourced from predicthq.com",
+    "category": "sports",
+    "labels": ["ice-hockey", "sport"],
+    "rank": 52,
+    "local_rank": 77,
+    "phq_attendance": 1316,
+    "entities": [
+      {
+        "entity_id": "zyRkWCjxALVSLgeWDRi3aT",
+        "name": "Palau de Gel d’Andorra",
+        "type": "venue",
+        "formatted_address": "Sant Joan de Caselles, Carretera General, AD100 Canillo, Andorra"
+      }
+    ],
+    "duration": 0,
+    "start": "2024-04-11T18:00:00Z",
+    "start_local": "2024-04-11T20:00:00",
+    "end": "2024-04-11T18:00:00Z",
+    "end_local": "2024-04-11T20:00:00",
+    "predicted_end": "2024-04-11T20:15:00Z",
+    "predicted_end_local": "2024-04-11T22:15:00",
+    "updated": "2024-06-12T19:03:34Z",
+    "first_seen": "2024-01-01T06:31:59Z",
+    "timezone": "Europe/Andorra",
+    "location": [1.5980087232840967, 42.566328247687686],
+    "geo": {
+      "geometry": {
+        "coordinates": [1.5980087232840967, 42.566328247687686],
+        "type": "Point"
+      },
+      "placekey": "@7f8-67g-qxq",
+      "address": {
+        "country_code": "AD",
+        "formatted_address": "Sant Joan de Caselles, Carretera General, AD100 Canillo, Andorra",
+        "postcode": "AD100",
+        "locality": "Canillo",
+        "region": "Canillo"
+      }
+    },
+    "impact_patterns": [
+      {
+        "vertical": "accommodation",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-04-10", "value": 264, "position": "leading" },
+          {
+            "date_local": "2024-04-11",
+            "value": 1316,
+            "position": "event_day"
+          },
+          { "date_local": "2024-04-12", "value": 132, "position": "lagging" }
+        ]
+      },
+      {
+        "vertical": "hospitality",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-04-10", "value": 303, "position": "leading" },
+          {
+            "date_local": "2024-04-11",
+            "value": 1316,
+            "position": "event_day"
+          },
+          { "date_local": "2024-04-12", "value": 27, "position": "lagging" }
+        ]
+      },
+      {
+        "vertical": "retail",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-04-11", "value": 1316, "position": "event_day" }
+        ]
+      }
+    ],
+    "scope": "locality",
+    "country": "AD",
+    "place_hierarchies": [
+      ["6295630", "6255148", "3041565", "3041203", "3041204"]
+    ],
+    "state": "active",
+    "brand_safe": true,
+    "private": false,
+    "predicted_event_spend": 33258,
+    "predicted_event_spend_industries": {
+      "accommodation": 9051,
+      "hospitality": 14680,
+      "transportation": 9526
+    },
+    "phq_labels": [{ "label": "ice-hockey", "weight": 1 }]
+  },
+  {
+    "relevance": 0,
+    "id": "7QQVwGy4t29B5PvPmc",
+    "title": "World Championship Division IIA (W) - Group Stage - Belgium vs Kazakhstan",
+    "description": "Sourced from predicthq.com",
+    "category": "sports",
+    "labels": ["ice-hockey", "sport"],
+    "rank": 44,
+    "local_rank": 68,
+    "phq_attendance": 485,
+    "entities": [
+      {
+        "entity_id": "zyRkWCjxALVSLgeWDRi3aT",
+        "name": "Palau de Gel d’Andorra",
+        "type": "venue",
+        "formatted_address": "Sant Joan de Caselles, Carretera General, AD100 Canillo, Andorra"
+      }
+    ],
+    "duration": 0,
+    "start": "2024-04-11T14:30:00Z",
+    "start_local": "2024-04-11T16:30:00",
+    "end": "2024-04-11T14:30:00Z",
+    "end_local": "2024-04-11T16:30:00",
+    "predicted_end": "2024-04-11T16:45:00Z",
+    "predicted_end_local": "2024-04-11T18:45:00",
+    "updated": "2024-06-11T23:19:36Z",
+    "first_seen": "2024-01-01T06:32:17Z",
+    "timezone": "Europe/Andorra",
+    "location": [1.5980087232840967, 42.566328247687686],
+    "geo": {
+      "geometry": {
+        "coordinates": [1.5980087232840967, 42.566328247687686],
+        "type": "Point"
+      },
+      "placekey": "@7f8-67g-qxq",
+      "address": {
+        "country_code": "AD",
+        "formatted_address": "Sant Joan de Caselles, Carretera General, AD100 Canillo, Andorra",
+        "postcode": "AD100",
+        "locality": "Canillo",
+        "region": "Canillo"
+      }
+    },
+    "impact_patterns": [
+      {
+        "vertical": "accommodation",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-04-11", "value": 485, "position": "event_day" }
+        ]
+      },
+      {
+        "vertical": "hospitality",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-04-10", "value": 54, "position": "leading" },
+          { "date_local": "2024-04-11", "value": 485, "position": "event_day" }
+        ]
+      },
+      {
+        "vertical": "retail",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-04-11", "value": 485, "position": "event_day" }
+        ]
+      }
+    ],
+    "scope": "locality",
+    "country": "AD",
+    "place_hierarchies": [
+      ["6295630", "6255148", "3041565", "3041203", "3041204"]
+    ],
+    "state": "active",
+    "brand_safe": true,
+    "private": false,
+    "predicted_event_spend": 12257,
+    "predicted_event_spend_industries": {
+      "accommodation": 3335,
+      "hospitality": 5410,
+      "transportation": 3510
+    },
+    "phq_labels": [{ "label": "ice-hockey", "weight": 1 }]
+  },
+  {
+    "relevance": 0,
+    "id": "49bNBsQwHvkdAGEH6k",
+    "title": "World Championship Division IIA (W) - Group Stage - Iceland vs Mexico",
+    "description": "Sourced from predicthq.com",
+    "category": "sports",
+    "labels": ["ice-hockey", "sport"],
+    "rank": 37,
+    "local_rank": 62,
+    "phq_attendance": 219,
+    "entities": [
+      {
+        "entity_id": "zyRkWCjxALVSLgeWDRi3aT",
+        "name": "Palau de Gel d’Andorra",
+        "type": "venue",
+        "formatted_address": "Sant Joan de Caselles, Carretera General, AD100 Canillo, Andorra"
+      }
+    ],
+    "duration": 0,
+    "start": "2024-04-11T11:00:00Z",
+    "start_local": "2024-04-11T13:00:00",
+    "end": "2024-04-11T11:00:00Z",
+    "end_local": "2024-04-11T13:00:00",
+    "predicted_end": "2024-04-11T13:15:00Z",
+    "predicted_end_local": "2024-04-11T15:15:00",
+    "updated": "2024-06-12T02:07:51Z",
+    "first_seen": "2024-01-01T06:32:29Z",
+    "timezone": "Europe/Andorra",
+    "location": [1.5980087232840967, 42.566328247687686],
+    "geo": {
+      "geometry": {
+        "coordinates": [1.5980087232840967, 42.566328247687686],
+        "type": "Point"
+      },
+      "placekey": "@7f8-67g-qxq",
+      "address": {
+        "country_code": "AD",
+        "formatted_address": "Sant Joan de Caselles, Carretera General, AD100 Canillo, Andorra",
+        "postcode": "AD100",
+        "locality": "Canillo",
+        "region": "Canillo"
+      }
+    },
+    "impact_patterns": [
+      {
+        "vertical": "accommodation",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-04-11", "value": 219, "position": "event_day" }
+        ]
+      },
+      {
+        "vertical": "hospitality",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-04-11", "value": 219, "position": "event_day" }
+        ]
+      },
+      {
+        "vertical": "retail",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-04-11", "value": 219, "position": "event_day" }
+        ]
+      }
+    ],
+    "scope": "locality",
+    "country": "AD",
+    "place_hierarchies": [
+      ["6295630", "6255148", "3041565", "3041203", "3041204"]
+    ],
+    "state": "active",
+    "brand_safe": true,
+    "private": false,
+    "predicted_event_spend": 3222,
+    "predicted_event_spend_industries": {
+      "accommodation": 0,
+      "hospitality": 1954,
+      "transportation": 1268
+    },
+    "phq_labels": [{ "label": "ice-hockey", "weight": 1 }]
+  },
+  {
+    "relevance": 0,
+    "id": "AG7gBsKyYBF3hjrgMM",
+    "title": "World Championship Division IIA (W) - Group Stage - Spain vs Belgium",
+    "description": "Sourced from predicthq.com",
+    "category": "sports",
+    "labels": ["ice-hockey", "sport"],
+    "rank": 49,
+    "local_rank": 73,
+    "phq_attendance": 843,
+    "entities": [
+      {
+        "entity_id": "zyRkWCjxALVSLgeWDRi3aT",
+        "name": "Palau de Gel d’Andorra",
+        "type": "venue",
+        "formatted_address": "Sant Joan de Caselles, Carretera General, AD100 Canillo, Andorra"
+      }
+    ],
+    "duration": 0,
+    "start": "2024-04-10T18:00:00Z",
+    "start_local": "2024-04-10T20:00:00",
+    "end": "2024-04-10T18:00:00Z",
+    "end_local": "2024-04-10T20:00:00",
+    "predicted_end": "2024-04-10T20:15:00Z",
+    "predicted_end_local": "2024-04-10T22:15:00",
+    "updated": "2024-06-11T21:36:07Z",
+    "first_seen": "2024-01-01T06:31:59Z",
+    "timezone": "Europe/Andorra",
+    "location": [1.5980087232840967, 42.566328247687686],
+    "geo": {
+      "geometry": {
+        "coordinates": [1.5980087232840967, 42.566328247687686],
+        "type": "Point"
+      },
+      "placekey": "@7f8-67g-qxq",
+      "address": {
+        "country_code": "AD",
+        "formatted_address": "Sant Joan de Caselles, Carretera General, AD100 Canillo, Andorra",
+        "postcode": "AD100",
+        "locality": "Canillo",
+        "region": "Canillo"
+      }
+    },
+    "impact_patterns": [
+      {
+        "vertical": "accommodation",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-04-10", "value": 843, "position": "event_day" }
+        ]
+      },
+      {
+        "vertical": "hospitality",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-04-09", "value": 93, "position": "leading" },
+          { "date_local": "2024-04-10", "value": 843, "position": "event_day" }
+        ]
+      },
+      {
+        "vertical": "retail",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-04-10", "value": 843, "position": "event_day" }
+        ]
+      }
+    ],
+    "scope": "locality",
+    "country": "AD",
+    "place_hierarchies": [
+      ["6295630", "6255148", "3041565", "3041203", "3041204"]
+    ],
+    "state": "active",
+    "brand_safe": true,
+    "private": false,
+    "predicted_event_spend": 21304,
+    "predicted_event_spend_industries": {
+      "accommodation": 5798,
+      "hospitality": 9404,
+      "transportation": 6102
+    },
+    "phq_labels": [{ "label": "ice-hockey", "weight": 1 }]
+  },
+  {
+    "relevance": 0,
+    "id": "GWWRMtF3wok9tjLp9v",
+    "title": "World Championship Division IIA (W) - Group Stage - Mexico vs Chinese Taipei",
+    "description": "Sourced from predicthq.com",
+    "category": "sports",
+    "labels": ["ice-hockey", "sport"],
+    "rank": 44,
+    "local_rank": 68,
+    "phq_attendance": 485,
+    "entities": [
+      {
+        "entity_id": "zyRkWCjxALVSLgeWDRi3aT",
+        "name": "Palau de Gel d’Andorra",
+        "type": "venue",
+        "formatted_address": "Sant Joan de Caselles, Carretera General, AD100 Canillo, Andorra"
+      }
+    ],
+    "duration": 0,
+    "start": "2024-04-10T14:30:00Z",
+    "start_local": "2024-04-10T16:30:00",
+    "end": "2024-04-10T14:30:00Z",
+    "end_local": "2024-04-10T16:30:00",
+    "predicted_end": "2024-04-10T16:45:00Z",
+    "predicted_end_local": "2024-04-10T18:45:00",
+    "updated": "2024-06-11T21:38:17Z",
+    "first_seen": "2024-01-01T06:31:59Z",
+    "timezone": "Europe/Andorra",
+    "location": [1.5980087232840967, 42.566328247687686],
+    "geo": {
+      "geometry": {
+        "coordinates": [1.5980087232840967, 42.566328247687686],
+        "type": "Point"
+      },
+      "placekey": "@7f8-67g-qxq",
+      "address": {
+        "country_code": "AD",
+        "formatted_address": "Sant Joan de Caselles, Carretera General, AD100 Canillo, Andorra",
+        "postcode": "AD100",
+        "locality": "Canillo",
+        "region": "Canillo"
+      }
+    },
+    "impact_patterns": [
+      {
+        "vertical": "accommodation",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-04-10", "value": 485, "position": "event_day" }
+        ]
+      },
+      {
+        "vertical": "hospitality",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-04-09", "value": 54, "position": "leading" },
+          { "date_local": "2024-04-10", "value": 485, "position": "event_day" }
+        ]
+      },
+      {
+        "vertical": "retail",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-04-10", "value": 485, "position": "event_day" }
+        ]
+      }
+    ],
+    "scope": "locality",
+    "country": "AD",
+    "place_hierarchies": [
+      ["6295630", "6255148", "3041565", "3041203", "3041204"]
+    ],
+    "state": "active",
+    "brand_safe": true,
+    "private": false,
+    "predicted_event_spend": 12257,
+    "predicted_event_spend_industries": {
+      "accommodation": 3335,
+      "hospitality": 5410,
+      "transportation": 3510
+    },
+    "phq_labels": [{ "label": "ice-hockey", "weight": 1 }]
+  },
+  {
+    "relevance": 0,
+    "id": "BMJr82rjsrwCQCoTYW",
+    "title": "World Championship Division IIA (W) - Group Stage - Kazakhstan vs Iceland",
+    "description": "Sourced from predicthq.com",
+    "category": "sports",
+    "labels": ["ice-hockey", "sport"],
+    "rank": 37,
+    "local_rank": 62,
+    "phq_attendance": 234,
+    "entities": [
+      {
+        "entity_id": "zyRkWCjxALVSLgeWDRi3aT",
+        "name": "Palau de Gel d’Andorra",
+        "type": "venue",
+        "formatted_address": "Sant Joan de Caselles, Carretera General, AD100 Canillo, Andorra"
+      }
+    ],
+    "duration": 0,
+    "start": "2024-04-10T11:00:00Z",
+    "start_local": "2024-04-10T13:00:00",
+    "end": "2024-04-10T11:00:00Z",
+    "end_local": "2024-04-10T13:00:00",
+    "predicted_end": "2024-04-10T13:15:00Z",
+    "predicted_end_local": "2024-04-10T15:15:00",
+    "updated": "2024-06-11T21:34:52Z",
+    "first_seen": "2024-01-01T06:32:29Z",
+    "timezone": "Europe/Andorra",
+    "location": [1.5980087232840967, 42.566328247687686],
+    "geo": {
+      "geometry": {
+        "coordinates": [1.5980087232840967, 42.566328247687686],
+        "type": "Point"
+      },
+      "placekey": "@7f8-67g-qxq",
+      "address": {
+        "country_code": "AD",
+        "formatted_address": "Sant Joan de Caselles, Carretera General, AD100 Canillo, Andorra",
+        "postcode": "AD100",
+        "locality": "Canillo",
+        "region": "Canillo"
+      }
+    },
+    "impact_patterns": [
+      {
+        "vertical": "accommodation",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-04-10", "value": 234, "position": "event_day" }
+        ]
+      },
+      {
+        "vertical": "hospitality",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-04-10", "value": 234, "position": "event_day" }
+        ]
+      },
+      {
+        "vertical": "retail",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-04-10", "value": 234, "position": "event_day" }
+        ]
+      }
+    ],
+    "scope": "locality",
+    "country": "AD",
+    "place_hierarchies": [
+      ["6295630", "6255148", "3041565", "3041203", "3041204"]
+    ],
+    "state": "active",
+    "brand_safe": true,
+    "private": false,
+    "predicted_event_spend": 3443,
+    "predicted_event_spend_industries": {
+      "accommodation": 0,
+      "hospitality": 2088,
+      "transportation": 1355
+    },
+    "phq_labels": [{ "label": "ice-hockey", "weight": 1 }]
+  },
+  {
+    "relevance": 0,
+    "id": "Cd8cYinRgFAkWjxmtP",
+    "title": "World Championship Division IIA (W) - Group Stage - Spain vs Mexico",
+    "description": "Sourced from predicthq.com",
+    "category": "sports",
+    "labels": ["ice-hockey", "sport"],
+    "rank": 49,
+    "local_rank": 73,
+    "phq_attendance": 843,
+    "entities": [
+      {
+        "entity_id": "zyRkWCjxALVSLgeWDRi3aT",
+        "name": "Palau de Gel d’Andorra",
+        "type": "venue",
+        "formatted_address": "Sant Joan de Caselles, Carretera General, AD100 Canillo, Andorra"
+      }
+    ],
+    "duration": 0,
+    "start": "2024-04-08T18:00:00Z",
+    "start_local": "2024-04-08T20:00:00",
+    "end": "2024-04-08T18:00:00Z",
+    "end_local": "2024-04-08T20:00:00",
+    "predicted_end": "2024-04-08T20:15:00Z",
+    "predicted_end_local": "2024-04-08T22:15:00",
+    "updated": "2024-06-12T03:13:48Z",
+    "first_seen": "2024-01-01T06:32:06Z",
+    "timezone": "Europe/Andorra",
+    "location": [1.5980087232840967, 42.566328247687686],
+    "geo": {
+      "geometry": {
+        "coordinates": [1.5980087232840967, 42.566328247687686],
+        "type": "Point"
+      },
+      "placekey": "@7f8-67g-qxq",
+      "address": {
+        "country_code": "AD",
+        "formatted_address": "Sant Joan de Caselles, Carretera General, AD100 Canillo, Andorra",
+        "postcode": "AD100",
+        "locality": "Canillo",
+        "region": "Canillo"
+      }
+    },
+    "impact_patterns": [
+      {
+        "vertical": "accommodation",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-04-08", "value": 843, "position": "event_day" }
+        ]
+      },
+      {
+        "vertical": "hospitality",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-04-07", "value": 93, "position": "leading" },
+          { "date_local": "2024-04-08", "value": 843, "position": "event_day" }
+        ]
+      },
+      {
+        "vertical": "retail",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-04-08", "value": 843, "position": "event_day" }
+        ]
+      }
+    ],
+    "scope": "locality",
+    "country": "AD",
+    "place_hierarchies": [
+      ["6295630", "6255148", "3041565", "3041203", "3041204"]
+    ],
+    "state": "active",
+    "brand_safe": true,
+    "private": false,
+    "predicted_event_spend": 21304,
+    "predicted_event_spend_industries": {
+      "accommodation": 5798,
+      "hospitality": 9404,
+      "transportation": 6102
+    },
+    "phq_labels": [{ "label": "ice-hockey", "weight": 1 }]
+  },
+  {
+    "relevance": 0,
+    "id": "E7nZ4e5Fwq8ENpD6Mx",
+    "title": "World Championship Division IIA (W) - Group Stage - Iceland vs Belgium",
+    "description": "Sourced from predicthq.com",
+    "category": "sports",
+    "labels": ["ice-hockey", "sport"],
+    "rank": 40,
+    "local_rank": 65,
+    "phq_attendance": 324,
+    "entities": [
+      {
+        "entity_id": "zyRkWCjxALVSLgeWDRi3aT",
+        "name": "Palau de Gel d’Andorra",
+        "type": "venue",
+        "formatted_address": "Sant Joan de Caselles, Carretera General, AD100 Canillo, Andorra"
+      }
+    ],
+    "duration": 0,
+    "start": "2024-04-08T14:30:00Z",
+    "start_local": "2024-04-08T16:30:00",
+    "end": "2024-04-08T14:30:00Z",
+    "end_local": "2024-04-08T16:30:00",
+    "predicted_end": "2024-04-08T16:45:00Z",
+    "predicted_end_local": "2024-04-08T18:45:00",
+    "updated": "2024-06-12T13:13:25Z",
+    "first_seen": "2024-01-01T06:32:17Z",
+    "timezone": "Europe/Andorra",
+    "location": [1.5980087232840967, 42.566328247687686],
+    "geo": {
+      "geometry": {
+        "coordinates": [1.5980087232840967, 42.566328247687686],
+        "type": "Point"
+      },
+      "placekey": "@7f8-67g-qxq",
+      "address": {
+        "country_code": "AD",
+        "formatted_address": "Sant Joan de Caselles, Carretera General, AD100 Canillo, Andorra",
+        "postcode": "AD100",
+        "locality": "Canillo",
+        "region": "Canillo"
+      }
+    },
+    "impact_patterns": [
+      {
+        "vertical": "accommodation",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-04-08", "value": 324, "position": "event_day" }
+        ]
+      },
+      {
+        "vertical": "hospitality",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-04-08", "value": 324, "position": "event_day" }
+        ]
+      },
+      {
+        "vertical": "retail",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-04-08", "value": 324, "position": "event_day" }
+        ]
+      }
+    ],
+    "scope": "locality",
+    "country": "AD",
+    "place_hierarchies": [
+      ["6295630", "6255148", "3041565", "3041203", "3041204"]
+    ],
+    "state": "active",
+    "brand_safe": true,
+    "private": false,
+    "predicted_event_spend": 4767,
+    "predicted_event_spend_industries": {
+      "accommodation": 0,
+      "hospitality": 2891,
+      "transportation": 1876
+    },
+    "phq_labels": [{ "label": "ice-hockey", "weight": 1 }]
+  },
+  {
+    "relevance": 0,
+    "id": "7LT2UuvHrTpJCiAupu",
+    "title": "World Championship Division IIA (W) - Group Stage - Kazakhstan vs Chinese Taipei",
+    "description": "Sourced from predicthq.com",
+    "category": "sports",
+    "labels": ["ice-hockey", "sport"],
+    "rank": 37,
+    "local_rank": 62,
+    "phq_attendance": 234,
+    "entities": [
+      {
+        "entity_id": "zyRkWCjxALVSLgeWDRi3aT",
+        "name": "Palau de Gel d’Andorra",
+        "type": "venue",
+        "formatted_address": "Sant Joan de Caselles, Carretera General, AD100 Canillo, Andorra"
+      }
+    ],
+    "duration": 0,
+    "start": "2024-04-08T11:00:00Z",
+    "start_local": "2024-04-08T13:00:00",
+    "end": "2024-04-08T11:00:00Z",
+    "end_local": "2024-04-08T13:00:00",
+    "predicted_end": "2024-04-08T13:15:00Z",
+    "predicted_end_local": "2024-04-08T15:15:00",
+    "updated": "2024-06-11T22:38:57Z",
+    "first_seen": "2024-01-01T06:32:01Z",
+    "timezone": "Europe/Andorra",
+    "location": [1.5980087232840967, 42.566328247687686],
+    "geo": {
+      "geometry": {
+        "coordinates": [1.5980087232840967, 42.566328247687686],
+        "type": "Point"
+      },
+      "placekey": "@7f8-67g-qxq",
+      "address": {
+        "country_code": "AD",
+        "formatted_address": "Sant Joan de Caselles, Carretera General, AD100 Canillo, Andorra",
+        "postcode": "AD100",
+        "locality": "Canillo",
+        "region": "Canillo"
+      }
+    },
+    "impact_patterns": [
+      {
+        "vertical": "accommodation",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-04-08", "value": 234, "position": "event_day" }
+        ]
+      },
+      {
+        "vertical": "hospitality",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-04-08", "value": 234, "position": "event_day" }
+        ]
+      },
+      {
+        "vertical": "retail",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-04-08", "value": 234, "position": "event_day" }
+        ]
+      }
+    ],
+    "scope": "locality",
+    "country": "AD",
+    "place_hierarchies": [
+      ["6295630", "6255148", "3041565", "3041203", "3041204"]
+    ],
+    "state": "active",
+    "brand_safe": true,
+    "private": false,
+    "predicted_event_spend": 3443,
+    "predicted_event_spend_industries": {
+      "accommodation": 0,
+      "hospitality": 2088,
+      "transportation": 1355
+    },
+    "phq_labels": [{ "label": "ice-hockey", "weight": 1 }]
+  },
+  {
+    "relevance": 0,
+    "id": "HSUUtHPkGLC7oQxRqv",
+    "title": "World Championship Division IIA (W) - Group Stage - Spain vs Iceland",
+    "description": "Sourced from predicthq.com",
+    "category": "sports",
+    "labels": ["ice-hockey", "sport"],
+    "rank": 54,
+    "local_rank": 78,
+    "phq_attendance": 1500,
+    "entities": [
+      {
+        "entity_id": "zyRkWCjxALVSLgeWDRi3aT",
+        "name": "Palau de Gel d’Andorra",
+        "type": "venue",
+        "formatted_address": "Sant Joan de Caselles, Carretera General, AD100 Canillo, Andorra"
+      }
+    ],
+    "duration": 0,
+    "start": "2024-04-07T18:00:00Z",
+    "start_local": "2024-04-07T20:00:00",
+    "end": "2024-04-07T18:00:00Z",
+    "end_local": "2024-04-07T20:00:00",
+    "predicted_end": "2024-04-07T20:15:00Z",
+    "predicted_end_local": "2024-04-07T22:15:00",
+    "updated": "2024-06-12T19:12:23Z",
+    "first_seen": "2024-01-01T06:32:06Z",
+    "timezone": "Europe/Andorra",
+    "location": [1.5980087232840967, 42.566328247687686],
+    "geo": {
+      "geometry": {
+        "coordinates": [1.5980087232840967, 42.566328247687686],
+        "type": "Point"
+      },
+      "placekey": "@7f8-67g-qxq",
+      "address": {
+        "country_code": "AD",
+        "formatted_address": "Sant Joan de Caselles, Carretera General, AD100 Canillo, Andorra",
+        "postcode": "AD100",
+        "locality": "Canillo",
+        "region": "Canillo"
+      }
+    },
+    "impact_patterns": [
+      {
+        "vertical": "accommodation",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-04-06", "value": 300, "position": "leading" },
+          {
+            "date_local": "2024-04-07",
+            "value": 1500,
+            "position": "event_day"
+          },
+          { "date_local": "2024-04-08", "value": 150, "position": "lagging" }
+        ]
+      },
+      {
+        "vertical": "hospitality",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-04-06", "value": 345, "position": "leading" },
+          {
+            "date_local": "2024-04-07",
+            "value": 1500,
+            "position": "event_day"
+          },
+          { "date_local": "2024-04-08", "value": 30, "position": "lagging" }
+        ]
+      },
+      {
+        "vertical": "retail",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-04-07", "value": 1500, "position": "event_day" }
+        ]
+      }
+    ],
+    "scope": "locality",
+    "country": "AD",
+    "place_hierarchies": [
+      ["6295630", "6255148", "3041565", "3041203", "3041204"]
+    ],
+    "state": "active",
+    "brand_safe": true,
+    "private": false,
+    "predicted_event_spend": 37908,
+    "predicted_event_spend_industries": {
+      "accommodation": 10316,
+      "hospitality": 16733,
+      "transportation": 10858
+    },
+    "phq_labels": [{ "label": "ice-hockey", "weight": 1 }]
+  },
+  {
+    "relevance": 0,
+    "id": "CVxH4NFgrJgpaM9z42",
+    "title": "GRANADA vs BC Andorra",
+    "alternate_titles": ["Liga ACB - Andorra vs Granada"],
+    "description": "Sourced from predicthq.com",
+    "category": "sports",
+    "labels": ["basketball", "sport"],
+    "rank": 63,
+    "local_rank": 81,
+    "phq_attendance": 4635,
+    "entities": [
+      {
+        "entity_id": "37Z9BVHZmYB6tCDxsWZJBtN",
+        "name": "Poliesportiu d'Andorra",
+        "type": "venue",
+        "formatted_address": "Baixada del Molí, AD500 Andorra la Vella, Andorra"
+      }
+    ],
+    "duration": 6069,
+    "start": "2024-04-07T15:00:00Z",
+    "start_local": "2024-04-07T17:00:00",
+    "end": "2024-04-07T16:41:09Z",
+    "end_local": "2024-04-07T18:41:09",
+    "updated": "2024-06-05T07:11:38Z",
+    "first_seen": "2023-08-03T16:02:26Z",
+    "timezone": "Europe/Andorra",
+    "location": [1.5166323, 42.5048869],
+    "geo": {
+      "geometry": { "coordinates": [1.5166323, 42.5048869], "type": "Point" },
+      "placekey": "@7f8-6wx-5xq",
+      "address": {
+        "country_code": "AD",
+        "formatted_address": "Baixada del Molí, AD500 Andorra la Vella, Andorra",
+        "postcode": "AD500",
+        "locality": "Andorra la Vella",
+        "region": "Andorra la Vella"
+      }
+    },
+    "impact_patterns": [
+      {
+        "vertical": "accommodation",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-04-06", "value": 927, "position": "leading" },
+          {
+            "date_local": "2024-04-07",
+            "value": 4635,
+            "position": "event_day"
+          },
+          { "date_local": "2024-04-08", "value": 464, "position": "lagging" }
+        ]
+      },
+      {
+        "vertical": "hospitality",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-04-06", "value": 1623, "position": "leading" },
+          {
+            "date_local": "2024-04-07",
+            "value": 4635,
+            "position": "event_day"
+          },
+          { "date_local": "2024-04-08", "value": 1623, "position": "lagging" }
+        ]
+      },
+      {
+        "vertical": "retail",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-04-02", "value": 279, "position": "leading" },
+          { "date_local": "2024-04-03", "value": 279, "position": "leading" },
+          { "date_local": "2024-04-04", "value": 279, "position": "leading" },
+          { "date_local": "2024-04-05", "value": 1345, "position": "leading" },
+          { "date_local": "2024-04-06", "value": 1437, "position": "leading" },
+          {
+            "date_local": "2024-04-07",
+            "value": 4635,
+            "position": "event_day"
+          },
+          { "date_local": "2024-04-08", "value": 1020, "position": "lagging" },
+          { "date_local": "2024-04-09", "value": 279, "position": "lagging" },
+          { "date_local": "2024-04-10", "value": 279, "position": "lagging" },
+          { "date_local": "2024-04-11", "value": 279, "position": "lagging" },
+          { "date_local": "2024-04-12", "value": 279, "position": "lagging" }
+        ]
+      }
+    ],
+    "scope": "locality",
+    "country": "AD",
+    "place_hierarchies": [
+      ["6295630", "6255148", "3041565", "3041566", "3041563"]
+    ],
+    "state": "active",
+    "brand_safe": true,
+    "private": false,
+    "predicted_event_spend": 235063,
+    "predicted_event_spend_industries": {
+      "accommodation": 47818,
+      "hospitality": 142068,
+      "transportation": 45175
+    },
+    "phq_labels": [{ "label": "basketball", "weight": 1 }]
+  },
+  {
+    "relevance": 0,
+    "id": "5dKviEVGye327jmyXW",
+    "title": "World Championship Division IIA (W) - Group Stage - Mexico vs Kazakhstan",
+    "description": "Sourced from predicthq.com",
+    "category": "sports",
+    "labels": ["ice-hockey", "sport"],
+    "rank": 41,
+    "local_rank": 65,
+    "phq_attendance": 336,
+    "entities": [
+      {
+        "entity_id": "zyRkWCjxALVSLgeWDRi3aT",
+        "name": "Palau de Gel d’Andorra",
+        "type": "venue",
+        "formatted_address": "Sant Joan de Caselles, Carretera General, AD100 Canillo, Andorra"
+      }
+    ],
+    "duration": 0,
+    "start": "2024-04-07T14:30:00Z",
+    "start_local": "2024-04-07T16:30:00",
+    "end": "2024-04-07T14:30:00Z",
+    "end_local": "2024-04-07T16:30:00",
+    "predicted_end": "2024-04-07T16:45:00Z",
+    "predicted_end_local": "2024-04-07T18:45:00",
+    "updated": "2024-06-12T02:39:43Z",
+    "first_seen": "2024-01-01T06:32:17Z",
+    "timezone": "Europe/Andorra",
+    "location": [1.5980087232840967, 42.566328247687686],
+    "geo": {
+      "geometry": {
+        "coordinates": [1.5980087232840967, 42.566328247687686],
+        "type": "Point"
+      },
+      "placekey": "@7f8-67g-qxq",
+      "address": {
+        "country_code": "AD",
+        "formatted_address": "Sant Joan de Caselles, Carretera General, AD100 Canillo, Andorra",
+        "postcode": "AD100",
+        "locality": "Canillo",
+        "region": "Canillo"
+      }
+    },
+    "impact_patterns": [
+      {
+        "vertical": "accommodation",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-04-07", "value": 336, "position": "event_day" }
+        ]
+      },
+      {
+        "vertical": "hospitality",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-04-06", "value": 37, "position": "leading" },
+          { "date_local": "2024-04-07", "value": 336, "position": "event_day" }
+        ]
+      },
+      {
+        "vertical": "retail",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-04-07", "value": 336, "position": "event_day" }
+        ]
+      }
+    ],
+    "scope": "locality",
+    "country": "AD",
+    "place_hierarchies": [
+      ["6295630", "6255148", "3041565", "3041203", "3041204"]
+    ],
+    "state": "active",
+    "brand_safe": true,
+    "private": false,
+    "predicted_event_spend": 8491,
+    "predicted_event_spend_industries": {
+      "accommodation": 2310,
+      "hospitality": 3748,
+      "transportation": 2432
+    },
+    "phq_labels": [{ "label": "ice-hockey", "weight": 1 }]
+  },
+  {
+    "relevance": 0,
+    "id": "J7R9uSz2yAcCVSv4Aq",
+    "title": "World Championship Division IIA (W) - Group Stage - Belgium vs Chinese Taipei",
+    "description": "Sourced from predicthq.com",
+    "category": "sports",
+    "labels": ["ice-hockey", "sport"],
+    "rank": 54,
+    "local_rank": 78,
+    "phq_attendance": 1500,
+    "entities": [
+      {
+        "entity_id": "zyRkWCjxALVSLgeWDRi3aT",
+        "name": "Palau de Gel d’Andorra",
+        "type": "venue",
+        "formatted_address": "Sant Joan de Caselles, Carretera General, AD100 Canillo, Andorra"
+      }
+    ],
+    "duration": 0,
+    "start": "2024-04-07T11:00:00Z",
+    "start_local": "2024-04-07T13:00:00",
+    "end": "2024-04-07T11:00:00Z",
+    "end_local": "2024-04-07T13:00:00",
+    "predicted_end": "2024-04-07T13:15:00Z",
+    "predicted_end_local": "2024-04-07T15:15:00",
+    "updated": "2024-06-12T07:13:37Z",
+    "first_seen": "2024-01-01T06:32:17Z",
+    "timezone": "Europe/Andorra",
+    "location": [1.5980087232840967, 42.566328247687686],
+    "geo": {
+      "geometry": {
+        "coordinates": [1.5980087232840967, 42.566328247687686],
+        "type": "Point"
+      },
+      "placekey": "@7f8-67g-qxq",
+      "address": {
+        "country_code": "AD",
+        "formatted_address": "Sant Joan de Caselles, Carretera General, AD100 Canillo, Andorra",
+        "postcode": "AD100",
+        "locality": "Canillo",
+        "region": "Canillo"
+      }
+    },
+    "impact_patterns": [
+      {
+        "vertical": "accommodation",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-04-06", "value": 300, "position": "leading" },
+          {
+            "date_local": "2024-04-07",
+            "value": 1500,
+            "position": "event_day"
+          },
+          { "date_local": "2024-04-08", "value": 150, "position": "lagging" }
+        ]
+      },
+      {
+        "vertical": "hospitality",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-04-06", "value": 345, "position": "leading" },
+          {
+            "date_local": "2024-04-07",
+            "value": 1500,
+            "position": "event_day"
+          },
+          { "date_local": "2024-04-08", "value": 30, "position": "lagging" }
+        ]
+      },
+      {
+        "vertical": "retail",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-04-07", "value": 1500, "position": "event_day" }
+        ]
+      }
+    ],
+    "scope": "locality",
+    "country": "AD",
+    "place_hierarchies": [
+      ["6295630", "6255148", "3041565", "3041203", "3041204"]
+    ],
+    "state": "active",
+    "brand_safe": true,
+    "private": false,
+    "predicted_event_spend": 37908,
+    "predicted_event_spend_industries": {
+      "accommodation": 10316,
+      "hospitality": 16733,
+      "transportation": 10858
+    },
+    "phq_labels": [{ "label": "ice-hockey", "weight": 1 }]
+  }
+]

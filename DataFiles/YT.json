@@ -1,0 +1,76 @@
+[
+  {
+    "relevance": 0,
+    "id": "6y3ZT7BAm8twvdSNZp",
+    "title": "Trail du Caméléon",
+    "description": "Sourced from predicthq.com",
+    "category": "sports",
+    "labels": ["outdoor-sports", "running", "sport"],
+    "rank": 32,
+    "local_rank": 42,
+    "phq_attendance": 126,
+    "entities": [],
+    "duration": 0,
+    "start": "2024-05-26T05:00:00Z",
+    "start_local": "2024-05-26T08:00:00",
+    "end": "2024-05-26T05:00:00Z",
+    "end_local": "2024-05-26T08:00:00",
+    "updated": "2024-06-05T07:05:27Z",
+    "first_seen": "2024-04-22T04:43:13Z",
+    "timezone": "Indian/Mayotte",
+    "location": [45.227872, -12.7809488],
+    "geo": {
+      "geometry": { "coordinates": [45.227872, -12.7809488], "type": "Point" },
+      "placekey": "@k28-428-hyv",
+      "address": {
+        "country_code": "YT",
+        "formatted_address": "97600 Mamoudzou, Mayotte, France",
+        "locality": "Mamoudzou",
+        "postcode": "97600",
+        "region": "Canton de Mamoudzou-3"
+      }
+    },
+    "impact_patterns": [
+      {
+        "vertical": "accommodation",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-05-26", "value": 126, "position": "event_day" }
+        ]
+      },
+      {
+        "vertical": "hospitality",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-05-26", "value": 126, "position": "event_day" }
+        ]
+      },
+      {
+        "vertical": "retail",
+        "impact_type": "phq_attendance",
+        "impacts": [
+          { "date_local": "2024-05-26", "value": 126, "position": "event_day" }
+        ]
+      }
+    ],
+    "scope": "locality",
+    "country": "YT",
+    "place_hierarchies": [
+      ["6295630", "6255146", "1024031", "7521431", "921815"],
+      ["6295630", "6255148", "3017382", "1024031", "7521431", "921815"]
+    ],
+    "state": "active",
+    "brand_safe": true,
+    "private": false,
+    "predicted_event_spend": 2377,
+    "predicted_event_spend_industries": {
+      "accommodation": 0,
+      "hospitality": 1371,
+      "transportation": 1005
+    },
+    "phq_labels": [
+      { "label": "outdoor-sports", "weight": 0.5 },
+      { "label": "running", "weight": 0.5 }
+    ]
+  }
+]
