@@ -85,11 +85,11 @@ async function getOriginWithIP(ip) {
 
   //For PRoduction only
   // Convert Ip to String
-  //const url = `${baseUrl}?api_key=${apiKey}&ip_address=${ip.toString()}`
+  const url = `${baseUrl}?api_key=${apiKey}&ip_address=${ip.toString()}`
 
   //102.89.23.78
   // for Development
-  const url = `${baseUrl}?api_key=${apiKey}&ip_address=${"102.89.23.78"}`;
+  //const url = `${baseUrl}?api_key=${apiKey}&ip_address=${"102.89.23.78"}`;
 
   let response = await fetch(url);
   let location = await response.json();

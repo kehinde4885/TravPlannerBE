@@ -85,5 +85,5 @@ function onListen() {
   var bind = typeof addr === "string" ? "pipe " + addr : "port " + addr.port;
   //Message for the Debugger Middleware(morgan)
   debug("Listening on " + bind);
-  console.log("dojddj");
+  console.log("Ready");
 }
