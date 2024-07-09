@@ -1,4 +1,6 @@
 let fs = require("fs");
+//Environment Variables
+require("dotenv").config();
 
 //Sorts Helsinki
 function function1() {
@@ -350,7 +352,7 @@ async function main(iso2) {
     try {
       const options = {
         headers: {
-          Authorization: "Bearer XAIJOdOiCZTifUGFWT2tg994wWdnnN5LIlQvg65X",
+          Authorization: `${process.env.PREDICTHQ}`,
           Accept: "application/json",
         },
       };

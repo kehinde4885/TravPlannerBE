@@ -53,14 +53,6 @@ function getCities() {
 
 // Search for One Wayt Flights
 async function getFlights(originID, destinationID, departDate) {
-  // const url ="https://sky-scanner3.p.rapidapi.com/flights/search-roundtrip?fromEntityId=DXB&toEntityId=NG";
-  // const options = {
-  //   method: "GET",
-  //   headers: {
-  //     "x-rapidapi-key": "c36cdd5a8bmshfd6196790e8e7b9p13a4cbjsn0a9073a4e027",
-  //     "x-rapidapi-host": "sky-scanner3.p.rapidapi.com",
-  //   },
-  // };
 
   const url = `https://skyscanner80.p.rapidapi.com/api/v1/flights/search-one-way?fromId=${originID}&toId=${destinationID}&departDate=${departDate}&adults=1&cabinClass=economy&currency=USD&market=US&locale=en-US`;
   const options = {
