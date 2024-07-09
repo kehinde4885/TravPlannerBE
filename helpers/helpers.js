@@ -243,18 +243,10 @@ function function5() {
 }
 
 //PREDict HQ LOGIc
-const myCountries = require("../MyCountries.json");
-
-async function mainEdit2() {
-  let arrayOfPromises = myCountries.map((element) => {
-    return new Promise((resolve, reject) => {});
-  });
-}
-
-let mainARRAY = [];
 
 async function mainEdit() {
   const nonExisting = [];
+  const myCountries = require("../MyCountries.json");
   for (let index = 0; index < myCountries.length; index++) {
     const element = myCountries[index];
 
@@ -267,51 +259,65 @@ async function mainEdit() {
     //     nonExisting.push(element.iso2);
     //   });
 
+    // try {
+    //   fs.accessSync(`./DataFiles/${element.iso2}.json`);
+    // } catch (err) {
+    //   nonExisting.push(element.iso2);
+    // }
+
+    //Trim Event JSON Data, size is too Large
     try {
-      fs.accessSync(`./DataFiles/${element.iso2}.json`);
-    } catch (err) {
-      nonExisting.push(element.iso2);
+      //get the country of the current loop iteration.
+      const countryEvents = require(`../Datafiles/${element.iso2}.json`);
+
+      console.log(`checking ${element.name}`);
+
+      const newData = countryEvents.map((event) => {
+        const {
+          title,
+          description,
+          category,
+          start,
+          geo,
+          labels,
+          duration,
+          start_local,
+          end,
+          end_local,
+          updated,
+        } = event;
+
+        return (data = {
+          title,
+          description,
+          category,
+          start,
+          geo,
+          labels,
+          duration,
+          start_local,
+          end,
+          end_local,
+          updated,
+        });
+      });
+
+      //Store it in new File
+      fs.writeFile(
+        `newDataFiles/${element.iso2}.json`,
+        JSON.stringify(newData),
+        function (err) {
+          if (err) throw err;
+          console.log("saved");
+        }
+      );
+    } catch (error) {
+      console.log(`${element.name} is the issue`, error);
     }
-
-    //console.log(data.length);
-    //mainARRAY.push(data);
-    //console.log(`DONE WITH ${element.name}`);
   }
-
-  // //Second Iteration to get complete data
-  // for (let index = 0; index < nonExisting.length; index++) {
-
-  //  const data = await main(nonExisting[index]);
-  //   //console.log(nonExisting.length)
-
-  // }
-
-  // Iteration didnt work
-  // Trying it one by one
-
-  //main(nonExisting[1]);
-  // console.log(nonExisting);
 }
 
-// if (fs.promises.access("./DataFiles/AD.json")) {
-//   console.log("Present");
-// } else {
-//   console.log("Absent");
-// }
-
-mainEdit();
-
-// if (fs.existsSync('./DataFiles/AE.json')) {
-//   console.log(true)
-// } else {
-//   console.log(false)
-// }
-
-// if (fs.promises.access('./DataFiles/AE.json')) {
-//   console.log(true)
-// } else {
-//   console.log(false)
-// }
+//mainEdit();
 
 //Origimal Function
 async function main(iso2) {
