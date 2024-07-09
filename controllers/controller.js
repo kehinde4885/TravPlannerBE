@@ -237,7 +237,7 @@ exports.travelInfo_getEvents = async (req, res) => {
   const countryIso = getCountry(country).iso2;
 
   //get events file through commonJS import, relative to this file
-  const events = require(`../newDatafiles/${countryIso}.json`);
+  const events = require(`../newDataFiles/${countryIso}.json`);
 
   //Filter the Events by date for Relevancy
   //Filter function
