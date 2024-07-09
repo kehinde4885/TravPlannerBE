@@ -2,7 +2,10 @@
 const countryData = require("../MyCountries.json");
 const Bottleneck = require("bottleneck");
 const { DateTime } = require("luxon");
-
+//Glitch requires 3rd party fetch because it uses
+// node 16 and built in fetch starts from node 18
+//?? Experimental fetch is worth looking at
+const fetch = require("node-fetch");
 
 function getCountryAbout() {
   //Used inside a Class/Object
@@ -85,7 +88,7 @@ async function getOriginWithIP(ip) {
 
   //For PRoduction only
   // Convert Ip to String
-  const url = `${baseUrl}?api_key=${apiKey}&ip_address=${ip.toString()}`
+  const url = `${baseUrl}?api_key=${apiKey}&ip_address=${ip.toString()}`;
 
   //102.89.23.78
   // for Development
@@ -151,8 +154,6 @@ function convMintoHours(minutes) {
 
   return `${hours}H ${min}Min`;
 }
-
-
 
 function getTime(strings) {
   let index = strings.indexOf("T");
