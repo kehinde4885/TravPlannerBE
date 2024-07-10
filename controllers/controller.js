@@ -262,8 +262,8 @@ exports.travelInfo_getEvents = async (req, res) => {
       year: "numeric",
     });
 
-    duration = convMintoHours(Math.floor(duration/60))
-   
+    duration = convMintoHours(Math.floor(duration / 60));
+
     return {
       title,
       description,
@@ -285,5 +285,5 @@ exports.travelInfo_getEvents = async (req, res) => {
 };
 
 exports.travelInfo_getAttractions = async (req, res) => {
-  res.send("Attractions");
+  res.render("attractions");
 };
