@@ -6,6 +6,7 @@ const { DateTime } = require("luxon");
 // node 16 and built in fetch starts from node 18
 //?? Experimental fetch is worth looking at
 const fetch = require("node-fetch");
+require("dotenv").config();
 
 function getCountryAbout() {
   //Used inside a Class/Object
@@ -56,15 +57,6 @@ function getCities() {
 
 // Search for One Wayt Flights
 async function getFlights(originID, destinationID, departDate) {
-  // const url ="https://sky-scanner3.p.rapidapi.com/flights/search-roundtrip?fromEntityId=DXB&toEntityId=NG";
-  // const options = {
-  //   method: "GET",
-  //   headers: {
-  //     "x-rapidapi-key": "c36cdd5a8bmshfd6196790e8e7b9p13a4cbjsn0a9073a4e027",
-  //     "x-rapidapi-host": "sky-scanner3.p.rapidapi.com",
-  //   },
-  // };
-
   const url = `https://skyscanner80.p.rapidapi.com/api/v1/flights/search-one-way?fromId=${originID}&toId=${destinationID}&departDate=${departDate}&adults=1&cabinClass=economy&currency=USD&market=US&locale=en-US`;
   const options = {
     method: "GET",
@@ -88,11 +80,12 @@ async function getOriginWithIP(ip) {
 
   //For PRoduction only
   // Convert Ip to String
-  const url = `${baseUrl}?api_key=${apiKey}&ip_address=${ip.toString()}`;
 
-  //102.89.23.78
-  // for Development
-  //const url = `${baseUrl}?api_key=${apiKey}&ip_address=${"102.89.23.78"}`;
+  const url =
+    process.env.NODE_ENV === "Production"
+      ? `${baseUrl}?api_key=${apiKey}&ip_address=${ip.toString()}`
+      : // for Development
+        `${baseUrl}?api_key=${apiKey}&ip_address=${"102.89.23.78"}`;
 
   let response = await fetch(url);
   let location = await response.json();
