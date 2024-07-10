@@ -2,7 +2,7 @@
 const countryData = require("../MyCountries.json");
 const Bottleneck = require("bottleneck");
 const { DateTime } = require("luxon");
-
+require("dotenv").config();
 
 function getCountryAbout() {
   //Used inside a Class/Object
@@ -53,7 +53,6 @@ function getCities() {
 
 // Search for One Wayt Flights
 async function getFlights(originID, destinationID, departDate) {
-
   const url = `https://skyscanner80.p.rapidapi.com/api/v1/flights/search-one-way?fromId=${originID}&toId=${destinationID}&departDate=${departDate}&adults=1&cabinClass=economy&currency=USD&market=US&locale=en-US`;
   const options = {
     method: "GET",
@@ -77,11 +76,12 @@ async function getOriginWithIP(ip) {
 
   //For PRoduction only
   // Convert Ip to String
-  //const url = `${baseUrl}?api_key=${apiKey}&ip_address=${ip.toString()}`
 
-  //102.89.23.78
-  // for Development
-  const url = `${baseUrl}?api_key=${apiKey}&ip_address=${"102.89.23.78"}`;
+  const url =
+    process.env.NODE_ENV === "Production"
+      ? `${baseUrl}?api_key=${apiKey}&ip_address=${ip.toString()}`
+      : // for Development
+        `${baseUrl}?api_key=${apiKey}&ip_address=${"102.89.23.78"}`;
 
   let response = await fetch(url);
   let location = await response.json();
@@ -143,8 +143,6 @@ function convMintoHours(minutes) {
 
   return `${hours}H ${min}Min`;
 }
-
-
 
 function getTime(strings) {
   let index = strings.indexOf("T");
