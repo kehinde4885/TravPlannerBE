@@ -14,9 +14,9 @@ const {
   getFlights,
   convMintoHours,
   getOriginWithIP,
-  detailedHotelsSearch,
+  detailTripAdvSearch,
   convertPriceRange,
-  hotelSearch,
+  tripAdvisorSearch,
   getGeolocation,
   getCurrentWeather,
   getWeatherForecast,
@@ -113,15 +113,17 @@ exports.travelInfo_getHotels = async (req, res) => {
 
   try {
     //get capital
-    const location = req.params.country;
-    const capital = getCountry(location).capital;
+    const { capital: destCapital } = getCountry(req.params.country);
+
+    // get longitude and latitude of capital
+    const { lat, lon } = await getGeolocation(destCapital);
 
     console.log("getting Hotels");
-    //Call to location Search API
-    const hotels = await hotelSearch(capital);
+    //Call to location Search API with lat,lon
+    const hotels = await tripAdvisorSearch("hotels", { lat, lon }, destCapital);
 
     console.log("getting Detailed Description");
-    const detailedHotels = await detailedHotelsSearch(hotels);
+    const detailedHotels = await detailTripAdvSearch(hotels);
     console.log("giving detialed hotels");
 
     //console.log(detailedHotels);
@@ -285,5 +287,63 @@ exports.travelInfo_getEvents = async (req, res) => {
 };
 
 exports.travelInfo_getAttractions = async (req, res) => {
-  res.render("attractions");
+
+  try {
+    //get capital
+    const { capital: destCapital } = getCountry(req.params.country);
+
+    // get longitude and latitude of capital
+    const { lat, lon } = await getGeolocation(destCapital);
+
+    console.log("getting Attractions");
+    //Call to location Search API with lat,lon
+    const attractions = await tripAdvisorSearch("attractions", { lat, lon }, destCapital);
+
+    console.log("getting Detailed Description");
+    const detailedAttractions = await detailTripAdvSearch(attractions);
+    console.log("giving detialed attractions");
+
+
+    // Thin down detailed locations Array
+    const attractionsToDisplay = detailedAttractions.map((attraction, index) => {
+      const value = attraction.value;
+      //console.log("From hotelsTD",index, value)
+      console.log("Processing INdex:", index);
+
+      console.log(value)
+
+      const {
+        name,
+        description,
+        web_url,
+        address_obj,
+        ranking_data,
+        rating_image_url,
+        num_reviews,
+        subcategory,
+        images,
+      } = value;
+
+ 
+
+      return {
+        name,
+        description: description ? description.slice(0, 70).trim().concat("...") : "",
+        web_url,
+        // address: address_obj["address_string"],
+        // ranking_data: ranking_data.ranking_string,
+        rating_image_url,
+        // num_reviews,
+        city: address_obj.city,
+        subcategories: subcategory.slice(0, 6),
+        // awards,
+        image: images.data[0].images.large.url,
+      };
+    });
+
+    res.render("attraction", { attractions: attractionsToDisplay });
+  } catch (error) {
+    console.log("Async Error", error);
+  }
+  
 };

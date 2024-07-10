@@ -153,9 +153,9 @@ function getTime(strings) {
   return strings.slice(index + 1, index + 6);
 }
 
-async function detailedHotelsSearch(hotels) {
+async function detailTripAdvSearch(places) {
   const limiter = new Bottleneck({ minTime: 8000, maxConcurrent: 1 });
-  //OR this is returned to external await
+  //*OR* this is returned to external await
   // return limiter
   //   .schedule(() => {
   //     // creates an array of Promises
@@ -230,11 +230,11 @@ async function detailedHotelsSearch(hotels) {
   //++++++++++++++++++++++++++++++++++++/
   //Alternative implemented with setTimeout and Promises
   //creates an array of Promises
-  const promiseToGetHotels = hotels.map((hotel, index) => {
+  const promiseToGetPlaces = places.map((place, index) => {
     //Create a new Promise for each hotel in the hotels array
     // The promise Resolves to an object with more
     // detailed informatiion about each hotel
-    const id = hotel.location_id;
+    const id = place.location_id;
     const promise = new Promise((resolve, reject) => {
       const url = `https://api.content.tripadvisor.com/api/v1/location/${id}/details?language=en&currency=USD&key=${process.env.TRIPADVISOR}`;
       const options = {
@@ -245,12 +245,12 @@ async function detailedHotelsSearch(hotels) {
       fetch(url, options)
         .then((res) => res.json())
         .then((json) => {
-          console.log("got hotel", index);
+          console.log("got place", index);
           //console.log(json)
           resolve(json);
         })
         .catch((err) => {
-          console.error("Get Detailed Hotel error:" + err);
+          console.error("Get Detailed place error:" + err);
           reject(err);
         });
     });
@@ -265,7 +265,7 @@ async function detailedHotelsSearch(hotels) {
   const delay = (ms) => {
     return new Promise((resolve, reject) => {
       setTimeout(() => {
-        Promise.allSettled(promiseToGetHotels).then((results) =>
+        Promise.allSettled(promiseToGetPlaces).then((results) =>
           resolve(results)
         );
       }, ms);
@@ -276,8 +276,8 @@ async function detailedHotelsSearch(hotels) {
   const iSwear = await delay(5000);
 
   const promiseToGetPictures = iSwear.map((result) => {
-    const hotel = result.value;
-    const id = hotel.location_id;
+    const place = result.value;
+    const id = place.location_id;
     //create an array of promises
     const promise = new Promise((resolve, reject) => {
       const url = `https://api.content.tripadvisor.com/api/v1/location/${id}/photos?language=en&limit=1&key=${process.env.TRIPADVISOR}`;
@@ -294,7 +294,7 @@ async function detailedHotelsSearch(hotels) {
           //console.log(images)
           //console.log({ ...json, images });
           //return ;
-          resolve({ ...hotel, images });
+          resolve({ ...place, images });
         })
         .catch((err) => console.error("Get Images error:" + err));
     });
@@ -302,14 +302,14 @@ async function detailedHotelsSearch(hotels) {
     return promise;
   });
 
-  //OR this is returned to external await
+  //*OR* this is returned to external await
   return Promise.allSettled(promiseToGetPictures);
 }
 
-function hotelSearch(country) {
+function tripAdvisorSearch(category, coord, country) {
   //Figure out what reject does
   const promise = new Promise((resolve, reject) => {
-    const url = `https://api.content.tripadvisor.com/api/v1/location/search?searchQuery=${country}&category=hotels&language=en&key=${process.env.TRIPADVISOR}`;
+    const url = `https://api.content.tripadvisor.com/api/v1/location/search?searchQuery=${country}&category=${category}&latLong=%22${coord.lat}%2C-${coord.lon}%22&language=en&key=${process.env.TRIPADVISOR}`;
     const options = { method: "GET", headers: { accept: "application/json" } };
 
     fetch(url, options)
@@ -475,8 +475,8 @@ module.exports = {
   getCountry,
   convMintoHours,
   getTime,
-  detailedHotelsSearch,
-  hotelSearch,
+  detailTripAdvSearch,
+  tripAdvisorSearch,
   convertPriceRange,
   getGeolocation,
   getCurrentWeather,
