@@ -1,1 +1,21 @@
-extends layout 
+extends layout
+
+block content
+  each attraction in attractions
+    a(href=attraction.web_url) 
+      article.customShadow.flex.gap-32.pr-8
+        div(class=["aspect-video", "basis-[35%]"]) 
+          img.h-full.w-full.object-cover(
+            src=attraction.image,
+            alt="image of an Hotel")
+
+        .my-10.space-y-6
+          .flex.gap-3
+            h3.rockbold.text-xl.leading-none #{ attraction.name }
+            span.label2.kanitmed.self-end #{ attraction.city} 
+          .flex.gap-2
+            img(src=attraction.rating_image_url, alt="")
+          p.kanitextl.text-base(class=["max-w-[28ch]"]) #{ attraction.description }
+          .flex.flex-wrap.gap-4(class=["w-3/4"])
+            each subcategory in attraction.subcategories
+              span.kanitextl.rounded.bg-pri.px-4.py-1.text-base.text-white #{ subcategory.localized_name }
