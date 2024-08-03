@@ -5,7 +5,7 @@ Cyclic
 
 
 Git Commands to Help with merging files between two branches
-git checkout -- path/to/file == Best for single files
+- git checkout -- path/to/file == Best for single files
 
 git stash
 git stash apply /
