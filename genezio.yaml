@@ -1,6 +1,6 @@
 backend:
     functions:
-        - entry: bin/www
+        - entry: bin/www.js
           name: travplanner
           path: ./
           type: httpServer
