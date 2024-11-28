@@ -52,7 +52,7 @@ exports.travelInfo_getFlights = async (req, res) => {
     req.socket.remoteAddress ||
     "";
 
-  //console.log(`IP`, ip);
+  console.log(`IP`, ip);
 
   try {
     const { city, country } = await getOriginWithIP(ip);
