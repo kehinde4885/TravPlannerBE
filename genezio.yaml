@@ -1,6 +1,7 @@
 backend:
     functions:
         - entry: bin/www.js
+          handler: handler
           name: travplanner
           path: ./
           type: httpServer
@@ -11,6 +12,6 @@ backend:
     scripts:
         deploy:
             - npm install
-name: Express
+name: TravPlanner
 region: us-east-1
 yamlVersion: 2
